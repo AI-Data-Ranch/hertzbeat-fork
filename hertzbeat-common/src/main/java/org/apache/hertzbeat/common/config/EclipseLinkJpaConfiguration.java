@@ -50,7 +50,7 @@ public class EclipseLinkJpaConfiguration extends JpaBaseConfiguration {
     }
 
     @Override
-    protected Map<String, Object> getVendorProperties() {
+    protected Map<String, Object> getVendorProperties(DataSource dataSource) {
         HashMap<String, Object> map = new HashMap<>(8);
         map.put(PersistenceUnitProperties.DDL_GENERATION, "create-or-extend-tables");
         map.put(PersistenceUnitProperties.SESSION_CUSTOMIZER, "org.apache.hertzbeat.common.config.EclipseLinkCustomizer");
