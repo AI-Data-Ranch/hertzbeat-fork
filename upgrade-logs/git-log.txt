@@ -1,0 +1,10 @@
+1a7fe2d50 [upgrade] Fix Spring Boot 4.0.0 compatibility issues
+9be5d9e99 [upgrade] Exclude OpenTelemetry autoconfiguration classes incompatible with Spring Boot 4.0.0
+c41d593be [upgrade] Upgrade Spring Boot from 3.4.2 to 4.0.0
+ad9a4ab10 [improve] xugu.md and app-xugu.yml (#3918)
+a806ca131 [Feature] Enhance draggable UI elements in alert settings (#3915) (#3917)
+aac5bafe4 [bugfix]: AI conversation message loading issue (#3911)
+668106d44 [bugfix] AI prompt classpath error (#3912)
+a74671abd [improve]Improve UI handling for label overflow (#3913)
+120d494c4 [fix]Fixed private collector tasks not taking effect (#3914)
+5b1d01e0c [bugfix] Modify the search predicate from 'host' to 'instance' field (#3910)
