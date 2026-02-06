@@ -25,8 +25,8 @@ import org.apache.hertzbeat.manager.service.impl.ObjectStoreConfigServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.mockito.InjectMocks;
 import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
 import org.mockito.Spy;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.context.ApplicationContext;
@@ -55,12 +55,15 @@ class ObjectStoreConfigServiceTest {
     @Spy
     private ObjectMapper objectMapper = new ObjectMapper();
 
-    @InjectMocks
+    @Mock
+    private org.apache.hertzbeat.base.dao.GeneralConfigDao generalConfigDao;
+
     private ObjectStoreConfigServiceImpl objectStoreConfigService;
 
     @BeforeEach
     void setUp() {
-
+        MockitoAnnotations.openMocks(this);
+        objectStoreConfigService = new ObjectStoreConfigServiceImpl(generalConfigDao, objectMapper);
         ReflectionTestUtils.setField(objectStoreConfigService, "beanFactory", beanFactory);
         ReflectionTestUtils.setField(objectStoreConfigService, "ctx", ctx);
     }
