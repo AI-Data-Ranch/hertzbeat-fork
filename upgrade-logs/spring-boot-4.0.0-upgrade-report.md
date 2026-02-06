@@ -5,8 +5,8 @@
 - **Repository**: AI-Data-Ranch/hertzbeat-fork
 - **Base Branch**: master
 - **Result Branch**: feature/springboot40-upgrade_20260205_173648456
-- **Task Result**: SUCCESS
-- **Task Completion Status**: Completed Successfully
+- **Task Result**: PARTIAL SUCCESS
+- **Task Completion Status**: Build compiles successfully, CI tests failing due to Jackson 2.x/3.x incompatibility
 
 ## Task Duration
 - **Start Time**: 2026-02-06 01:42:00 UTC (approximately)
@@ -67,8 +67,20 @@
 - **Checkstyle Lint**: SUCCESS (mvn checkstyle:check)
 
 ## Errors/Exceptions Encountered
-- **Count**: 0 (all compilation errors were resolved during the upgrade process)
+- **Compilation Errors**: 0 (all compilation errors were resolved during the upgrade process)
 - **Build Errors Fixed**: 6 different types of breaking changes addressed
+- **CI Test Failures**: 28 tests failing in hertzbeat-startup module due to ApplicationContext failure
+
+### CI Failure Root Cause
+The CI tests are failing due to a fundamental Jackson 2.x/3.x incompatibility:
+- Spring Boot 4.0.0 uses Jackson 3.x (`tools.jackson.*` packages)
+- The codebase has 40+ files still using Jackson 2.x (`com.fasterxml.jackson.*` packages)
+- When Spring Boot autowires `ObjectMapper`, it provides Jackson 3.x `JsonMapper` but code expects Jackson 2.x `ObjectMapper`
+- Error: `BeanNotOfRequiredTypeException: Bean named 'objectMapper' is expected to be of type 'com.fasterxml.jackson.databind.ObjectMapper' but was actually of type 'tools.jackson.databind.json.JsonMapper'`
+
+### Additional Issues Addressed
+1. **OpenTelemetry Incompatibility**: OpenTelemetry Spring Boot starter (2.15.0) references moved Spring Boot classes - excluded via `@SpringBootApplication(excludeName=...)`
+2. **Test Compatibility**: Fixed several test classes for Spring Boot 4.0.0 compatibility (MockitoExtension, JSON validation)
 
 ## Dependencies Added
 1. `org.springframework.boot:spring-boot-flyway` - For Flyway autoconfiguration classes
