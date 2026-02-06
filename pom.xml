@@ -172,7 +172,7 @@
         <eclipse-jpa.version>4.0.2</eclipse-jpa.version>
         <jutf7.version>1.0.0</jutf7.version>
         <spring-boot-starter-sureness.version>1.1.0</spring-boot-starter-sureness.version>
-        <huawei.sdk.version>3.1.49</huawei.sdk.version>
+        <huawei.sdk.version>3.1.37</huawei.sdk.version>
         <huawei.obs.version>3.23.5</huawei.obs.version>
         <commons-net>3.11.1</commons-net>
         <zookeeper.version>3.9.4</zookeeper.version>
