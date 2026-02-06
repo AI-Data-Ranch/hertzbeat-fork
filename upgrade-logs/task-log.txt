@@ -1,0 +1,35 @@
+Spring Boot Upgrade Task Started: Thu Feb  5 21:55:51 UTC 2026
+=== Analyzing Spring Boot version ===
+Current Spring Boot version: 3.4.2
+Target Spring Boot version: 4.0.0
+
+Submodules found:
+/home/ubuntu/repos/hertzbeat-fork/hertzbeat-plugin/pom.xml
+/home/ubuntu/repos/hertzbeat-fork/hertzbeat-base/pom.xml
+/home/ubuntu/repos/hertzbeat-fork/hertzbeat-log/pom.xml
+/home/ubuntu/repos/hertzbeat-fork/hertzbeat-alerter/pom.xml
+/home/ubuntu/repos/hertzbeat-fork/mcp-servers/mcp-log-server/pom.xml
+/home/ubuntu/repos/hertzbeat-fork/pom.xml
+/home/ubuntu/repos/hertzbeat-fork/hertzbeat-common/pom.xml
+/home/ubuntu/repos/hertzbeat-fork/template-marketplace/hertzbeat-template-hub/pom.xml
+/home/ubuntu/repos/hertzbeat-fork/hertzbeat-warehouse/pom.xml
+/home/ubuntu/repos/hertzbeat-fork/hertzbeat-e2e/hertzbeat-collector-basic-e2e/pom.xml
+/home/ubuntu/repos/hertzbeat-fork/hertzbeat-e2e/hertzbeat-collector-common-e2e/pom.xml
+/home/ubuntu/repos/hertzbeat-fork/hertzbeat-e2e/hertzbeat-collector-kafka-e2e/pom.xml
+/home/ubuntu/repos/hertzbeat-fork/hertzbeat-e2e/pom.xml
+/home/ubuntu/repos/hertzbeat-fork/hertzbeat-e2e/hertzbeat-log-e2e/pom.xml
+/home/ubuntu/repos/hertzbeat-fork/hertzbeat-otel/pom.xml
+/home/ubuntu/repos/hertzbeat-fork/hertzbeat-startup/pom.xml
+/home/ubuntu/repos/hertzbeat-fork/hertzbeat-manager/pom.xml
+/home/ubuntu/repos/hertzbeat-fork/hertzbeat-collector/hertzbeat-collector-rocketmq/pom.xml
+/home/ubuntu/repos/hertzbeat-fork/hertzbeat-collector/hertzbeat-collector-kafka/pom.xml
+/home/ubuntu/repos/hertzbeat-fork/hertzbeat-collector/hertzbeat-collector-mongodb/pom.xml
+/home/ubuntu/repos/hertzbeat-fork/hertzbeat-collector/pom.xml
+/home/ubuntu/repos/hertzbeat-fork/hertzbeat-collector/hertzbeat-collector-collector/pom.xml
+/home/ubuntu/repos/hertzbeat-fork/hertzbeat-collector/hertzbeat-collector-common/pom.xml
+/home/ubuntu/repos/hertzbeat-fork/hertzbeat-collector/hertzbeat-collector-nebulagraph/pom.xml
+/home/ubuntu/repos/hertzbeat-fork/hertzbeat-collector/hertzbeat-collector-basic/pom.xml
+/home/ubuntu/repos/hertzbeat-fork/hertzbeat-push/pom.xml
+/home/ubuntu/repos/hertzbeat-fork/hertzbeat-ai/pom.xml
+/home/ubuntu/repos/hertzbeat-fork/hertzbeat-grafana/pom.xml
+/home/ubuntu/repos/hertzbeat-fork/hertzbeat-remoting/pom.xml
