@@ -46,6 +46,7 @@ header:
     - '**/.gitkeep'
     - 'home/**'
     - 'material/**'
+    - 'devin-logs/**'
     - 'LICENSE'
     - 'NOTICE'
     - 'DISCLAIMER'
