@@ -17,15 +17,14 @@
 
 package org.apache.hertzbeat.manager.config;
 
+import java.net.http.HttpClient;
+import java.time.Duration;
 import java.util.Collections;
-import java.util.concurrent.TimeUnit;
-import okhttp3.ConnectionPool;
-import okhttp3.OkHttpClient;
 import org.apache.hertzbeat.common.constants.NetworkConstants;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.client.ClientHttpRequestFactory;
-import org.springframework.http.client.OkHttp3ClientHttpRequestFactory;
+import org.springframework.http.client.JdkClientHttpRequestFactory;
 import org.springframework.web.client.RestTemplate;
 
 /**
@@ -44,18 +43,12 @@ public class RestTemplateConfig {
 
     @Bean
     public ClientHttpRequestFactory simpleClientHttpRequestFactory() {
-
-        return new OkHttp3ClientHttpRequestFactory(
-               new OkHttpClient.Builder()
-                       .readTimeout(NetworkConstants.HttpClientConstants.READ_TIME_OUT, TimeUnit.SECONDS)
-                        .writeTimeout(NetworkConstants.HttpClientConstants.WRITE_TIME_OUT, TimeUnit.SECONDS)
-                        .connectTimeout(NetworkConstants.HttpClientConstants.CONNECT_TIME_OUT, TimeUnit.SECONDS)
-                        .connectionPool(new ConnectionPool(
-                                NetworkConstants.HttpClientConstants.MAX_IDLE_CONNECTIONS,
-                                NetworkConstants.HttpClientConstants.KEEP_ALIVE_TIMEOUT,
-                                TimeUnit.SECONDS)
-                        ).build()
-        );
+        HttpClient httpClient = HttpClient.newBuilder()
+                .connectTimeout(Duration.ofSeconds(NetworkConstants.HttpClientConstants.CONNECT_TIME_OUT))
+                .build();
+        JdkClientHttpRequestFactory factory = new JdkClientHttpRequestFactory(httpClient);
+        factory.setReadTimeout(Duration.ofSeconds(NetworkConstants.HttpClientConstants.READ_TIME_OUT));
+        return factory;
     }
 
 }
