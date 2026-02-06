@@ -1,0 +1,619 @@
+/home/ubuntu/repos/hertzbeat-fork/template-marketplace/hertzbeat-template-hub-web-app/package.json:
+  Missing node_modules folder: we can't test without dependencies.
+Please run 'npm install' first.
+✗ 1/32 potential projects failed to get dependencies.
+
+Testing /home/ubuntu/repos/hertzbeat-fork...
+
+Organization:      alex.baker
+Package manager:   maven
+Target file:       pom.xml
+Project name:      org.apache.hertzbeat:hertzbeat
+Open source:       no
+Project path:      /home/ubuntu/repos/hertzbeat-fork
+Licenses:          enabled
+
+✔ Tested 2 dependencies for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing /home/ubuntu/repos/hertzbeat-fork...
+
+Tested 419 dependencies for known issues, found 64 issues, 64 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade org.springframework.boot:spring-boot-starter-test@3.4.2 to org.springframework.boot:spring-boot-starter-test@3.4.10 to fix
+  ✗ Incorrect Authorization [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGSPRINGFRAMEWORK-12817817] in org.springframework:spring-core@6.2.2
+    introduced by org.springframework.boot:spring-boot-starter-test@3.4.2 > org.springframework:spring-core@6.2.2
+  ✗ Denial of Service (DoS) [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-NETMINIDEV-8689573] in net.minidev:json-smart@2.5.1
+    introduced by org.springframework.boot:spring-boot-starter-test@3.4.2 > net.minidev:json-smart@2.5.1
+
+  Upgrade org.springframework.boot:spring-boot-starter-webflux@3.4.2 to org.springframework.boot:spring-boot-starter-webflux@3.5.10 to fix
+  ✗ Exposure of Sensitive System Information to an Unauthorized Control Sphere [Low Severity][https://security.snyk.io/vuln/SNYK-JAVA-IOPROJECTREACTORNETTY-10770514] in io.projectreactor.netty:reactor-netty-http@1.2.2
+    introduced by org.springframework.boot:spring-boot-starter-webflux@3.4.2 > org.springframework.boot:spring-boot-starter-reactor-netty@3.4.2 > io.projectreactor.netty:reactor-netty-http@1.2.2
+  ✗ CRLF Injection [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-IONETTY-14423947] in io.netty:netty-codec-http@4.1.117.Final
+    introduced by org.springframework.boot:spring-boot-starter-webflux@3.4.2 > org.springframework.boot:spring-boot-starter-reactor-netty@3.4.2 > io.projectreactor.netty:reactor-netty-http@1.2.2 > io.netty:netty-codec-http@4.1.117.Final
+  ✗ HTTP Response Splitting [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGSPRINGFRAMEWORK-10345766] in org.springframework:spring-web@6.2.2
+    introduced by org.springframework.boot:spring-boot-starter-webflux@3.4.2 > org.springframework:spring-web@6.2.2
+  ✗ Allocation of Resources Without Limits or Throttling [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-IONETTY-11799531] in io.netty:netty-codec-http2@4.1.117.Final
+    introduced by org.springframework.boot:spring-boot-starter-webflux@3.4.2 > org.springframework.boot:spring-boot-starter-reactor-netty@3.4.2 > io.projectreactor.netty:reactor-netty-http@1.2.2 > io.netty:netty-codec-http2@4.1.117.Final
+  ✗ Improper Handling of Highly Compressed Data (Data Amplification) [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-IONETTY-12485151] in io.netty:netty-codec-http2@4.1.117.Final
+    introduced by org.springframework.boot:spring-boot-starter-webflux@3.4.2 > org.springframework.boot:spring-boot-starter-reactor-netty@3.4.2 > io.projectreactor.netty:reactor-netty-http@1.2.2 > io.netty:netty-codec-http2@4.1.117.Final
+  ✗ HTTP Request Smuggling [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-IONETTY-12485149] in io.netty:netty-codec-http@4.1.117.Final
+    introduced by org.springframework.boot:spring-boot-starter-webflux@3.4.2 > org.springframework.boot:spring-boot-starter-reactor-netty@3.4.2 > io.projectreactor.netty:reactor-netty-http@1.2.2 > io.netty:netty-codec-http@4.1.117.Final
+  ✗ Improper Handling of Highly Compressed Data (Data Amplification) [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-IONETTY-12485150] in io.netty:netty-codec-http@4.1.117.Final
+    introduced by org.springframework.boot:spring-boot-starter-webflux@3.4.2 > org.springframework.boot:spring-boot-starter-reactor-netty@3.4.2 > io.projectreactor.netty:reactor-netty-http@1.2.2 > io.netty:netty-codec-http@4.1.117.Final
+  ✗ Relative Path Traversal [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGSPRINGFRAMEWORK-12008931] in org.springframework:spring-beans@6.2.2
+    introduced by org.springframework.boot:spring-boot-starter-webflux@3.4.2 > org.springframework:spring-web@6.2.2 > org.springframework:spring-beans@6.2.2
+
+
+Issues with no direct upgrade or patch:
+  ✗ External Initialization of Trusted Variables or Data Stores [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-CHQOSLOGBACK-13169722] in ch.qos.logback:logback-core@1.5.16
+    introduced by org.springframework.ai:spring-ai-starter-mcp-server-webmvc@1.1.1 > org.springframework.boot:spring-boot-starter@3.4.2 > org.springframework.boot:spring-boot-starter-logging@3.4.2 > ch.qos.logback:logback-classic@1.5.16 > ch.qos.logback:logback-core@1.5.16
+  This issue was fixed in versions: 1.3.16, 1.5.19
+  ✗ External Initialization of Trusted Variables or Data Stores [Low Severity][https://security.snyk.io/vuln/SNYK-JAVA-CHQOSLOGBACK-15062482] in ch.qos.logback:logback-core@1.5.16
+    introduced by org.springframework.ai:spring-ai-starter-mcp-server-webmvc@1.1.1 > org.springframework.boot:spring-boot-starter@3.4.2 > org.springframework.boot:spring-boot-starter-logging@3.4.2 > ch.qos.logback:logback-classic@1.5.16 > ch.qos.logback:logback-core@1.5.16
+  This issue was fixed in versions: 1.5.25
+  ✗ Improper Validation of Certificate with Host Mismatch [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-COMMICROSOFTSQLSERVER-13821835] in com.microsoft.sqlserver:mssql-jdbc@10.2.0.jre8
+    introduced by org.apache.hertzbeat:hertzbeat-manager@2.0-SNAPSHOT > org.apache.hertzbeat:hertzbeat-collector-collector@2.0-SNAPSHOT > org.apache.hertzbeat:hertzbeat-collector-basic@2.0-SNAPSHOT > com.microsoft.sqlserver:mssql-jdbc@10.2.0.jre8
+  This issue was fixed in versions: 10.2.4.jre8, 11.2.4.jre8, 12.2.1.jre8, 12.4.3.jre8, 12.6.5.jre8, 12.8.2.jre8, 12.10.2.jre8, 13.2.1.jre8
+  ✗ Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection') [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-COMMONSBEANUTILS-10259368] in commons-beanutils:commons-beanutils@1.9.4
+    introduced by org.apache.hertzbeat:hertzbeat-manager@2.0-SNAPSHOT > org.apache.hertzbeat:hertzbeat-collector-collector@2.0-SNAPSHOT > org.apache.hertzbeat:hertzbeat-collector-rocketmq@2.0-SNAPSHOT > org.apache.rocketmq:rocketmq-tools@4.9.4 > org.apache.rocketmq:rocketmq-acl@4.9.4 > commons-validator:commons-validator@1.7 > commons-beanutils:commons-beanutils@1.9.4
+  This issue was fixed in versions: 1.11.0
+  ✗ Uncontrolled Recursion [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-COMMONSLANG-10734077] in commons-lang:commons-lang@2.6
+    introduced by org.apache.hertzbeat:hertzbeat-manager@2.0-SNAPSHOT > org.apache.hertzbeat:hertzbeat-collector-collector@2.0-SNAPSHOT > org.apache.hertzbeat:hertzbeat-collector-nebulagraph@2.0-SNAPSHOT > com.vesoft:client@3.6.0 > commons-lang:commons-lang@2.6
+  No upgrade or patch available
+  ✗ Information Exposure [Low Severity][https://security.snyk.io/vuln/SNYK-JAVA-COMMONSNET-3153503] in commons-net:commons-net@3.8.0
+    introduced by org.apache.hertzbeat:hertzbeat-alerter@2.0-SNAPSHOT > org.apache.hertzbeat:hertzbeat-warehouse@2.0-SNAPSHOT > commons-net:commons-net@3.8.0
+  This issue was fixed in versions: 3.9.0
+  ✗ Allocation of Resources Without Limits or Throttling [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-IOGRPC-13786834] in io.grpc:grpc-netty-shaded@1.56.1
+    introduced by org.apache.hertzbeat:hertzbeat-alerter@2.0-SNAPSHOT > org.apache.hertzbeat:hertzbeat-warehouse@2.0-SNAPSHOT > io.greptime:ingester-all@0.11.0 > io.greptime:ingester-grpc@0.11.0 > io.grpc:grpc-netty-shaded@1.56.1
+  This issue was fixed in versions: 1.75.0
+  ✗ CRLF Injection [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-IONETTY-13560334] in io.netty:netty-codec-smtp@4.1.117.Final
+    introduced by org.apache.hertzbeat:hertzbeat-manager@2.0-SNAPSHOT > org.apache.hertzbeat:hertzbeat-remoting@2.0-SNAPSHOT > io.netty:netty-all@4.1.117.Final > io.netty:netty-codec-smtp@4.1.117.Final
+  This issue was fixed in versions: 4.1.128.Final, 4.2.7.Final
+  ✗ Improper Validation of Specified Quantity in Input [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-IONETTY-8707739] in io.netty:netty-handler@4.1.117.Final
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > io.lettuce:lettuce-core@6.4.2.RELEASE > io.netty:netty-handler@4.1.117.Final
+  This issue was fixed in versions: 4.1.118.Final, 4.2.0.RC3
+  ✗ Improper Validation of Specified Quantity in Input [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-IONETTY-8707740] in io.netty:netty-common@4.1.117.Final
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > io.lettuce:lettuce-core@6.4.2.RELEASE > io.netty:netty-common@4.1.117.Final
+  This issue was fixed in versions: 4.1.118, 4.2.0.RC3
+  ✗ Improper Verification of Cryptographic Signature [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-NETI2PCRYPTO-9402849] in net.i2p.crypto:eddsa@0.3.0
+    introduced by org.apache.hertzbeat:hertzbeat-manager@2.0-SNAPSHOT > org.apache.hertzbeat:hertzbeat-collector-collector@2.0-SNAPSHOT > org.apache.hertzbeat:hertzbeat-collector-basic@2.0-SNAPSHOT > net.i2p.crypto:eddsa@0.3.0
+  No upgrade or patch available
+  ✗ Denial of Service (DoS) [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-NETSOURCEFORGENEKOHTML-2621454] in net.sourceforge.nekohtml:nekohtml@1.9.22
+    introduced by org.apache.hertzbeat:hertzbeat-alerter@2.0-SNAPSHOT > net.sourceforge.nekohtml:nekohtml@1.9.22
+  No upgrade or patch available
+  ✗ Memory Allocation with Excessive Size Value [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-NETSOURCEFORGENEKOHTML-2774754] in net.sourceforge.nekohtml:nekohtml@1.9.22
+    introduced by org.apache.hertzbeat:hertzbeat-alerter@2.0-SNAPSHOT > net.sourceforge.nekohtml:nekohtml@1.9.22
+  No upgrade or patch available
+  ✗ Heap-based Buffer Overflow [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-NETSOURCEFORGENEKOHTML-2803036] in net.sourceforge.nekohtml:nekohtml@1.9.22
+    introduced by org.apache.hertzbeat:hertzbeat-alerter@2.0-SNAPSHOT > net.sourceforge.nekohtml:nekohtml@1.9.22
+  No upgrade or patch available
+  ✗ Uncontrolled Recursion [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHECOMMONS-10734078] in org.apache.commons:commons-lang3@3.17.0
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.commons:commons-compress@1.27.1 > org.apache.commons:commons-lang3@3.17.0
+  This issue was fixed in versions: 3.18.0
+  ✗ Server-side Request Forgery (SSRF) [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHEKAFKA-10336719] in org.apache.kafka:kafka-clients@3.7.1
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.kafka:kafka-clients@3.7.1
+  This issue was fixed in versions: 3.9.1
+  ✗ Deserialization of Untrusted Data [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHEKAFKA-10350513] in org.apache.kafka:kafka-clients@3.7.1
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.kafka:kafka-clients@3.7.1
+  This issue was fixed in versions: 3.9.1
+  ✗ Deserialization of Untrusted Data [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHEKAFKA-10350567] in org.apache.kafka:kafka-clients@3.7.1
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.kafka:kafka-clients@3.7.1
+  This issue was fixed in versions: 3.9.1
+  ✗ Files or Directories Accessible to External Parties [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHEKAFKA-8384362] in org.apache.kafka:kafka-clients@3.7.1
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.kafka:kafka-clients@3.7.1
+  This issue was fixed in versions: 3.8.0
+  ✗ Incorrect Implementation of Authentication Algorithm [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHEKAFKA-8528112] in org.apache.kafka:kafka-clients@3.7.1
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.kafka:kafka-clients@3.7.1
+  This issue was fixed in versions: 3.7.2, 3.8.1
+  ✗ Improper Validation of Certificate with Host Mismatch [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHELOGGINGLOG4J-14532782] in org.apache.logging.log4j:log4j-core@2.24.3
+    introduced by org.apache.hertzbeat:hertzbeat-manager@2.0-SNAPSHOT > com.huaweicloud:esdk-obs-java@3.23.5 > org.apache.logging.log4j:log4j-core@2.24.3
+  This issue was fixed in versions: 2.25.3
+  ✗ Improper Input Validation [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHEPOI-9685010] in org.apache.poi:poi-ooxml@4.1.2
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.poi:poi-ooxml@4.1.2
+  This issue was fixed in versions: 5.4.0
+  ✗ Improper Handling of Case Sensitivity [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHETOMCATEMBED-10264469] in org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+    introduced by org.springframework.ai:spring-ai-starter-mcp-server-webmvc@1.1.1 > org.springframework.boot:spring-boot-starter-web@3.4.2 > org.springframework.boot:spring-boot-starter-tomcat@3.4.2 > org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+  This issue was fixed in versions: 9.0.105, 10.1.41, 11.0.7
+  ✗ Allocation of Resources Without Limits or Throttling [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHETOMCATEMBED-10365122] in org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+    introduced by org.springframework.ai:spring-ai-starter-mcp-server-webmvc@1.1.1 > org.springframework.boot:spring-boot-starter-web@3.4.2 > org.springframework.boot:spring-boot-starter-tomcat@3.4.2 > org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+  This issue was fixed in versions: 9.0.106, 10.1.42, 11.0.8
+  ✗ Authentication Bypass Using an Alternate Path or Channel [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHETOMCATEMBED-10365310] in org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+    introduced by org.springframework.ai:spring-ai-starter-mcp-server-webmvc@1.1.1 > org.springframework.boot:spring-boot-starter-web@3.4.2 > org.springframework.boot:spring-boot-starter-tomcat@3.4.2 > org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+  This issue was fixed in versions: 9.0.106, 10.1.42, 11.0.8
+  ✗ Integer Overflow or Wraparound [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHETOMCATEMBED-10674391] in org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+    introduced by org.springframework.ai:spring-ai-starter-mcp-server-webmvc@1.1.1 > org.springframework.boot:spring-boot-starter-web@3.4.2 > org.springframework.boot:spring-boot-starter-tomcat@3.4.2 > org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+  This issue was fixed in versions: 9.0.107, 10.1.43, 11.0.9
+  ✗ Allocation of Resources Without Limits or Throttling [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHETOMCATEMBED-10676855] in org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+    introduced by org.springframework.ai:spring-ai-starter-mcp-server-webmvc@1.1.1 > org.springframework.boot:spring-boot-starter-web@3.4.2 > org.springframework.boot:spring-boot-starter-tomcat@3.4.2 > org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+  This issue was fixed in versions: 9.0.107, 10.1.43, 11.0.9
+  ✗ Session Fixation [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHETOMCATEMBED-11798986] in org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+    introduced by org.springframework.ai:spring-ai-starter-mcp-server-webmvc@1.1.1 > org.springframework.boot:spring-boot-starter-web@3.4.2 > org.springframework.boot:spring-boot-starter-tomcat@3.4.2 > org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+  This issue was fixed in versions: 9.0.106, 10.1.42, 11.0.8
+  ✗ Improper Resource Shutdown or Release [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHETOMCATEMBED-11799152] in org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+    introduced by org.springframework.ai:spring-ai-starter-mcp-server-webmvc@1.1.1 > org.springframework.boot:spring-boot-starter-web@3.4.2 > org.springframework.boot:spring-boot-starter-tomcat@3.4.2 > org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+  This issue was fixed in versions: 9.0.108, 10.1.44, 11.0.10
+  ✗ Improper Resource Shutdown or Release [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHETOMCATEMBED-13723930] in org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+    introduced by org.springframework.ai:spring-ai-starter-mcp-server-webmvc@1.1.1 > org.springframework.boot:spring-boot-starter-web@3.4.2 > org.springframework.boot:spring-boot-starter-tomcat@3.4.2 > org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+  This issue was fixed in versions: 9.0.110, 10.1.47, 11.0.12
+  ✗ Relative Path Traversal [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHETOMCATEMBED-13733966] in org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+    introduced by org.springframework.ai:spring-ai-starter-mcp-server-webmvc@1.1.1 > org.springframework.boot:spring-boot-starter-web@3.4.2 > org.springframework.boot:spring-boot-starter-tomcat@3.4.2 > org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+  This issue was fixed in versions: 9.0.109, 10.1.45, 11.0.11
+  ✗ Untrusted Search Path [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHETOMCATEMBED-13746602] in org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+    introduced by org.springframework.ai:spring-ai-starter-mcp-server-webmvc@1.1.1 > org.springframework.boot:spring-boot-starter-web@3.4.2 > org.springframework.boot:spring-boot-starter-tomcat@3.4.2 > org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+  This issue was fixed in versions: 9.0.106, 10.1.42, 11.0.8
+  ✗ Path Equivalence [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHETOMCATEMBED-9396739] in org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+    introduced by org.springframework.ai:spring-ai-starter-mcp-server-webmvc@1.1.1 > org.springframework.boot:spring-boot-starter-web@3.4.2 > org.springframework.boot:spring-boot-starter-tomcat@3.4.2 > org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+  This issue was fixed in versions: 9.0.99, 10.1.35, 11.0.3
+  ✗ Improper Cleanup on Thrown Exception [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHETOMCATEMBED-9905132] in org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+    introduced by org.springframework.ai:spring-ai-starter-mcp-server-webmvc@1.1.1 > org.springframework.boot:spring-boot-starter-web@3.4.2 > org.springframework.boot:spring-boot-starter-tomcat@3.4.2 > org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+  This issue was fixed in versions: 9.0.104, 10.1.40, 11.0.6
+  ✗ Improper Neutralization [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHETOMCATEMBED-9905136] in org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+    introduced by org.springframework.ai:spring-ai-starter-mcp-server-webmvc@1.1.1 > org.springframework.boot:spring-boot-starter-web@3.4.2 > org.springframework.boot:spring-boot-starter-tomcat@3.4.2 > org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+  This issue was fixed in versions: 9.0.104, 10.1.40, 11.0.6
+  ✗ Improper Handling of Insufficient Permissions or Privileges [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHEZOOKEEPER-13045609] in org.apache.zookeeper:zookeeper@3.9.3
+    introduced by org.apache.hertzbeat:hertzbeat-manager@2.0-SNAPSHOT > org.apache.hertzbeat:hertzbeat-collector-collector@2.0-SNAPSHOT > org.apache.hertzbeat:hertzbeat-collector-basic@2.0-SNAPSHOT > org.apache.zookeeper:zookeeper@3.9.3
+  This issue was fixed in versions: 3.9.4
+  ✗ Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGBOUNCYCASTLE-11777856] in org.bouncycastle:bcprov-jdk15on@1.68
+    introduced by org.apache.hertzbeat:hertzbeat-manager@2.0-SNAPSHOT > org.apache.hertzbeat:hertzbeat-collector-collector@2.0-SNAPSHOT > org.apache.hertzbeat:hertzbeat-collector-basic@2.0-SNAPSHOT > org.bouncycastle:bcpkix-jdk15on@1.68 > org.bouncycastle:bcprov-jdk15on@1.68
+  No upgrade or patch available
+  ✗ Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGBOUNCYCASTLE-11789705] in org.bouncycastle:bcprov-jdk15on@1.68
+    introduced by org.apache.hertzbeat:hertzbeat-manager@2.0-SNAPSHOT > org.apache.hertzbeat:hertzbeat-collector-collector@2.0-SNAPSHOT > org.apache.hertzbeat:hertzbeat-collector-basic@2.0-SNAPSHOT > org.bouncycastle:bcpkix-jdk15on@1.68 > org.bouncycastle:bcprov-jdk15on@1.68
+  No upgrade or patch available
+  ✗ Cryptographic Issues [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGBOUNCYCASTLE-2841508] in org.bouncycastle:bcprov-jdk15on@1.68
+    introduced by org.apache.hertzbeat:hertzbeat-manager@2.0-SNAPSHOT > org.apache.hertzbeat:hertzbeat-collector-collector@2.0-SNAPSHOT > org.apache.hertzbeat:hertzbeat-collector-basic@2.0-SNAPSHOT > org.bouncycastle:bcpkix-jdk15on@1.68 > org.bouncycastle:bcprov-jdk15on@1.68
+  This issue was fixed in versions: 1.69
+  ✗ Information Exposure [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGBOUNCYCASTLE-5771339] in org.bouncycastle:bcprov-jdk15on@1.68
+    introduced by org.apache.hertzbeat:hertzbeat-manager@2.0-SNAPSHOT > org.apache.hertzbeat:hertzbeat-collector-collector@2.0-SNAPSHOT > org.apache.hertzbeat:hertzbeat-collector-basic@2.0-SNAPSHOT > org.bouncycastle:bcpkix-jdk15on@1.68 > org.bouncycastle:bcprov-jdk15on@1.68
+  No upgrade or patch available
+  ✗ Uncontrolled Resource Consumption ('Resource Exhaustion') [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGBOUNCYCASTLE-6084022] in org.bouncycastle:bcprov-jdk15on@1.68
+    introduced by org.apache.hertzbeat:hertzbeat-manager@2.0-SNAPSHOT > org.apache.hertzbeat:hertzbeat-collector-collector@2.0-SNAPSHOT > org.apache.hertzbeat:hertzbeat-collector-basic@2.0-SNAPSHOT > org.bouncycastle:bcpkix-jdk15on@1.68 > org.bouncycastle:bcprov-jdk15on@1.68
+  No upgrade or patch available
+  ✗ Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGBOUNCYCASTLE-6613080] in org.bouncycastle:bcprov-jdk15on@1.68
+    introduced by org.apache.hertzbeat:hertzbeat-manager@2.0-SNAPSHOT > org.apache.hertzbeat:hertzbeat-collector-collector@2.0-SNAPSHOT > org.apache.hertzbeat:hertzbeat-collector-basic@2.0-SNAPSHOT > org.bouncycastle:bcpkix-jdk15on@1.68 > org.bouncycastle:bcprov-jdk15on@1.68
+  No upgrade or patch available
+  ✗ Observable Discrepancy [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGBOUNCYCASTLE-8731360] in org.bouncycastle:bcprov-jdk15on@1.68
+    introduced by org.apache.hertzbeat:hertzbeat-manager@2.0-SNAPSHOT > org.apache.hertzbeat:hertzbeat-collector-collector@2.0-SNAPSHOT > org.apache.hertzbeat:hertzbeat-collector-basic@2.0-SNAPSHOT > org.bouncycastle:bcpkix-jdk15on@1.68 > org.bouncycastle:bcprov-jdk15on@1.68
+  No upgrade or patch available
+  ✗ Information Exposure [Low Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGJETBRAINSKOTLIN-2393744] in org.jetbrains.kotlin:kotlin-stdlib@1.9.25
+    introduced by org.apache.hertzbeat:hertzbeat-manager@2.0-SNAPSHOT > com.squareup.okhttp3:okhttp@4.12.0 > org.jetbrains.kotlin:kotlin-stdlib-jdk8@1.9.25 > org.jetbrains.kotlin:kotlin-stdlib@1.9.25
+  This issue was fixed in versions: 2.1.0
+  ✗ Out-of-bounds Read [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGLZ4-14151788] in org.lz4:lz4-java@1.8.0
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.kafka:kafka-clients@3.7.1 > org.lz4:lz4-java@1.8.0
+  This issue was fixed in versions: 1.8.1
+  ✗ Insertion of Sensitive Information Into Sent Data [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGLZ4-14219384] in org.lz4:lz4-java@1.8.0
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.kafka:kafka-clients@3.7.1 > org.lz4:lz4-java@1.8.0
+  No upgrade or patch available
+  ✗ Memory Allocation with Excessive Size Value [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGMSGPACK-14857714] in org.msgpack:msgpack-core@0.9.6
+    introduced by org.apache.hertzbeat:hertzbeat-alerter@2.0-SNAPSHOT > org.apache.hertzbeat:hertzbeat-warehouse@2.0-SNAPSHOT > org.influxdb:influxdb-java@2.24 > org.msgpack:msgpack-core@0.9.6
+  This issue was fixed in versions: 0.9.11
+  ✗ Improper Handling of Case Sensitivity [Low Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGSPRINGFRAMEWORK-10176071] in org.springframework:spring-context@6.2.2
+    introduced by org.springframework.ai:spring-ai-client-chat@1.1.1 > org.springframework:spring-context@6.2.2
+  This issue was fixed in versions: 6.1.20, 6.2.7
+  ✗ Improper Input Validation [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGSPRINGFRAMEWORKBOOT-9804539] in org.springframework.boot:spring-boot-actuator-autoconfigure@3.4.2
+    introduced by org.apache.hertzbeat:hertzbeat-manager@2.0-SNAPSHOT > org.springframework.boot:spring-boot-starter-actuator@3.4.2 > org.springframework.boot:spring-boot-actuator-autoconfigure@3.4.2
+  This issue was fixed in versions: 3.3.11, 3.4.5
+  ✗ Denial of Service (DoS) [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-XERCES-2359991] in xerces:xercesImpl@2.11.0
+    introduced by org.apache.hertzbeat:hertzbeat-alerter@2.0-SNAPSHOT > net.sourceforge.nekohtml:nekohtml@1.9.22 > xerces:xercesImpl@2.11.0
+  This issue was fixed in versions: 2.12.2
+  ✗ Denial of Service (DoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-XERCES-30183] in xerces:xercesImpl@2.11.0
+    introduced by org.apache.hertzbeat:hertzbeat-alerter@2.0-SNAPSHOT > net.sourceforge.nekohtml:nekohtml@1.9.22 > xerces:xercesImpl@2.11.0
+  This issue was fixed in versions: 2.11.0.SP5
+  ✗ Denial of Service (DoS) [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-XERCES-31585] in xerces:xercesImpl@2.11.0
+    introduced by org.apache.hertzbeat:hertzbeat-alerter@2.0-SNAPSHOT > net.sourceforge.nekohtml:nekohtml@1.9.22 > xerces:xercesImpl@2.11.0
+  This issue was fixed in versions: 2.12.0
+  ✗ Denial of Service (DoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-XERCES-5920442] in xerces:xercesImpl@2.11.0
+    introduced by org.apache.hertzbeat:hertzbeat-alerter@2.0-SNAPSHOT > net.sourceforge.nekohtml:nekohtml@1.9.22 > xerces:xercesImpl@2.11.0
+  This issue was fixed in versions: 2.12.0
+  ✗ Improper Input Validation [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-XERCES-608891] in xerces:xercesImpl@2.11.0
+    introduced by org.apache.hertzbeat:hertzbeat-alerter@2.0-SNAPSHOT > net.sourceforge.nekohtml:nekohtml@1.9.22 > xerces:xercesImpl@2.11.0
+  This issue was fixed in versions: 2.12.0.SP03
+
+
+
+Organization:      alex.baker
+Package manager:   maven
+Target file:       hertzbeat-ai/pom.xml
+Project name:      org.apache.hertzbeat:hertzbeat-ai
+Open source:       no
+Project path:      /home/ubuntu/repos/hertzbeat-fork
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing /home/ubuntu/repos/hertzbeat-fork...
+
+Tested 188 dependencies for known issues, found 42 issues, 42 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade com.huaweicloud.sdk:huaweicloud-sdk-smn@3.1.37 to com.huaweicloud.sdk:huaweicloud-sdk-smn@3.1.49 to fix
+  ✗ Information Exposure [Low Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGJETBRAINSKOTLIN-2393744] in org.jetbrains.kotlin:kotlin-stdlib@1.9.25
+    introduced by com.huaweicloud.sdk:huaweicloud-sdk-smn@3.1.37 > com.squareup.okhttp3:okhttp@4.12.0 > org.jetbrains.kotlin:kotlin-stdlib-jdk8@1.9.25 > org.jetbrains.kotlin:kotlin-stdlib@1.9.25
+
+  Upgrade io.lettuce:lettuce-core@6.4.2.RELEASE to io.lettuce:lettuce-core@6.5.4.RELEASE to fix
+  ✗ Improper Validation of Specified Quantity in Input [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-IONETTY-8707740] in io.netty:netty-common@4.1.117.Final
+    introduced by io.lettuce:lettuce-core@6.4.2.RELEASE > io.netty:netty-common@4.1.117.Final
+  ✗ Improper Validation of Specified Quantity in Input [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-IONETTY-8707739] in io.netty:netty-handler@4.1.117.Final
+    introduced by io.lettuce:lettuce-core@6.4.2.RELEASE > io.netty:netty-handler@4.1.117.Final
+
+  Upgrade org.apache.kafka:kafka-clients@3.7.1 to org.apache.kafka:kafka-clients@3.9.1 to fix
+  ✗ Files or Directories Accessible to External Parties [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHEKAFKA-8384362] in org.apache.kafka:kafka-clients@3.7.1
+    introduced by org.apache.kafka:kafka-clients@3.7.1
+  ✗ Server-side Request Forgery (SSRF) [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHEKAFKA-10336719] in org.apache.kafka:kafka-clients@3.7.1
+    introduced by org.apache.kafka:kafka-clients@3.7.1
+  ✗ Deserialization of Untrusted Data [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHEKAFKA-10350513] in org.apache.kafka:kafka-clients@3.7.1
+    introduced by org.apache.kafka:kafka-clients@3.7.1
+  ✗ Deserialization of Untrusted Data [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHEKAFKA-10350567] in org.apache.kafka:kafka-clients@3.7.1
+    introduced by org.apache.kafka:kafka-clients@3.7.1
+  ✗ Incorrect Implementation of Authentication Algorithm [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHEKAFKA-8528112] in org.apache.kafka:kafka-clients@3.7.1
+    introduced by org.apache.kafka:kafka-clients@3.7.1
+
+  Upgrade org.springframework.boot:spring-boot-starter-test@3.4.2 to org.springframework.boot:spring-boot-starter-test@3.4.10 to fix
+  ✗ Incorrect Authorization [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGSPRINGFRAMEWORK-12817817] in org.springframework:spring-core@6.2.2
+    introduced by org.springframework.boot:spring-boot-starter-test@3.4.2 > org.springframework:spring-core@6.2.2
+
+  Upgrade org.springframework.boot:spring-boot-starter-web@3.4.2 to org.springframework.boot:spring-boot-starter-web@3.4.11 to fix
+  ✗ Improper Handling of Case Sensitivity [Low Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGSPRINGFRAMEWORK-10176071] in org.springframework:spring-context@6.2.2
+    introduced by org.springframework.boot:spring-boot-starter-web@3.4.2 > org.springframework:spring-webmvc@6.2.2 > org.springframework:spring-context@6.2.2
+  ✗ Improper Resource Shutdown or Release [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHETOMCATEMBED-13723930] in org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+    introduced by org.springframework.boot:spring-boot-starter-web@3.4.2 > org.springframework.boot:spring-boot-starter-tomcat@3.4.2 > org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+  ✗ Authentication Bypass Using an Alternate Path or Channel [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHETOMCATEMBED-10365310] in org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+    introduced by org.springframework.boot:spring-boot-starter-web@3.4.2 > org.springframework.boot:spring-boot-starter-tomcat@3.4.2 > org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+  ✗ Session Fixation [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHETOMCATEMBED-11798986] in org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+    introduced by org.springframework.boot:spring-boot-starter-web@3.4.2 > org.springframework.boot:spring-boot-starter-tomcat@3.4.2 > org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+  ✗ HTTP Response Splitting [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGSPRINGFRAMEWORK-10345766] in org.springframework:spring-web@6.2.2
+    introduced by org.springframework.boot:spring-boot-starter-web@3.4.2 > org.springframework:spring-web@6.2.2
+  ✗ Improper Handling of Case Sensitivity [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHETOMCATEMBED-10264469] in org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+    introduced by org.springframework.boot:spring-boot-starter-web@3.4.2 > org.springframework.boot:spring-boot-starter-tomcat@3.4.2 > org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+  ✗ Improper Neutralization [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHETOMCATEMBED-9905136] in org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+    introduced by org.springframework.boot:spring-boot-starter-web@3.4.2 > org.springframework.boot:spring-boot-starter-tomcat@3.4.2 > org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+  ✗ Relative Path Traversal [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHETOMCATEMBED-13733966] in org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+    introduced by org.springframework.boot:spring-boot-starter-web@3.4.2 > org.springframework.boot:spring-boot-starter-tomcat@3.4.2 > org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+  ✗ Improper Resource Shutdown or Release [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHETOMCATEMBED-11799152] in org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+    introduced by org.springframework.boot:spring-boot-starter-web@3.4.2 > org.springframework.boot:spring-boot-starter-tomcat@3.4.2 > org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+  ✗ Relative Path Traversal [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGSPRINGFRAMEWORK-12008931] in org.springframework:spring-beans@6.2.2
+    introduced by org.springframework.boot:spring-boot-starter-web@3.4.2 > org.springframework:spring-web@6.2.2 > org.springframework:spring-beans@6.2.2
+  ✗ Integer Overflow or Wraparound [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHETOMCATEMBED-10674391] in org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+    introduced by org.springframework.boot:spring-boot-starter-web@3.4.2 > org.springframework.boot:spring-boot-starter-tomcat@3.4.2 > org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+  ✗ Allocation of Resources Without Limits or Throttling [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHETOMCATEMBED-10676855] in org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+    introduced by org.springframework.boot:spring-boot-starter-web@3.4.2 > org.springframework.boot:spring-boot-starter-tomcat@3.4.2 > org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+  ✗ Allocation of Resources Without Limits or Throttling [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHETOMCATEMBED-10365122] in org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+    introduced by org.springframework.boot:spring-boot-starter-web@3.4.2 > org.springframework.boot:spring-boot-starter-tomcat@3.4.2 > org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+  ✗ Untrusted Search Path [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHETOMCATEMBED-13746602] in org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+    introduced by org.springframework.boot:spring-boot-starter-web@3.4.2 > org.springframework.boot:spring-boot-starter-tomcat@3.4.2 > org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+  ✗ Improper Cleanup on Thrown Exception [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHETOMCATEMBED-9905132] in org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+    introduced by org.springframework.boot:spring-boot-starter-web@3.4.2 > org.springframework.boot:spring-boot-starter-tomcat@3.4.2 > org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+  ✗ Path Equivalence [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHETOMCATEMBED-9396739] in org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+    introduced by org.springframework.boot:spring-boot-starter-web@3.4.2 > org.springframework.boot:spring-boot-starter-tomcat@3.4.2 > org.apache.tomcat.embed:tomcat-embed-core@10.1.34
+
+
+Issues with no direct upgrade or patch:
+  ✗ External Initialization of Trusted Variables or Data Stores [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-CHQOSLOGBACK-13169722] in ch.qos.logback:logback-core@1.5.16
+    introduced by org.apache.hertzbeat:hertzbeat-warehouse@2.0-SNAPSHOT > org.apache.iotdb:iotdb-session@0.13.3 > ch.qos.logback:logback-classic@1.5.16 > ch.qos.logback:logback-core@1.5.16
+  This issue was fixed in versions: 1.3.16, 1.5.19
+  ✗ External Initialization of Trusted Variables or Data Stores [Low Severity][https://security.snyk.io/vuln/SNYK-JAVA-CHQOSLOGBACK-15062482] in ch.qos.logback:logback-core@1.5.16
+    introduced by org.apache.hertzbeat:hertzbeat-warehouse@2.0-SNAPSHOT > org.apache.iotdb:iotdb-session@0.13.3 > ch.qos.logback:logback-classic@1.5.16 > ch.qos.logback:logback-core@1.5.16
+  This issue was fixed in versions: 1.5.25
+  ✗ Information Exposure [Low Severity][https://security.snyk.io/vuln/SNYK-JAVA-COMMONSNET-3153503] in commons-net:commons-net@3.8.0
+    introduced by org.apache.hertzbeat:hertzbeat-warehouse@2.0-SNAPSHOT > commons-net:commons-net@3.8.0
+  This issue was fixed in versions: 3.9.0
+  ✗ Allocation of Resources Without Limits or Throttling [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-IOGRPC-13786834] in io.grpc:grpc-netty-shaded@1.56.1
+    introduced by org.apache.hertzbeat:hertzbeat-warehouse@2.0-SNAPSHOT > io.greptime:ingester-all@0.11.0 > io.greptime:ingester-grpc@0.11.0 > io.grpc:grpc-netty-shaded@1.56.1
+  This issue was fixed in versions: 1.75.0
+  ✗ Denial of Service (DoS) [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-NETSOURCEFORGENEKOHTML-2621454] in net.sourceforge.nekohtml:nekohtml@1.9.22
+    introduced by net.sourceforge.nekohtml:nekohtml@1.9.22
+  No upgrade or patch available
+  ✗ Memory Allocation with Excessive Size Value [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-NETSOURCEFORGENEKOHTML-2774754] in net.sourceforge.nekohtml:nekohtml@1.9.22
+    introduced by net.sourceforge.nekohtml:nekohtml@1.9.22
+  No upgrade or patch available
+  ✗ Heap-based Buffer Overflow [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-NETSOURCEFORGENEKOHTML-2803036] in net.sourceforge.nekohtml:nekohtml@1.9.22
+    introduced by net.sourceforge.nekohtml:nekohtml@1.9.22
+  No upgrade or patch available
+  ✗ Uncontrolled Recursion [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHECOMMONS-10734078] in org.apache.commons:commons-lang3@3.17.0
+    introduced by org.apache.hertzbeat:hertzbeat-base@2.0-SNAPSHOT > org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.commons:commons-compress@1.27.1 > org.apache.commons:commons-lang3@3.17.0
+  This issue was fixed in versions: 3.18.0
+  ✗ Improper Input Validation [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHEPOI-9685010] in org.apache.poi:poi-ooxml@4.1.2
+    introduced by org.apache.hertzbeat:hertzbeat-base@2.0-SNAPSHOT > org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.poi:poi-ooxml@4.1.2
+  This issue was fixed in versions: 5.4.0
+  ✗ Out-of-bounds Read [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGLZ4-14151788] in org.lz4:lz4-java@1.8.0
+    introduced by org.apache.kafka:kafka-clients@3.7.1 > org.lz4:lz4-java@1.8.0
+  This issue was fixed in versions: 1.8.1
+  ✗ Insertion of Sensitive Information Into Sent Data [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGLZ4-14219384] in org.lz4:lz4-java@1.8.0
+    introduced by org.apache.kafka:kafka-clients@3.7.1 > org.lz4:lz4-java@1.8.0
+  No upgrade or patch available
+  ✗ Memory Allocation with Excessive Size Value [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGMSGPACK-14857714] in org.msgpack:msgpack-core@0.9.6
+    introduced by org.apache.hertzbeat:hertzbeat-warehouse@2.0-SNAPSHOT > org.influxdb:influxdb-java@2.24 > org.msgpack:msgpack-core@0.9.6
+  This issue was fixed in versions: 0.9.11
+  ✗ Denial of Service (DoS) [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-XERCES-2359991] in xerces:xercesImpl@2.11.0
+    introduced by net.sourceforge.nekohtml:nekohtml@1.9.22 > xerces:xercesImpl@2.11.0
+  This issue was fixed in versions: 2.12.2
+  ✗ Denial of Service (DoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-XERCES-30183] in xerces:xercesImpl@2.11.0
+    introduced by net.sourceforge.nekohtml:nekohtml@1.9.22 > xerces:xercesImpl@2.11.0
+  This issue was fixed in versions: 2.11.0.SP5
+  ✗ Denial of Service (DoS) [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-XERCES-31585] in xerces:xercesImpl@2.11.0
+    introduced by net.sourceforge.nekohtml:nekohtml@1.9.22 > xerces:xercesImpl@2.11.0
+  This issue was fixed in versions: 2.12.0
+  ✗ Denial of Service (DoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-XERCES-5920442] in xerces:xercesImpl@2.11.0
+    introduced by net.sourceforge.nekohtml:nekohtml@1.9.22 > xerces:xercesImpl@2.11.0
+  This issue was fixed in versions: 2.12.0
+  ✗ Improper Input Validation [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-XERCES-608891] in xerces:xercesImpl@2.11.0
+    introduced by net.sourceforge.nekohtml:nekohtml@1.9.22 > xerces:xercesImpl@2.11.0
+  This issue was fixed in versions: 2.12.0.SP03
+
+
+
+Organization:      alex.baker
+Package manager:   maven
+Target file:       hertzbeat-alerter/pom.xml
+Project name:      org.apache.hertzbeat:hertzbeat-alerter
+Open source:       no
+Project path:      /home/ubuntu/repos/hertzbeat-fork
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing /home/ubuntu/repos/hertzbeat-fork...
+
+Tested 100 dependencies for known issues, found 16 issues, 16 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade org.springframework.boot:spring-boot-starter-test@3.4.2 to org.springframework.boot:spring-boot-starter-test@3.5.10 to fix
+  ✗ External Initialization of Trusted Variables or Data Stores (new) [Low Severity][https://security.snyk.io/vuln/SNYK-JAVA-CHQOSLOGBACK-15062482] in ch.qos.logback:logback-core@1.5.16
+    introduced by org.springframework.boot:spring-boot-starter-test@3.4.2 > org.springframework.boot:spring-boot-starter@3.4.2 > org.springframework.boot:spring-boot-starter-logging@3.4.2 > ch.qos.logback:logback-classic@1.5.16 > ch.qos.logback:logback-core@1.5.16
+  ✗ External Initialization of Trusted Variables or Data Stores [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-CHQOSLOGBACK-13169722] in ch.qos.logback:logback-core@1.5.16
+    introduced by org.springframework.boot:spring-boot-starter-test@3.4.2 > org.springframework.boot:spring-boot-starter@3.4.2 > org.springframework.boot:spring-boot-starter-logging@3.4.2 > ch.qos.logback:logback-classic@1.5.16 > ch.qos.logback:logback-core@1.5.16
+  ✗ Incorrect Authorization [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGSPRINGFRAMEWORK-12817817] in org.springframework:spring-core@6.2.2
+    introduced by org.springframework.boot:spring-boot-starter-test@3.4.2 > org.springframework:spring-core@6.2.2
+
+
+Issues with no direct upgrade or patch:
+  ✗ Improper Validation of Specified Quantity in Input [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-IONETTY-8707739] in io.netty:netty-handler@4.1.117.Final
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > io.lettuce:lettuce-core@6.4.2.RELEASE > io.netty:netty-handler@4.1.117.Final
+  This issue was fixed in versions: 4.1.118.Final, 4.2.0.RC3
+  ✗ Improper Validation of Specified Quantity in Input [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-IONETTY-8707740] in io.netty:netty-common@4.1.117.Final
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > io.lettuce:lettuce-core@6.4.2.RELEASE > io.netty:netty-common@4.1.117.Final
+  This issue was fixed in versions: 4.1.118, 4.2.0.RC3
+  ✗ Uncontrolled Recursion [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHECOMMONS-10734078] in org.apache.commons:commons-lang3@3.17.0
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.commons:commons-compress@1.27.1 > org.apache.commons:commons-lang3@3.17.0
+  This issue was fixed in versions: 3.18.0
+  ✗ Server-side Request Forgery (SSRF) [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHEKAFKA-10336719] in org.apache.kafka:kafka-clients@3.7.1
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.kafka:kafka-clients@3.7.1
+  This issue was fixed in versions: 3.9.1
+  ✗ Deserialization of Untrusted Data [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHEKAFKA-10350513] in org.apache.kafka:kafka-clients@3.7.1
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.kafka:kafka-clients@3.7.1
+  This issue was fixed in versions: 3.9.1
+  ✗ Deserialization of Untrusted Data [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHEKAFKA-10350567] in org.apache.kafka:kafka-clients@3.7.1
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.kafka:kafka-clients@3.7.1
+  This issue was fixed in versions: 3.9.1
+  ✗ Files or Directories Accessible to External Parties [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHEKAFKA-8384362] in org.apache.kafka:kafka-clients@3.7.1
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.kafka:kafka-clients@3.7.1
+  This issue was fixed in versions: 3.8.0
+  ✗ Incorrect Implementation of Authentication Algorithm [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHEKAFKA-8528112] in org.apache.kafka:kafka-clients@3.7.1
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.kafka:kafka-clients@3.7.1
+  This issue was fixed in versions: 3.7.2, 3.8.1
+  ✗ Improper Input Validation [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHEPOI-9685010] in org.apache.poi:poi-ooxml@4.1.2
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.poi:poi-ooxml@4.1.2
+  This issue was fixed in versions: 5.4.0
+  ✗ Out-of-bounds Read [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGLZ4-14151788] in org.lz4:lz4-java@1.8.0
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.kafka:kafka-clients@3.7.1 > org.lz4:lz4-java@1.8.0
+  This issue was fixed in versions: 1.8.1
+  ✗ Insertion of Sensitive Information Into Sent Data [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGLZ4-14219384] in org.lz4:lz4-java@1.8.0
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.kafka:kafka-clients@3.7.1 > org.lz4:lz4-java@1.8.0
+  No upgrade or patch available
+  ✗ Improper Handling of Case Sensitivity [Low Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGSPRINGFRAMEWORK-10176071] in org.springframework:spring-context@6.2.2
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.springframework.boot:spring-boot-autoconfigure@3.4.2 > org.springframework.boot:spring-boot@3.4.2 > org.springframework:spring-context@6.2.2
+  This issue was fixed in versions: 6.1.20, 6.2.7
+  ✗ Relative Path Traversal [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGSPRINGFRAMEWORK-12008931] in org.springframework:spring-beans@6.2.2
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.springframework.boot:spring-boot-starter-data-jpa@3.4.2 > org.springframework.data:spring-data-jpa@3.4.2 > org.springframework:spring-beans@6.2.2
+  This issue was fixed in versions: 6.2.10
+
+
+
+Organization:      alex.baker
+Package manager:   maven
+Target file:       hertzbeat-base/pom.xml
+Project name:      org.apache.hertzbeat:hertzbeat-base
+Open source:       no
+Project path:      /home/ubuntu/repos/hertzbeat-fork
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing /home/ubuntu/repos/hertzbeat-fork...
+
+Tested 101 dependencies for known issues, found 16 issues, 16 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade org.springframework.boot:spring-boot-starter-test@3.4.2 to org.springframework.boot:spring-boot-starter-test@3.5.10 to fix
+  ✗ External Initialization of Trusted Variables or Data Stores (new) [Low Severity][https://security.snyk.io/vuln/SNYK-JAVA-CHQOSLOGBACK-15062482] in ch.qos.logback:logback-core@1.5.16
+    introduced by org.springframework.boot:spring-boot-starter-test@3.4.2 > org.springframework.boot:spring-boot-starter@3.4.2 > org.springframework.boot:spring-boot-starter-logging@3.4.2 > ch.qos.logback:logback-classic@1.5.16 > ch.qos.logback:logback-core@1.5.16
+  ✗ External Initialization of Trusted Variables or Data Stores [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-CHQOSLOGBACK-13169722] in ch.qos.logback:logback-core@1.5.16
+    introduced by org.springframework.boot:spring-boot-starter-test@3.4.2 > org.springframework.boot:spring-boot-starter@3.4.2 > org.springframework.boot:spring-boot-starter-logging@3.4.2 > ch.qos.logback:logback-classic@1.5.16 > ch.qos.logback:logback-core@1.5.16
+  ✗ Incorrect Authorization [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGSPRINGFRAMEWORK-12817817] in org.springframework:spring-core@6.2.2
+    introduced by org.springframework.boot:spring-boot-starter-test@3.4.2 > org.springframework:spring-core@6.2.2
+
+
+Issues with no direct upgrade or patch:
+  ✗ Improper Validation of Specified Quantity in Input [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-IONETTY-8707739] in io.netty:netty-handler@4.1.117.Final
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > io.lettuce:lettuce-core@6.4.2.RELEASE > io.netty:netty-handler@4.1.117.Final
+  This issue was fixed in versions: 4.1.118.Final, 4.2.0.RC3
+  ✗ Improper Validation of Specified Quantity in Input [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-IONETTY-8707740] in io.netty:netty-common@4.1.117.Final
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > io.lettuce:lettuce-core@6.4.2.RELEASE > io.netty:netty-common@4.1.117.Final
+  This issue was fixed in versions: 4.1.118, 4.2.0.RC3
+  ✗ Uncontrolled Recursion [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHECOMMONS-10734078] in org.apache.commons:commons-lang3@3.17.0
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.commons:commons-compress@1.27.1 > org.apache.commons:commons-lang3@3.17.0
+  This issue was fixed in versions: 3.18.0
+  ✗ Server-side Request Forgery (SSRF) [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHEKAFKA-10336719] in org.apache.kafka:kafka-clients@3.7.1
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.kafka:kafka-clients@3.7.1
+  This issue was fixed in versions: 3.9.1
+  ✗ Deserialization of Untrusted Data [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHEKAFKA-10350513] in org.apache.kafka:kafka-clients@3.7.1
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.kafka:kafka-clients@3.7.1
+  This issue was fixed in versions: 3.9.1
+  ✗ Deserialization of Untrusted Data [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHEKAFKA-10350567] in org.apache.kafka:kafka-clients@3.7.1
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.kafka:kafka-clients@3.7.1
+  This issue was fixed in versions: 3.9.1
+  ✗ Files or Directories Accessible to External Parties [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHEKAFKA-8384362] in org.apache.kafka:kafka-clients@3.7.1
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.kafka:kafka-clients@3.7.1
+  This issue was fixed in versions: 3.8.0
+  ✗ Incorrect Implementation of Authentication Algorithm [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHEKAFKA-8528112] in org.apache.kafka:kafka-clients@3.7.1
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.kafka:kafka-clients@3.7.1
+  This issue was fixed in versions: 3.7.2, 3.8.1
+  ✗ Improper Input Validation [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHEPOI-9685010] in org.apache.poi:poi-ooxml@4.1.2
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.poi:poi-ooxml@4.1.2
+  This issue was fixed in versions: 5.4.0
+  ✗ Out-of-bounds Read [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGLZ4-14151788] in org.lz4:lz4-java@1.8.0
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.kafka:kafka-clients@3.7.1 > org.lz4:lz4-java@1.8.0
+  This issue was fixed in versions: 1.8.1
+  ✗ Insertion of Sensitive Information Into Sent Data [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGLZ4-14219384] in org.lz4:lz4-java@1.8.0
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.kafka:kafka-clients@3.7.1 > org.lz4:lz4-java@1.8.0
+  No upgrade or patch available
+  ✗ Improper Handling of Case Sensitivity [Low Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGSPRINGFRAMEWORK-10176071] in org.springframework:spring-context@6.2.2
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.springframework.boot:spring-boot-autoconfigure@3.4.2 > org.springframework.boot:spring-boot@3.4.2 > org.springframework:spring-context@6.2.2
+  This issue was fixed in versions: 6.1.20, 6.2.7
+  ✗ Relative Path Traversal [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGSPRINGFRAMEWORK-12008931] in org.springframework:spring-beans@6.2.2
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.springframework.boot:spring-boot-starter-data-jpa@3.4.2 > org.springframework.data:spring-data-jpa@3.4.2 > org.springframework:spring-beans@6.2.2
+  This issue was fixed in versions: 6.2.10
+
+
+
+Organization:      alex.baker
+Package manager:   maven
+Target file:       hertzbeat-collector/pom.xml
+Project name:      org.apache.hertzbeat:hertzbeat-collector
+Open source:       no
+Project path:      /home/ubuntu/repos/hertzbeat-fork
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing /home/ubuntu/repos/hertzbeat-fork...
+
+Tested 101 dependencies for known issues, found 16 issues, 16 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade org.springframework.boot:spring-boot-starter-test@3.4.2 to org.springframework.boot:spring-boot-starter-test@3.5.10 to fix
+  ✗ External Initialization of Trusted Variables or Data Stores (new) [Low Severity][https://security.snyk.io/vuln/SNYK-JAVA-CHQOSLOGBACK-15062482] in ch.qos.logback:logback-core@1.5.16
+    introduced by org.springframework.boot:spring-boot-starter-test@3.4.2 > org.springframework.boot:spring-boot-starter@3.4.2 > org.springframework.boot:spring-boot-starter-logging@3.4.2 > ch.qos.logback:logback-classic@1.5.16 > ch.qos.logback:logback-core@1.5.16
+  ✗ External Initialization of Trusted Variables or Data Stores [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-CHQOSLOGBACK-13169722] in ch.qos.logback:logback-core@1.5.16
+    introduced by org.springframework.boot:spring-boot-starter-test@3.4.2 > org.springframework.boot:spring-boot-starter@3.4.2 > org.springframework.boot:spring-boot-starter-logging@3.4.2 > ch.qos.logback:logback-classic@1.5.16 > ch.qos.logback:logback-core@1.5.16
+  ✗ Incorrect Authorization [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGSPRINGFRAMEWORK-12817817] in org.springframework:spring-core@6.2.2
+    introduced by org.springframework.boot:spring-boot-starter-test@3.4.2 > org.springframework:spring-core@6.2.2
+
+
+Issues with no direct upgrade or patch:
+  ✗ Improper Validation of Specified Quantity in Input [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-IONETTY-8707739] in io.netty:netty-handler@4.1.117.Final
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > io.lettuce:lettuce-core@6.4.2.RELEASE > io.netty:netty-handler@4.1.117.Final
+  This issue was fixed in versions: 4.1.118.Final, 4.2.0.RC3
+  ✗ Improper Validation of Specified Quantity in Input [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-IONETTY-8707740] in io.netty:netty-common@4.1.117.Final
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > io.lettuce:lettuce-core@6.4.2.RELEASE > io.netty:netty-common@4.1.117.Final
+  This issue was fixed in versions: 4.1.118, 4.2.0.RC3
+  ✗ Uncontrolled Recursion [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHECOMMONS-10734078] in org.apache.commons:commons-lang3@3.17.0
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.commons:commons-compress@1.27.1 > org.apache.commons:commons-lang3@3.17.0
+  This issue was fixed in versions: 3.18.0
+  ✗ Server-side Request Forgery (SSRF) [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHEKAFKA-10336719] in org.apache.kafka:kafka-clients@3.7.1
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.kafka:kafka-clients@3.7.1
+  This issue was fixed in versions: 3.9.1
+  ✗ Deserialization of Untrusted Data [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHEKAFKA-10350513] in org.apache.kafka:kafka-clients@3.7.1
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.kafka:kafka-clients@3.7.1
+  This issue was fixed in versions: 3.9.1
+  ✗ Deserialization of Untrusted Data [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHEKAFKA-10350567] in org.apache.kafka:kafka-clients@3.7.1
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.kafka:kafka-clients@3.7.1
+  This issue was fixed in versions: 3.9.1
+  ✗ Files or Directories Accessible to External Parties [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHEKAFKA-8384362] in org.apache.kafka:kafka-clients@3.7.1
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.kafka:kafka-clients@3.7.1
+  This issue was fixed in versions: 3.8.0
+  ✗ Incorrect Implementation of Authentication Algorithm [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHEKAFKA-8528112] in org.apache.kafka:kafka-clients@3.7.1
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.kafka:kafka-clients@3.7.1
+  This issue was fixed in versions: 3.7.2, 3.8.1
+  ✗ Improper Input Validation [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHEPOI-9685010] in org.apache.poi:poi-ooxml@4.1.2
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.poi:poi-ooxml@4.1.2
+  This issue was fixed in versions: 5.4.0
+  ✗ Out-of-bounds Read [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGLZ4-14151788] in org.lz4:lz4-java@1.8.0
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.kafka:kafka-clients@3.7.1 > org.lz4:lz4-java@1.8.0
+  This issue was fixed in versions: 1.8.1
+  ✗ Insertion of Sensitive Information Into Sent Data [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGLZ4-14219384] in org.lz4:lz4-java@1.8.0
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.kafka:kafka-clients@3.7.1 > org.lz4:lz4-java@1.8.0
+  No upgrade or patch available
+  ✗ Improper Handling of Case Sensitivity [Low Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGSPRINGFRAMEWORK-10176071] in org.springframework:spring-context@6.2.2
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.springframework.boot:spring-boot-autoconfigure@3.4.2 > org.springframework.boot:spring-boot@3.4.2 > org.springframework:spring-context@6.2.2
+  This issue was fixed in versions: 6.1.20, 6.2.7
+  ✗ Relative Path Traversal [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGSPRINGFRAMEWORK-12008931] in org.springframework:spring-beans@6.2.2
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.springframework.boot:spring-boot-starter-data-jpa@3.4.2 > org.springframework.data:spring-data-jpa@3.4.2 > org.springframework:spring-beans@6.2.2
+  This issue was fixed in versions: 6.2.10
+
+
+
+Organization:      alex.baker
+Package manager:   maven
+Target file:       hertzbeat-collector/hertzbeat-collector-basic/pom.xml
+Project name:      org.apache.hertzbeat:hertzbeat-collector
+Open source:       no
+Project path:      /home/ubuntu/repos/hertzbeat-fork
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing /home/ubuntu/repos/hertzbeat-fork...
+
+Tested 101 dependencies for known issues, found 16 issues, 16 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade org.springframework.boot:spring-boot-starter-test@3.4.2 to org.springframework.boot:spring-boot-starter-test@3.5.10 to fix
+  ✗ External Initialization of Trusted Variables or Data Stores (new) [Low Severity][https://security.snyk.io/vuln/SNYK-JAVA-CHQOSLOGBACK-15062482] in ch.qos.logback:logback-core@1.5.16
+    introduced by org.springframework.boot:spring-boot-starter-test@3.4.2 > org.springframework.boot:spring-boot-starter@3.4.2 > org.springframework.boot:spring-boot-starter-logging@3.4.2 > ch.qos.logback:logback-classic@1.5.16 > ch.qos.logback:logback-core@1.5.16
+  ✗ External Initialization of Trusted Variables or Data Stores [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-CHQOSLOGBACK-13169722] in ch.qos.logback:logback-core@1.5.16
+    introduced by org.springframework.boot:spring-boot-starter-test@3.4.2 > org.springframework.boot:spring-boot-starter@3.4.2 > org.springframework.boot:spring-boot-starter-logging@3.4.2 > ch.qos.logback:logback-classic@1.5.16 > ch.qos.logback:logback-core@1.5.16
+  ✗ Incorrect Authorization [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGSPRINGFRAMEWORK-12817817] in org.springframework:spring-core@6.2.2
+    introduced by org.springframework.boot:spring-boot-starter-test@3.4.2 > org.springframework:spring-core@6.2.2
+
+
+Issues with no direct upgrade or patch:
+  ✗ Improper Validation of Specified Quantity in Input [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-IONETTY-8707739] in io.netty:netty-handler@4.1.117.Final
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > io.lettuce:lettuce-core@6.4.2.RELEASE > io.netty:netty-handler@4.1.117.Final
+  This issue was fixed in versions: 4.1.118.Final, 4.2.0.RC3
+  ✗ Improper Validation of Specified Quantity in Input [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-IONETTY-8707740] in io.netty:netty-common@4.1.117.Final
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > io.lettuce:lettuce-core@6.4.2.RELEASE > io.netty:netty-common@4.1.117.Final
+  This issue was fixed in versions: 4.1.118, 4.2.0.RC3
+  ✗ Uncontrolled Recursion [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHECOMMONS-10734078] in org.apache.commons:commons-lang3@3.17.0
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.commons:commons-compress@1.27.1 > org.apache.commons:commons-lang3@3.17.0
+  This issue was fixed in versions: 3.18.0
+  ✗ Server-side Request Forgery (SSRF) [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHEKAFKA-10336719] in org.apache.kafka:kafka-clients@3.7.1
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.kafka:kafka-clients@3.7.1
+  This issue was fixed in versions: 3.9.1
+  ✗ Deserialization of Untrusted Data [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHEKAFKA-10350513] in org.apache.kafka:kafka-clients@3.7.1
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.kafka:kafka-clients@3.7.1
+  This issue was fixed in versions: 3.9.1
+  ✗ Deserialization of Untrusted Data [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHEKAFKA-10350567] in org.apache.kafka:kafka-clients@3.7.1
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.kafka:kafka-clients@3.7.1
+  This issue was fixed in versions: 3.9.1
+  ✗ Files or Directories Accessible to External Parties [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHEKAFKA-8384362] in org.apache.kafka:kafka-clients@3.7.1
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.kafka:kafka-clients@3.7.1
+  This issue was fixed in versions: 3.8.0
+  ✗ Incorrect Implementation of Authentication Algorithm [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHEKAFKA-8528112] in org.apache.kafka:kafka-clients@3.7.1
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.kafka:kafka-clients@3.7.1
+  This issue was fixed in versions: 3.7.2, 3.8.1
+  ✗ Improper Input Validation [Medium Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHEPOI-9685010] in org.apache.poi:poi-ooxml@4.1.2
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.poi:poi-ooxml@4.1.2
+  This issue was fixed in versions: 5.4.0
+  ✗ Out-of-bounds Read [High Severity][https://security.snyk.io/vuln/SNYK-JAVA-ORGLZ4-14151788] in org.lz4:lz4-java@1.8.0
+    introduced by org.apache.hertzbeat:hertzbeat-common@2.0-SNAPSHOT > org.apache.kafka:kafka-clients@3.7.1 > org.lz4:lz4-java@1.8.0
+  This issue was fixed in versions: 1.8.1
+  ✗ Insertion of Sensitive Information Into Sent Data [High Severity][https://security.snyk.io/vul
