@@ -53,8 +53,8 @@
 		<mysql-connector-j.version>8.3.0</mysql-connector-j.version>
 		<mybatis-plus.version>3.5.7</mybatis-plus.version>
 		<mybatis-plus-boot-starter.version>3.5.7</mybatis-plus-boot-starter.version>
-		<minio.version>8.4.3</minio.version>
-		<commons-lang3.version>3.14.0</commons-lang3.version>
+				<minio.version>8.6.0</minio.version>
+				<commons-lang3.version>3.18.0</commons-lang3.version>
 		<spring-boot-starter-sureness.version>1.1.0</spring-boot-starter-sureness.version>
 	</properties>
 	<dependencies>
@@ -119,7 +119,7 @@
 		<dependency>
 			<groupId>io.minio</groupId>
 			<artifactId>minio</artifactId>
-			<version>8.5.11</version>
+			<version>${minio.version}</version>
 		</dependency>
 
 		<dependency>
