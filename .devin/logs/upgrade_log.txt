@@ -1,0 +1,108 @@
+=== Upgrade Log ===
+Date: 2026-02-06 01:55:06 UTC
+
+=== Files Changed ===
+ .../common/config/EclipseLinkJpaConfiguration.java         |  2 +-
+ pom.xml                                                    | 14 +++++++-------
+ template-marketplace/hertzbeat-template-hub/pom.xml        |  6 +++---
+ web-app/package.json                                       |  2 +-
+ 4 files changed, 12 insertions(+), 12 deletions(-)
+
+=== Detailed Changes ===
+diff --git a/hertzbeat-common/src/main/java/org/apache/hertzbeat/common/config/EclipseLinkJpaConfiguration.java b/hertzbeat-common/src/main/java/org/apache/hertzbeat/common/config/EclipseLinkJpaConfiguration.java
+index c4a7bc5c6..1b8bdb889 100644
+--- a/hertzbeat-common/src/main/java/org/apache/hertzbeat/common/config/EclipseLinkJpaConfiguration.java
++++ b/hertzbeat-common/src/main/java/org/apache/hertzbeat/common/config/EclipseLinkJpaConfiguration.java
+@@ -50,7 +50,7 @@ public class EclipseLinkJpaConfiguration extends JpaBaseConfiguration {
+     }
+ 
+     @Override
+-    protected Map<String, Object> getVendorProperties() {
++    protected Map<String, Object> getVendorProperties(DataSource dataSource) {
+         HashMap<String, Object> map = new HashMap<>(8);
+         map.put(PersistenceUnitProperties.DDL_GENERATION, "create-or-extend-tables");
+         map.put(PersistenceUnitProperties.SESSION_CUSTOMIZER, "org.apache.hertzbeat.common.config.EclipseLinkCustomizer");
+diff --git a/pom.xml b/pom.xml
+index 08ad1b0a1..c7c6c83b2 100644
+--- a/pom.xml
++++ b/pom.xml
+@@ -23,7 +23,7 @@
+     <parent>
+         <groupId>org.springframework.boot</groupId>
+         <artifactId>spring-boot-starter-parent</artifactId>
+-        <version>3.4.2</version>
++        <version>3.5.3</version>
+     </parent>
+ 
+     <groupId>org.apache.hertzbeat</groupId>
+@@ -130,10 +130,10 @@
+         <xml.bind.version>2.3.0</xml.bind.version>
+         <snake.yaml.version>2.2</snake.yaml.version>
+         <okhttp.version>4.12.0</okhttp.version>
+-        <kafka-clients.version>3.7.1</kafka-clients.version>
+-        <netty.version>4.1.117.Final</netty.version>
++        <kafka-clients.version>3.9.0</kafka-clients.version>
++        <netty.version>4.1.121.Final</netty.version>
+         <mysql.version>8.4.0</mysql.version>
+-        <mssql-jdbc.version>10.2.0.jre8</mssql-jdbc.version>
++        <mssql-jdbc.version>12.10.0.jre11</mssql-jdbc.version>
+         <ojdbc8.version>21.5.0.0</ojdbc8.version>
+         <mongodb-driver.version>4.6.1</mongodb-driver.version>
+         <clickhouse.version>0.4.6</clickhouse.version>
+@@ -153,7 +153,7 @@
+         <spotless.version>2.40.0</spotless.version>
+ 
+         <easy-poi.version>4.3.0</easy-poi.version>
+-        <poi.version>4.1.2</poi.version>
++        <poi.version>5.3.0</poi.version>
+         <concurrentlinkedhashmap-lru.version>1.4.2</concurrentlinkedhashmap-lru.version>
+         <sshd-core.version>2.13.1</sshd-core.version>
+         <eddsa.version>0.3.0</eddsa.version>
+@@ -168,8 +168,8 @@
+         <spring-boot-starter-sureness.version>1.1.0</spring-boot-starter-sureness.version>
+         <huawei.sdk.version>3.1.37</huawei.sdk.version>
+         <huawei.obs.version>3.23.5</huawei.obs.version>
+-        <commons-net>3.8.0</commons-net>
+-        <zookeeper.version>3.9.3</zookeeper.version>
++        <commons-net>3.11.1</commons-net>
++        <zookeeper.version>3.9.4</zookeeper.version>
+ 
+         <duckdb.version>1.4.2.0</duckdb.version>
+         <iotdb-session.version>0.13.3</iotdb-session.version>
+diff --git a/template-marketplace/hertzbeat-template-hub/pom.xml b/template-marketplace/hertzbeat-template-hub/pom.xml
+index 11c4f9093..f8e9c5563 100644
+--- a/template-marketplace/hertzbeat-template-hub/pom.xml
++++ b/template-marketplace/hertzbeat-template-hub/pom.xml
+@@ -23,8 +23,8 @@
+ 	<parent>
+ 		<groupId>org.springframework.boot</groupId>
+ 		<artifactId>spring-boot-starter-parent</artifactId>
+-		<version>3.3.2</version>
+-		<relativePath/> <!-- lookup parent from repository -->
++				<version>3.5.3</version>
++				<relativePath/> <!-- lookup parent from repository -->
+ 	</parent>
+ 	<groupId>org.apache.hertzbeat.templatehub</groupId>
+ 	<artifactId>hertzbeat-template-hub</artifactId>
+@@ -48,7 +48,7 @@
+ 		<java.version>17</java.version>
+ 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+ 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+-		<spring-boot.version>3.3.2</spring-boot.version>
++		<spring-boot.version>3.5.3</spring-boot.version>
+ 		<druid-spring-boot-starter.version>1.2.23</druid-spring-boot-starter.version>
+ 		<mysql-connector-j.version>8.3.0</mysql-connector-j.version>
+ 		<mybatis-plus.version>3.5.7</mybatis-plus.version>
+diff --git a/web-app/package.json b/web-app/package.json
+index d750e6bcb..f185d7ebe 100644
+--- a/web-app/package.json
++++ b/web-app/package.json
+@@ -67,7 +67,7 @@
+     "angular-tag-cloud-module": "17.0.1",
+     "date-fns": "2.30.0",
+     "@babel/runtime": "7.28.4",
+-    "echarts": "5.4.3",
++    "echarts": "5.6.0",
+     "extend": "^3.0.2",
+     "fast-deep-equal": "^3.1.3",
+     "isutf8": "^4.0.1",

@@ -23,8 +23,8 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.3.2</version>
-		<relativePath/> <!-- lookup parent from repository -->
+				<version>3.5.3</version>
+				<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>org.apache.hertzbeat.templatehub</groupId>
 	<artifactId>hertzbeat-template-hub</artifactId>
@@ -48,7 +48,7 @@
 		<java.version>17</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<spring-boot.version>3.3.2</spring-boot.version>
+		<spring-boot.version>3.5.3</spring-boot.version>
 		<druid-spring-boot-starter.version>1.2.23</druid-spring-boot-starter.version>
 		<mysql-connector-j.version>8.3.0</mysql-connector-j.version>
 		<mybatis-plus.version>3.5.7</mybatis-plus.version>
