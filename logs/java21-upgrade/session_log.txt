@@ -1,0 +1,35 @@
+# Java 21 Upgrade Session Log
+# Date: 2026-02-06
+# Session: ad58dcd96723438b887b4a6d8aed9c92
+
+## Task
+Upgrade hertzbeat from Java 17 to Java 21
+
+## Steps Executed
+
+1. Checked out result branch: feature/java21-upgrade_20260205_173623129
+2. Explored codebase to identify all Java version configurations
+3. Updated pom.xml files:
+   - pom.xml: java.version 17 -> 21
+   - hertzbeat-collector/pom.xml: java.version 17 -> 21
+   - hertzbeat-ai/pom.xml: java.version 17 -> 21
+   - mcp-servers/mcp-log-server/pom.xml: maven.compiler.source/target 17 -> 21
+4. Verified Dockerfiles already use eclipse-temurin:21-jdk (no changes needed)
+5. Updated GitHub Actions setup-deps/action.yml: JDK 17 -> 21
+6. Updated startup scripts:
+   - script/assembly/server/bin/startup.sh: java17+ -> java21+
+   - script/assembly/collector/bin/startup.sh: java17+ -> java21+
+7. Updated documentation:
+   - CONTRIBUTING.md: java17 -> java21
+   - README.md: java17 -> java21
+   - README_CN.md: java17 -> java21
+   - README_JP.md: java17 -> java21
+8. Ran lint checks (mvnd checkstyle:check) - PASSED
+9. Committed and pushed changes
+10. Created PR #4
+
+## Commit
+23b4659b2e5bb37e626c50e9a2f0c376eb40e2cc
+
+## Result
+SUCCESS - All files updated, lint passed, PR created
