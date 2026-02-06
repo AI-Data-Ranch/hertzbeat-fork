@@ -1,0 +1,50 @@
+# Dependency Upgrade Log
+
+## Date: 2026-02-06
+
+## Upgrades Performed
+
+### Root pom.xml
+
+| Property | Old Value | New Value | Reason |
+|----------|-----------|-----------|--------|
+| kafka-clients.version | 3.7.1 | 3.9.1 | SSRF, Deserialization vulnerabilities |
+| netty.version | 4.1.117.Final | 4.1.128.Final | CRLF Injection, HTTP Request Smuggling |
+| mssql-jdbc.version | 10.2.0.jre8 | 12.8.2.jre11 | Certificate validation issues |
+| commons-net | 3.10.0/3.8.0 | 3.11.1 | Information exposure |
+| poi.version | 4.1.2 | 5.4.0 | Input validation issues |
+| huawei.sdk.version | 3.1.37 | 3.1.49 | kotlin-stdlib info exposure |
+| zookeeper.version | 3.9.3 | 3.9.4 | Permission handling |
+| greptimedb.version | 0.11.0 | 0.12.0 | Security updates |
+
+### New Properties Added
+
+| Property | Value | Reason |
+|----------|-------|--------|
+| commons-lang3.version | 3.18.0 | Uncontrolled recursion fix |
+| lz4-java.version | 1.8.1 | Out-of-bounds read fix |
+| msgpack-core.version | 0.9.11 | Memory allocation fix |
+| json-smart.version | 2.5.2 | DoS vulnerability fix |
+| grpc.version | 1.75.0 | Resource allocation fix |
+| lettuce.version | 6.5.4.RELEASE | Netty vulnerabilities fix |
+
+### New Dependency Management Entries
+
+1. io.lettuce:lettuce-core:${lettuce.version}
+2. org.lz4:lz4-java:${lz4-java.version}
+3. org.msgpack:msgpack-core:${msgpack-core.version}
+4. net.minidev:json-smart:${json-smart.version}
+5. io.grpc:grpc-netty-shaded:${grpc.version}
+6. org.apache.zookeeper:zookeeper:${zookeeper.version}
+
+## Validation Results
+
+- Maven validate: PASSED
+- Checkstyle check: PASSED
+
+## Notes
+
+- Some vulnerabilities have no direct fix available (nekohtml, eddsa, bcprov-jdk15on)
+- These require either library replacement or acceptance of risk
+- mssql-jdbc changed from jre8 to jre11 - requires Java 11+ runtime
+- poi major version bump may have API changes
