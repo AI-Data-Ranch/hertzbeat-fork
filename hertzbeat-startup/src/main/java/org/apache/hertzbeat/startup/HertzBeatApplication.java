@@ -34,8 +34,13 @@ import org.springframework.scheduling.annotation.EnableScheduling;
  * This class replaces the original Manager class as the main entry point for HertzBeat application.
  * Note: EntityScan was removed in Spring Boot 4.0 - entity scanning is handled automatically
  * based on the @SpringBootApplication location and @EnableJpaRepositories configuration.
+ * Note: OpenTelemetry MongoDB autoconfiguration is excluded due to Spring Boot 4.0 incompatibility
+ * (MongoClientSettingsBuilderCustomizer moved to different package).
  */
-@SpringBootApplication
+@SpringBootApplication(excludeName = {
+    "io.opentelemetry.instrumentation.spring.autoconfigure.internal.instrumentation.mongo.MongoClientInstrumentationAutoConfiguration",
+    "io.opentelemetry.instrumentation.spring.autoconfigure.internal.instrumentation.runtimemetrics.RuntimeMetricsAutoConfiguration"
+})
 @EnableJpaAuditing
 @EnableJpaRepositories(basePackages = {"org.apache.hertzbeat"})
 @ComponentScan(basePackages = {"org.apache.hertzbeat"})
