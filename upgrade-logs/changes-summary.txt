@@ -1,0 +1,12 @@
+ .../common/config/EclipseLinkCustomizer.java       |  2 +-
+ .../common/config/EclipseLinkJpaConfiguration.java |  6 ++---
+ hertzbeat-manager/pom.xml                          | 13 ++++++++++
+ .../manager/config/AngularErrorViewResolver.java   |  2 +-
+ .../manager/config/FlywayConfiguration.java        |  4 +--
+ .../hertzbeat/manager/config/JacksonConfig.java    | 30 ++++++++++------------
+ .../manager/config/RestTemplateConfig.java         | 25 +++++++-----------
+ .../manager/service/impl/AppServiceImpl.java       |  8 +++---
+ .../hertzbeat/startup/HertzBeatApplication.java    |  2 +-
+ .../src/main/resources/application.yml             | 10 +++++++-
+ pom.xml                                            |  6 ++---
+ 11 files changed, 59 insertions(+), 49 deletions(-)

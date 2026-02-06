@@ -47,7 +47,7 @@ import org.apache.hertzbeat.manager.service.AppService;
 import org.apache.hertzbeat.manager.service.MonitorService;
 import org.apache.hertzbeat.manager.service.ObjectStoreService;
 import org.apache.hertzbeat.warehouse.service.WarehouseService;
-import org.springframework.beans.factory.InitializingBean;
+import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.event.EventListener;
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;
@@ -85,7 +85,7 @@ import static java.util.Objects.isNull;
 @Service
 @Order(value = Ordered.HIGHEST_PRECEDENCE)
 @Slf4j
-public class AppServiceImpl implements AppService, InitializingBean {
+public class AppServiceImpl implements AppService {
 
     private static final String PUSH_PROTOCOL_METRICS_NAME = "metrics";
 
@@ -506,8 +506,8 @@ public class AppServiceImpl implements AppService, InitializingBean {
         }
     }
 
-    @Override
-    public void afterPropertiesSet() throws Exception {
+    @EventListener(ApplicationReadyEvent.class)
+    public void onApplicationReady() {
         var objectStoreConfig = objectStoreConfigService.getConfig();
         refreshStore(objectStoreConfig);
     }
