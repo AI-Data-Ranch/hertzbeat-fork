@@ -1,0 +1,46 @@
+Files Changed in Java 21 Upgrade
+=================================
+
+Total Files Modified: 34
+
+Maven Configuration Files (17):
+- pom.xml
+- hertzbeat-collector/pom.xml
+- hertzbeat-ai/pom.xml
+- template-marketplace/hertzbeat-template-hub/pom.xml
+- mcp-servers/mcp-log-server/pom.xml
+- hertzbeat-e2e/pom.xml
+- hertzbeat-e2e/hertzbeat-collector-basic-e2e/pom.xml
+- hertzbeat-e2e/hertzbeat-collector-common-e2e/pom.xml
+- hertzbeat-e2e/hertzbeat-collector-kafka-e2e/pom.xml
+- hertzbeat-e2e/hertzbeat-log-e2e/pom.xml
+- hertzbeat-collector/hertzbeat-collector-basic/pom.xml
+- hertzbeat-collector/hertzbeat-collector-common/pom.xml
+- hertzbeat-collector/hertzbeat-collector-mongodb/pom.xml
+- hertzbeat-collector/hertzbeat-collector-nebulagraph/pom.xml
+- hertzbeat-collector/hertzbeat-collector-rocketmq/pom.xml
+- hertzbeat-collector/hertzbeat-collector-kafka/pom.xml
+- hertzbeat-collector/hertzbeat-collector-collector/pom.xml
+
+CI/CD Configuration Files (2):
+- script/ci/github-actions/setup-deps/action.yml
+- .gitpod.Dockerfile
+
+Shell Scripts (2):
+- script/assembly/server/bin/startup.sh
+- script/assembly/collector/bin/startup.sh
+
+Documentation Files (13):
+- CONTRIBUTING.md
+- home/docs/start/quickstart.md
+- home/docs/community/contribution.md
+- home/docs/community/development.md
+- home/i18n/zh-cn/docusaurus-plugin-content-docs/current/start/quickstart.md
+- home/i18n/zh-cn/docusaurus-plugin-content-docs/current/community/contribution.md
+- home/i18n/zh-cn/docusaurus-plugin-content-docs/current/community/development.md
+- home/versioned_docs/version-v1.6.x/start/quickstart.md
+- home/versioned_docs/version-v1.6.x/community/contribution.md
+- home/versioned_docs/version-v1.6.x/community/development.md
+- home/i18n/zh-cn/docusaurus-plugin-content-docs/version-v1.6.x/start/quickstart.md
+- home/i18n/zh-cn/docusaurus-plugin-content-docs/version-v1.6.x/community/contribution.md
+- home/i18n/zh-cn/docusaurus-plugin-content-docs/version-v1.6.x/community/development.md
