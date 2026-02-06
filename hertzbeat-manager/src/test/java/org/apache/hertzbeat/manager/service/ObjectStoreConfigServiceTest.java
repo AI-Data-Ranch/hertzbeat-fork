@@ -62,7 +62,6 @@ class ObjectStoreConfigServiceTest {
 
     @BeforeEach
     void setUp() {
-
         objectStoreConfigService = new ObjectStoreConfigServiceImpl(generalConfigDao, objectMapper);
         ReflectionTestUtils.setField(objectStoreConfigService, "beanFactory", beanFactory);
         ReflectionTestUtils.setField(objectStoreConfigService, "ctx", ctx);
