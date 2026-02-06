@@ -1,0 +1,14 @@
+.github/workflows/codeql-analysis.yml
+CONTRIBUTING.md
+README.md
+README_CN.md
+README_JP.md
+home/docs/community/contribution.md
+home/docs/community/development.md
+home/docs/community/how-to-release.md
+home/docs/start/package-deploy.md
+home/docs/start/quickstart.md
+pom.xml
+script/assembly/collector/bin/startup.sh
+script/assembly/server/bin/startup.sh
+script/ci/github-actions/setup-deps/action.yml
