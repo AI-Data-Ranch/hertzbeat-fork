@@ -23,34 +23,55 @@ import java.util.HashMap;
 import java.util.Map;
 import javax.sql.DataSource;
 import org.eclipse.persistence.config.PersistenceUnitProperties;
-import org.springframework.beans.factory.ObjectProvider;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
-import org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration;
-import org.springframework.boot.autoconfigure.orm.jpa.JpaProperties;
+import org.springframework.boot.jpa.EntityManagerFactoryBuilder;
+import org.springframework.boot.jpa.autoconfigure.JpaProperties;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.orm.jpa.vendor.AbstractJpaVendorAdapter;
+import org.springframework.context.annotation.Primary;
+import org.springframework.orm.jpa.JpaTransactionManager;
+import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import org.springframework.orm.jpa.vendor.EclipseLinkJpaVendorAdapter;
-import org.springframework.transaction.jta.JtaTransactionManager;
+import org.springframework.transaction.PlatformTransactionManager;
 
 /**
  * jpa eclipselink impl config
  */
 @Configuration
 @ConditionalOnProperty(prefix = "spring.datasource", name = "url")
-public class EclipseLinkJpaConfiguration extends JpaBaseConfiguration {
+public class EclipseLinkJpaConfiguration {
 
-    protected EclipseLinkJpaConfiguration(DataSource dataSource, JpaProperties properties, 
-                                          ObjectProvider<JtaTransactionManager> jtaTransactionManager) {
-        super(dataSource, properties, jtaTransactionManager);
-    }
-
-    @Override
-    protected AbstractJpaVendorAdapter createJpaVendorAdapter() {
+    @Bean
+    public EclipseLinkJpaVendorAdapter jpaVendorAdapter() {
         return new EclipseLinkJpaVendorAdapter();
     }
 
-    @Override
-    protected Map<String, Object> getVendorProperties() {
+    @Bean
+    @Primary
+    public LocalContainerEntityManagerFactoryBean entityManagerFactory(
+            DataSource dataSource,
+            JpaProperties jpaProperties,
+            EntityManagerFactoryBuilder builder) {
+        Map<String, Object> vendorProperties = getVendorProperties();
+        vendorProperties.putAll(jpaProperties.getProperties());
+        
+        return builder
+                .dataSource(dataSource)
+                .packages("org.apache.hertzbeat")
+                .persistenceUnit("default")
+                .properties(vendorProperties)
+                .jta(false)
+                .build();
+    }
+
+    @Bean
+    @Primary
+    public PlatformTransactionManager transactionManager(
+            LocalContainerEntityManagerFactoryBean entityManagerFactory) {
+        return new JpaTransactionManager(entityManagerFactory.getObject());
+    }
+
+    private Map<String, Object> getVendorProperties() {
         HashMap<String, Object> map = new HashMap<>(8);
         map.put(PersistenceUnitProperties.DDL_GENERATION, "create-or-extend-tables");
         map.put(PersistenceUnitProperties.SESSION_CUSTOMIZER, "org.apache.hertzbeat.common.config.EclipseLinkCustomizer");
