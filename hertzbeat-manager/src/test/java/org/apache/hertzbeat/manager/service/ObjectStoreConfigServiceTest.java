@@ -18,6 +18,7 @@
 package org.apache.hertzbeat.manager.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.apache.hertzbeat.base.dao.GeneralConfigDao;
 import org.apache.hertzbeat.common.constants.GeneralConfigTypeEnum;
 import org.apache.hertzbeat.manager.pojo.dto.ObjectStoreConfigChangeEvent;
 import org.apache.hertzbeat.manager.pojo.dto.ObjectStoreDTO;
@@ -25,12 +26,11 @@ import org.apache.hertzbeat.manager.service.impl.ObjectStoreConfigServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Spy;
+import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.context.ApplicationContext;
-import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.util.ReflectionTestUtils;
 
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
@@ -44,7 +44,7 @@ import static org.mockito.Mockito.verify;
  * test case for {@link ObjectStoreConfigServiceImpl}
  */
 
-@ExtendWith(SpringExtension.class)
+@ExtendWith(MockitoExtension.class)
 class ObjectStoreConfigServiceTest {
 
     private final DefaultListableBeanFactory beanFactory = new DefaultListableBeanFactory();
@@ -52,15 +52,17 @@ class ObjectStoreConfigServiceTest {
     @Mock
     private ApplicationContext ctx;
 
+    @Mock
+    private GeneralConfigDao generalConfigDao;
+
     @Spy
     private ObjectMapper objectMapper = new ObjectMapper();
 
-    @InjectMocks
     private ObjectStoreConfigServiceImpl objectStoreConfigService;
 
     @BeforeEach
     void setUp() {
-
+        objectStoreConfigService = new ObjectStoreConfigServiceImpl(generalConfigDao, objectMapper);
         ReflectionTestUtils.setField(objectStoreConfigService, "beanFactory", beanFactory);
         ReflectionTestUtils.setField(objectStoreConfigService, "ctx", ctx);
     }

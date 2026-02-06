@@ -15,6 +15,9 @@
 server:
   port: ${random.int[10000,19999]}
 spring:
+  autoconfigure:
+    exclude:
+      - io.opentelemetry.instrumentation.spring.autoconfigure.OpenTelemetryAutoConfiguration
   datasource:
     driver-class-name: org.h2.Driver
     username: sa
