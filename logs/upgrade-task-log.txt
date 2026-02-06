@@ -1,0 +1,44 @@
+=== Java 21 Upgrade Task Log ===
+
+Task: Upgrade hertzbeat from Java 17 to Java 21
+Repository: https://github.com/AI-Data-Ranch/hertzbeat-fork.git
+Base Branch: master
+Result Branch: feature/java21-upgrade_20260205_173623128
+
+=== Execution Details ===
+
+Step 1: Repository Setup
+- Verified repository exists at /home/ubuntu/repos/hertzbeat-fork
+- Fetched latest from origin
+- Created new branch: feature/java21-upgrade_20260205_173623128
+
+Step 2: Code Analysis
+- Searched for Java 17 references across codebase
+- Identified files requiring updates:
+  * pom.xml (java.version property)
+  * script/ci/github-actions/setup-deps/action.yml (JDK setup)
+  * README.md (documentation)
+  * CONTRIBUTING.md (documentation)
+- Verified Dockerfiles already use eclipse-temurin:21-jdk (no changes needed)
+
+Step 3: Code Changes
+- pom.xml: Changed <java.version>17</java.version> to <java.version>21</java.version>
+- setup-deps/action.yml: Changed java-version from 17 to 21
+- README.md: Updated java17 to java21 in backend requirements
+- CONTRIBUTING.md: Updated java17 to java21 in both English and Chinese sections
+
+Step 4: Validation
+- Ran checkstyle lint check: PASSED
+- Git diff verified 4 files changed, 8 insertions, 8 deletions
+
+Step 5: Commit and Push
+- Committed with message: [build] Upgrade Java version from 17 to 21
+- Commit hash: de0b52439a989a604228a9ab836533f3d7d276dc
+- Pushed to origin
+
+Step 6: Pull Request
+- Created PR #3: https://github.com/AI-Data-Ranch/hertzbeat-fork/pull/3
+- CI Status: No CI checks configured to run
+
+=== Summary ===
+All Java 17 to Java 21 upgrade changes completed successfully.
