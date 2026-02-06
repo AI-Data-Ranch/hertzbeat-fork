@@ -68,6 +68,11 @@
             <groupId>org.apache.hertzbeat</groupId>
             <artifactId>hertzbeat-base</artifactId>
         </dependency>
+        <!-- Spring Boot 4.0.0 persistence module for EntityScan -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-persistence</artifactId>
+        </dependency>
 
         <!-- HertzBeat warehouse -->
         <dependency>
