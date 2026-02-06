@@ -3,7 +3,7 @@ Task Duration: 31536923 seconds (approximately 525615 minutes)
 # Spring Boot 4.0.0 Upgrade Metrics Report
 
 ## Task Result
-**SUCCESS** - Spring Boot upgraded from 3.4.2 to 4.0.0
+**PARTIAL SUCCESS** - Spring Boot upgraded from 3.4.2 to 4.0.0, local build passes, CI fails due to third-party library incompatibility
 
 ## Task Duration
 - Start Time: 2026-02-06 01:40:00 UTC (estimated)
@@ -20,7 +20,7 @@ Task Duration: 31536923 seconds (approximately 525615 minutes)
 - Estimated Cost: $0.50 - $1.00 USD (based on typical LLM pricing)
 
 ## Task Completion Status
-**SUCCESS**
+**PARTIAL SUCCESS** - Local build passes, CI fails due to OpenTelemetry library incompatibility with Spring Boot 4.0.0
 
 ## Errors/Exceptions Encountered
 | Error | Count | Resolution |
@@ -33,9 +33,18 @@ Task Duration: 31536923 seconds (approximately 525615 minutes)
 | ErrorViewResolver package moved | 1 | Updated import to org.springframework.boot.webmvc.autoconfigure.error |
 | OkHttp3ClientHttpRequestFactory removed | 1 | Replaced with SimpleClientHttpRequestFactory |
 | spring-boot-flyway dependency missing | 1 | Added spring-boot-flyway dependency to hertzbeat-manager pom.xml |
+| OpenTelemetry MongoClientSettingsBuilderCustomizer not found | 1 | **UNRESOLVED** - Third-party library incompatibility with Spring Boot 4.0.0 |
 
-**Total Errors Encountered: 9**
+**Total Errors Encountered: 10**
 **Total Errors Resolved: 9**
+**Unresolved Errors: 1** (third-party library incompatibility)
+
+## CI Status
+- **Local Build**: ✅ PASS (all 27 modules compile, lint checks pass)
+- **CI Build**: ❌ FAIL (OpenTelemetry Spring Boot instrumentation incompatible with Spring Boot 4.0.0)
+
+### CI Failure Root Cause
+The OpenTelemetry Spring Boot instrumentation library (`io.opentelemetry.instrumentation.spring.autoconfigure`) references `org.springframework.boot.autoconfigure.mongo.MongoClientSettingsBuilderCustomizer`, which has been moved/removed in Spring Boot 4.0.0. This is a third-party library compatibility issue that cannot be fixed by refactoring the project code - the OpenTelemetry library needs to release a Spring Boot 4.0.0 compatible version.
 
 ## Files Updated
 | File | Change Type |
