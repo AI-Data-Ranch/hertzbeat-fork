@@ -27,6 +27,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
 import org.mockito.Spy;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.context.ApplicationContext;
@@ -61,6 +62,7 @@ class ObjectStoreConfigServiceTest {
     @BeforeEach
     void setUp() {
 
+        MockitoAnnotations.openMocks(this);
         ReflectionTestUtils.setField(objectStoreConfigService, "beanFactory", beanFactory);
         ReflectionTestUtils.setField(objectStoreConfigService, "ctx", ctx);
     }

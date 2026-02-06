@@ -23,7 +23,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.4.2</version>
+        <version>4.0.0</version>
     </parent>
 
     <groupId>org.apache.hertzbeat</groupId>
@@ -107,7 +107,7 @@
 
         <p3c-pmd.version>2.1.1</p3c-pmd.version>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
-        <maven-surefire-plugin.version>2.22.2</maven-surefire-plugin.version>
+        <maven-surefire-plugin.version>3.2.5</maven-surefire-plugin.version>
         <maven-pmd-plugin.version>3.21.0</maven-pmd-plugin.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <!-- hertzbeat related modules -->
@@ -180,8 +180,8 @@
         <arrow.version>18.1.0</arrow.version>
         <snappy-java.version>1.1.10.7</snappy-java.version>
         <sshd-sftp.version>2.13.1</sshd-sftp.version>
-        <opentelemetry-starter.version>2.15.0</opentelemetry-starter.version>
-        <opentelemetry-logback.version>2.14.0-alpha</opentelemetry-logback.version>
+        <opentelemetry-starter.version>2.24.0</opentelemetry-starter.version>
+        <opentelemetry-logback.version>2.24.0-alpha</opentelemetry-logback.version>
         <opentelemetry-proto.version>1.3.1-alpha</opentelemetry-proto.version>
     </properties>
 

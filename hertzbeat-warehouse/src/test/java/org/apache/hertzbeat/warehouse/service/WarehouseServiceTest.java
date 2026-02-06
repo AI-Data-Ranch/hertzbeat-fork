@@ -67,7 +67,7 @@ class WarehouseServiceTest {
         List<CollectRep.MetricsData> result = warehouseService.queryMonitorMetricsData(monitorId);
 
         assertEquals(expectedData, result);
-        verify(realTimeDataStorage, never()).isServerAvailable();
+        verify(realTimeDataStorage).isServerAvailable();
     }
 
     @Test
