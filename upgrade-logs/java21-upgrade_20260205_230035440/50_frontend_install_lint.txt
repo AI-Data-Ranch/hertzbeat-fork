@@ -1,0 +1,23 @@
+Starting pnpm install at 2026-02-06 07:10:36 UTC
+Lockfile is up to date, resolution step is skipped
+Already up to date
+
+╭ Warning ─────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│   Ignored build scripts: core-js@3.45.1, esbuild@0.19.12, esbuild@0.20.1,    │
+│   nice-napi@1.0.2, nx@19.8.14.                                               │
+│   Run "pnpm approve-builds" to pick which dependencies should be allowed     │
+│   to run scripts.                                                            │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+Done in 1.3s using pnpm v10.28.2
+Running pnpm lint:ts at 2026-02-06 07:10:38 UTC
+
+> hertzbeat-web-app@1.0.0 lint:ts /home/ubuntu/repos/hertzbeat-fork/web-app
+> ng lint
+
+
+Linting "hertzbeat-web-app"...
+
+All files pass linting.
+

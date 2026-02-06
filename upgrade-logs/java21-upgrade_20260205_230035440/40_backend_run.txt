@@ -1,0 +1,259 @@
+Starting backend at 2026-02-06 07:10:15 UTC
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:testCompile (default-testCompile) on project hertzbeat-startup: Fatal error compiling: error: release version 21 not supported -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+Restarting backend at 2026-02-06 07:13:39 UTC
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.12.1:testCompile (default-testCompile) on project hertzbeat-startup: Fatal error compiling: error: release version 21 not supported -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+Using JDK: /usr/lib/jvm/java-1.21.0-openjdk-amd64
+WARNING: Unknown module: org.apache.arrow.memory.core specified to --add-opens
+07:16:36,822 |-INFO in ch.qos.logback.classic.LoggerContext[default] - This is logback-classic version 1.5.16
+07:16:36,825 |-INFO in ch.qos.logback.classic.util.ContextInitializer@1b70203f - Here is a list of configurators discovered as a service, by rank: 
+07:16:36,825 |-INFO in ch.qos.logback.classic.util.ContextInitializer@1b70203f -   org.springframework.boot.logging.logback.RootLogLevelConfigurator
+07:16:36,825 |-INFO in ch.qos.logback.classic.util.ContextInitializer@1b70203f - They will be invoked in order until ExecutionStatus.DO_NOT_INVOKE_NEXT_IF_ANY is returned.
+07:16:36,825 |-INFO in ch.qos.logback.classic.util.ContextInitializer@1b70203f - Constructed configurator of type class org.springframework.boot.logging.logback.RootLogLevelConfigurator
+07:16:36,838 |-INFO in ch.qos.logback.classic.util.ContextInitializer@1b70203f - org.springframework.boot.logging.logback.RootLogLevelConfigurator.configure() call lasted 1 milliseconds. ExecutionStatus=INVOKE_NEXT_IF_ANY
+07:16:36,838 |-INFO in ch.qos.logback.classic.util.ContextInitializer@1b70203f - Trying to configure with ch.qos.logback.classic.joran.SerializedModelConfigurator
+07:16:36,839 |-INFO in ch.qos.logback.classic.util.ContextInitializer@1b70203f - Constructed configurator of type class ch.qos.logback.classic.joran.SerializedModelConfigurator
+07:16:36,843 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.scmo]
+07:16:36,843 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.scmo]
+07:16:36,843 |-INFO in ch.qos.logback.classic.util.ContextInitializer@1b70203f - ch.qos.logback.classic.joran.SerializedModelConfigurator.configure() call lasted 4 milliseconds. ExecutionStatus=INVOKE_NEXT_IF_ANY
+07:16:36,843 |-INFO in ch.qos.logback.classic.util.ContextInitializer@1b70203f - Trying to configure with ch.qos.logback.classic.util.DefaultJoranConfigurator
+07:16:36,844 |-INFO in ch.qos.logback.classic.util.ContextInitializer@1b70203f - Constructed configurator of type class ch.qos.logback.classic.util.DefaultJoranConfigurator
+07:16:36,844 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+07:16:36,845 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.xml]
+07:16:36,845 |-INFO in ch.qos.logback.classic.util.ContextInitializer@1b70203f - ch.qos.logback.classic.util.DefaultJoranConfigurator.configure() call lasted 1 milliseconds. ExecutionStatus=INVOKE_NEXT_IF_ANY
+07:16:36,845 |-INFO in ch.qos.logback.classic.util.ContextInitializer@1b70203f - Trying to configure with ch.qos.logback.classic.BasicConfigurator
+07:16:36,846 |-INFO in ch.qos.logback.classic.util.ContextInitializer@1b70203f - Constructed configurator of type class ch.qos.logback.classic.BasicConfigurator
+07:16:36,846 |-INFO in ch.qos.logback.classic.BasicConfigurator@51671b08 - Setting up default configuration.
+07:16:36,861 |-INFO in ch.qos.logback.core.ConsoleAppender[console] - BEWARE: Writing to the console can be very slow. Avoid logging to the 
+07:16:36,861 |-INFO in ch.qos.logback.core.ConsoleAppender[console] - console in production environments, especially in high volume systems.
+07:16:36,861 |-INFO in ch.qos.logback.core.ConsoleAppender[console] - See also https://logback.qos.ch/codes.html#slowConsole
+07:16:36,861 |-INFO in ch.qos.logback.classic.util.ContextInitializer@1b70203f - ch.qos.logback.classic.BasicConfigurator.configure() call lasted 15 milliseconds. ExecutionStatus=NEUTRAL
+07:16:37,367 |-INFO in ch.qos.logback.classic.model.processor.ConfigurationModelHandlerFull - Registering a new ReconfigureOnChangeTask ReconfigureOnChangeTask(born:1770362197365)
+07:16:37,367 |-INFO in ch.qos.logback.classic.model.processor.ConfigurationModelHandlerFull - No 'scanPeriod' specified. Defaulting to 1 minutes
+07:16:37,368 |-INFO in ch.qos.logback.classic.model.processor.ConfigurationModelHandlerFull - Will scan for changes in [ConfigurationWatchList(mainURL=file:/home/ubuntu/repos/hertzbeat-fork/hertzbeat-startup/target/classes/logback-spring.xml, fileWatchList={/home/ubuntu/repos/hertzbeat-fork/hertzbeat-startup/target/classes/logback-spring.xml}, urlWatchList=[})] 
+07:16:37,368 |-INFO in ch.qos.logback.classic.model.processor.ConfigurationModelHandlerFull - Setting ReconfigureOnChangeTask scanning period to 1 minutes
+07:16:37,370 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [CONSOLE_RAW]
+07:16:37,370 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+07:16:37,373 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+07:16:37,392 |-INFO in ch.qos.logback.core.ConsoleAppender[CONSOLE_RAW] - BEWARE: Writing to the console can be very slow. Avoid logging to the 
+07:16:37,392 |-INFO in ch.qos.logback.core.ConsoleAppender[CONSOLE_RAW] - console in production environments, especially in high volume systems.
+07:16:37,392 |-INFO in ch.qos.logback.core.ConsoleAppender[CONSOLE_RAW] - See also https://logback.qos.ch/codes.html#slowConsole
+07:16:37,392 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [ConsoleAppender]
+07:16:37,392 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.classic.AsyncAppender]
+07:16:37,397 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [CONSOLE_RAW] to ch.qos.logback.classic.AsyncAppender[ConsoleAppender]
+07:16:37,397 |-INFO in ch.qos.logback.classic.AsyncAppender[ConsoleAppender] - Attaching appender named [CONSOLE_RAW] to AsyncAppender.
+07:16:37,397 |-INFO in ch.qos.logback.classic.AsyncAppender[ConsoleAppender] - Setting discardingThreshold to 0
+07:16:37,398 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [SystemOutFileAppender]
+07:16:37,398 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+07:16:37,402 |-INFO in ch.qos.logback.core.model.processor.ModelInterpretationContext@15051a0 - value "logs/@hertzbeat@11928-%d{yyyy-MM-dd}.%i.log.zip" substituted for "logs/${application_name}-%d{yyyy-MM-dd}.%i.log.zip"
+07:16:37,402 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@291651850 - setting totalSizeCap to 5 GB
+07:16:37,407 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@291651850 - Will use zip compression
+07:16:37,408 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@291651850 - Will use the pattern logs/@hertzbeat@11928-%d{yyyy-MM-dd}.%i.log for the active file
+07:16:37,408 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@b09fac1 - SizeAndTimeBasedFNATP class was renamed as SizeAndTimeBasedFileNamingAndTriggeringPolicy.
+07:16:37,423 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@b09fac1 - The date pattern is 'yyyy-MM-dd' from file name pattern 'logs/@hertzbeat@11928-%d{yyyy-MM-dd}.%i.log.zip'.
+07:16:37,423 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@b09fac1 - Roll-over at midnight.
+07:16:37,428 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@b09fac1 - Setting initial period to 2026-02-06T07:16:37.428Z
+07:16:37,428 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@b09fac1 - Direct use of either SizeAndTimeBasedFNATP or SizeAndTimeBasedFileNamingAndTriggeringPolicy 
+07:16:37,428 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@b09fac1 - is deprecated. Please use SizeAndTimeBasedRollingPolicy instead.
+07:16:37,428 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@b09fac1 - For more information see https://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+07:16:37,428 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@291651850 - Cleaning on start up
+07:16:37,429 |-INFO in c.q.l.core.rolling.helper.TimeBasedArchiveRemover - first clean up after appender initialization
+07:16:37,429 |-INFO in c.q.l.core.rolling.helper.TimeBasedArchiveRemover - Multiple periods, i.e. 32 periods, seem to have elapsed. This is expected at application start.
+07:16:37,430 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[SystemOutFileAppender] - Active log file name: logs/@hertzbeat@11928-2026-02-06.0.log
+07:16:37,430 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[SystemOutFileAppender] - File property is set to [null]
+07:16:37,431 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [ErrOutFileAppender]
+07:16:37,431 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+07:16:37,431 |-INFO in ch.qos.logback.core.model.processor.ModelInterpretationContext@15051a0 - value "logs/@hertzbeat@11928-%d{yyyy-MM-dd}-error.%i.log.zip" substituted for "logs/${application_name}-%d{yyyy-MM-dd}-error.%i.log.zip"
+07:16:37,431 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1658785779 - setting totalSizeCap to 5 GB
+07:16:37,432 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1658785779 - Will use zip compression
+07:16:37,432 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1658785779 - Will use the pattern logs/@hertzbeat@11928-%d{yyyy-MM-dd}-error.%i.log for the active file
+07:16:37,432 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@61019f59 - SizeAndTimeBasedFNATP class was renamed as SizeAndTimeBasedFileNamingAndTriggeringPolicy.
+07:16:37,432 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@61019f59 - The date pattern is 'yyyy-MM-dd' from file name pattern 'logs/@hertzbeat@11928-%d{yyyy-MM-dd}-error.%i.log.zip'.
+07:16:37,432 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@61019f59 - Roll-over at midnight.
+07:16:37,433 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@61019f59 - Setting initial period to 2026-02-06T07:16:37.433Z
+07:16:37,433 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@61019f59 - Direct use of either SizeAndTimeBasedFNATP or SizeAndTimeBasedFileNamingAndTriggeringPolicy 
+07:16:37,433 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@61019f59 - is deprecated. Please use SizeAndTimeBasedRollingPolicy instead.
+07:16:37,433 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@61019f59 - For more information see https://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+07:16:37,433 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1658785779 - Cleaning on start up
+07:16:37,433 |-INFO in c.q.l.core.rolling.helper.TimeBasedArchiveRemover - first clean up after appender initialization
+07:16:37,434 |-INFO in c.q.l.core.rolling.helper.TimeBasedArchiveRemover - Multiple periods, i.e. 32 periods, seem to have elapsed. This is expected at application start.
+07:16:37,434 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[ErrOutFileAppender] - Active log file name: logs/@hertzbeat@11928-2026-02-06-error.0.log
+07:16:37,434 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[ErrOutFileAppender] - File property is set to [null]
+07:16:37,434 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [OpenTelemetryAppender]
+07:16:37,434 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [io.opentelemetry.instrumentation.logback.appender.v1_0.OpenTelemetryAppender]
+07:16:37,435 |-INFO in c.q.l.core.rolling.helper.TimeBasedArchiveRemover - No removal attempts were made.
+07:16:37,436 |-WARN in ch.qos.logback.core.model.processor.ImplicitModelHandler - Ignoring unknown property [pattern] in [io.opentelemetry.instrumentation.logback.appender.v1_0.OpenTelemetryAppender]
+07:16:37,439 |-INFO in c.q.l.core.rolling.helper.TimeBasedArchiveRemover - No removal attempts were made.
+07:16:37,444 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.springframework] to INFO
+07:16:37,444 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@62e8f862 - Propagating INFO level on Logger[org.springframework] onto the JUL framework
+07:16:37,444 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.json] to ERROR
+07:16:37,444 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@62e8f862 - Propagating ERROR level on Logger[org.json] onto the JUL framework
+07:16:37,445 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [io.netty] to INFO
+07:16:37,445 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@62e8f862 - Propagating INFO level on Logger[io.netty] onto the JUL framework
+07:16:37,445 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.slf4j] to INFO
+07:16:37,445 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@62e8f862 - Propagating INFO level on Logger[org.slf4j] onto the JUL framework
+07:16:37,445 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [ch.qos.logback] to WARN
+07:16:37,445 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@62e8f862 - Propagating WARN level on Logger[ch.qos.logback] onto the JUL framework
+07:16:37,445 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.hibernate] to INFO
+07:16:37,445 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@62e8f862 - Propagating INFO level on Logger[org.hibernate] onto the JUL framework
+07:16:37,445 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.http] to INFO
+07:16:37,445 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@62e8f862 - Propagating INFO level on Logger[org.apache.http] onto the JUL framework
+07:16:37,445 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [com.zaxxer] to INFO
+07:16:37,445 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@62e8f862 - Propagating INFO level on Logger[com.zaxxer] onto the JUL framework
+07:16:37,445 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [springfox] to INFO
+07:16:37,445 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@62e8f862 - Propagating INFO level on Logger[springfox] onto the JUL framework
+07:16:37,445 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.mongodb] to WARN
+07:16:37,445 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@62e8f862 - Propagating WARN level on Logger[org.mongodb] onto the JUL framework
+07:16:37,445 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [io.greptime] to WARN
+07:16:37,445 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@62e8f862 - Propagating WARN level on Logger[io.greptime] onto the JUL framework
+07:16:37,445 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.kafka] to WARN
+07:16:37,445 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@62e8f862 - Propagating WARN level on Logger[org.apache.kafka] onto the JUL framework
+07:16:37,445 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [io.opentelemetry] to INFO
+07:16:37,445 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@62e8f862 - Propagating INFO level on Logger[io.opentelemetry] onto the JUL framework
+07:16:37,445 |-INFO in ch.qos.logback.classic.model.processor.RootLoggerModelHandler - Setting level of ROOT logger to INFO
+07:16:37,445 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@62e8f862 - Propagating INFO level on Logger[ROOT] onto the JUL framework
+07:16:37,445 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [ConsoleAppender] to Logger[ROOT]
+07:16:37,445 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [SystemOutFileAppender] to Logger[ROOT]
+07:16:37,445 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [ErrOutFileAppender] to Logger[ROOT]
+07:16:37,445 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [OpenTelemetryAppender] to Logger[ROOT]
+07:16:37,445 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [com.obs.services.AbstractClient] to OFF
+07:16:37,445 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@62e8f862 - Propagating OFF level on Logger[com.obs.services.AbstractClient] onto the JUL framework
+07:16:37,448 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [com.obs.services.AbstractClient] to false
+07:16:37,448 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [com.obs.services.internal.RestStorageService] to OFF
+07:16:37,448 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@62e8f862 - Propagating OFF level on Logger[com.obs.services.internal.RestStorageService] onto the JUL framework
+07:16:37,448 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [com.obs.services.internal.RestStorageService] to false
+07:16:37,448 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [com.obs.log.AccessLogger] to OFF
+07:16:37,448 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@62e8f862 - Propagating OFF level on Logger[com.obs.log.AccessLogger] onto the JUL framework
+07:16:37,448 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [com.obs.log.AccessLogger] to false
+07:16:37,448 |-INFO in ch.qos.logback.core.model.processor.DefaultProcessor@26f3d90c - End of configuration.
+07:16:37,449 |-INFO in org.springframework.boot.logging.logback.SpringBootJoranConfigurator@3c49fab6 - Registering current configuration as safe fallback point
+
+  _   _           _       ____             _
+ | | | | ___ _ __| |_ ___| __ )  ___  __ _| |_
+ | |_| |/ _ \ '__| __|_  /  _ \ / _ \/ _` | __|        Profile: prod
+ |  _  |  __/ |  | |_ / /| |_) |  __/ (_| | |_         Name: @hertzbeat@11928 Port: 1157 Pid: 11928
+ |_| |_|\___|_|   \__/___|____/ \___|\__,_|\__|        https://hertzbeat.apache.org/ 
+
+2026-02-06 07:16:37 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2026-02-06 07:16:37 [main] INFO  org.apache.hertzbeat.startup.HertzBeatApplication - Starting HertzBeatApplication using Java 21.0.10 with PID 11928 (/home/ubuntu/repos/hertzbeat-fork/hertzbeat-startup/target/classes started by ubuntu in /home/ubuntu/repos/hertzbeat-fork/hertzbeat-startup)
+2026-02-06 07:16:37 [main] INFO  org.apache.hertzbeat.startup.HertzBeatApplication - The following 1 profile is active: "prod"
+2026-02-06 07:16:38 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-06 07:16:39 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 457 ms. Found 37 JPA repository interfaces.
+2026-02-06 07:16:40 [main] WARN  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ai.mcp.server.common.autoconfigure.annotations.McpServerAnnotationScannerAutoConfiguration' of type [org.springframework.ai.mcp.server.common.autoconfigure.annotations.McpServerAnnotationScannerAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [serverAnnotatedMethodBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-02-06 07:16:40 [main] WARN  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'serverAnnotatedBeanRegistry' of type [org.springframework.ai.mcp.server.common.autoconfigure.annotations.McpServerAnnotationScannerAutoConfiguration$ServerMcpAnnotatedBeans] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [serverAnnotatedMethodBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-02-06 07:16:40 [main] WARN  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'io.opentelemetry.instrumentation.spring.autoconfigure.OpenTelemetryAutoConfiguration$OpenTelemetrySdkConfig' of type [io.opentelemetry.instrumentation.spring.autoconfigure.OpenTelemetryAutoConfiguration$OpenTelemetrySdkConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [serverAnnotatedMethodBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-02-06 07:16:40 [main] WARN  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'otelMapConverter' of type [io.opentelemetry.instrumentation.spring.autoconfigure.internal.OtelMapConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [serverAnnotatedMethodBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-02-06 07:16:40 [main] WARN  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration' of type [org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [serverAnnotatedMethodBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-02-06 07:16:40 [main] WARN  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'stringOrNumberMigrationVersionConverter' of type [org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration$StringOrNumberToMigrationVersionConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [serverAnnotatedMethodBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-02-06 07:16:40 [main] WARN  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.ai.mcp.server.annotation-scanner-org.springframework.ai.mcp.server.common.autoconfigure.annotations.McpServerAnnotationScannerProperties' of type [org.springframework.ai.mcp.server.common.autoconfigure.annotations.McpServerAnnotationScannerProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [serverAnnotatedMethodBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-02-06 07:16:40 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 1157 (http)
+2026-02-06 07:16:40 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1157"]
+2026-02-06 07:16:40 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-06 07:16:40 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2026-02-06 07:16:40 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-06 07:16:40 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3249 ms
+2026-02-06 07:16:40 [main] INFO  org.apache.hertzbeat.otel.config.OpenTelemetryConfig - Applying default OpenTelemetry SDK customizations (logs & traces only).
+2026-02-06 07:16:40 [main] INFO  org.apache.hertzbeat.otel.config.OpenTelemetryConfig - OpenTelemetry exporters disabled. Metrics handled by Micrometer.
+2026-02-06 07:16:41 [main] INFO  org.apache.hertzbeat.otel.config.OpenTelemetryConfig - Customizing OpenTelemetry Resource with service name: HertzBeat.
+2026-02-06 07:16:41 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-02-06 07:16:41 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:./data/hertzbeat user=SA
+2026-02-06 07:16:41 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-02-06 07:16:42 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-06 07:16:42 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-06 07:16:42 [main] INFO  com.usthe.sureness.configuration.SurenessAutoConfiguration - [sureness-starter] - SurenessSubjectFactory init success
+2026-02-06 07:16:42 [main] INFO  com.usthe.sureness.configuration.SurenessJakartaServletFilter - servlet surenessFilter initialized
+2026-02-06 07:16:43 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - JSqlParser is in classpath; If applicable, JSqlParser will be used.
+2026-02-06 07:16:43 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - EclipseLink is in classpath; If applicable, EQL parser will be used.
+2026-02-06 07:16:43 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-06 07:16:43 [main] INFO  org.springframework.data.jpa.repository.support.JpaRepositoryFactory$EclipseLinkProjectionQueryCreationListener - Usage of Spring Data projections detected on persistence provider EclipseLink; Make sure the following query methods declare result columns in exactly the order the accessors are declared in the projecting interface or the order of parameters for DTOs:
+2026-02-06 07:16:43 [main] INFO  org.springframework.data.jpa.repository.support.JpaRepositoryFactory$EclipseLinkProjectionQueryCreationListener -  - public abstract java.util.List org.apache.hertzbeat.manager.dao.MonitorDao.findAppsStatusCount()
+2026-02-06 07:16:43 [main] WARN  org.apache.hertzbeat.manager.service.impl.ObjectStoreConfigServiceImpl - object store config is null, please check the configuration file.
+2026-02-06 07:16:43 [main] INFO  org.apache.hertzbeat.manager.service.impl.AppServiceImpl - load define app yml in internal jar
+2026-02-06 07:16:45 [main] INFO  org.apache.hertzbeat.collector.metrics.HertzBeatMetricsCollector - MetricsService initialized with MeterRegistry: PrometheusMeterRegistry
+2026-02-06 07:16:45 [main] INFO  com.zaxxer.hikari.HikariDataSource - DuckDB-Pool - Starting...
+2026-02-06 07:16:45 [main] INFO  com.zaxxer.hikari.pool.PoolBase - DuckDB-Pool - Driver does not support get/set network timeout for connections. (getNetworkTimeout)
+2026-02-06 07:16:45 [main] INFO  com.zaxxer.hikari.pool.HikariPool - DuckDB-Pool - Added connection org.duckdb.DuckDBConnection@37f77e0b
+2026-02-06 07:16:45 [main] INFO  com.zaxxer.hikari.HikariDataSource - DuckDB-Pool - Start completed.
+2026-02-06 07:16:45 [main] INFO  org.apache.hertzbeat.alert.calculate.realtime.window.WindowAggregator - WindowAggregator started
+2026-02-06 07:16:45 [main] INFO  org.apache.hertzbeat.alert.calculate.realtime.window.TimeService - TimeService started with watermark delay: 30000ms
+2026-02-06 07:16:46 [main] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:h2:./data/hertzbeat (H2 2.2)
+2026-02-06 07:16:46 [main] WARN  org.flywaydb.core.internal.database.base.Database - Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2026-02-06 07:16:46 [main] INFO  org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory - Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+2026-02-06 07:16:46 [main] INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.013s)
+2026-02-06 07:16:46 [main] INFO  org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory - Creating Schema History table "PUBLIC"."flyway_schema_history" with baseline ...
+2026-02-06 07:16:46 [main] INFO  org.flywaydb.core.internal.command.DbBaseline - Successfully baselined schema with version: 1
+2026-02-06 07:16:46 [main] INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema "PUBLIC": 1
+2026-02-06 07:16:46 [main] INFO  org.flywaydb.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version "160 - update column"
+2026-02-06 07:16:46 [main] INFO  org.flywaydb.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version "170 - update column"
+2026-02-06 07:16:46 [main] INFO  org.flywaydb.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version "172 - update column"
+2026-02-06 07:16:46 [main] INFO  org.flywaydb.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version "173 - update column"
+2026-02-06 07:16:46 [main] INFO  org.flywaydb.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version "180 - update column"
+2026-02-06 07:16:46 [main] INFO  org.apache.sshd.common.util.security.bouncycastle.BouncyCastleSecurityProviderRegistrar - getOrCreateProvider(BC) created instance of org.bouncycastle.jce.provider.BouncyCastleProvider
+2026-02-06 07:16:46 [main] INFO  org.apache.sshd.common.util.security.eddsa.EdDSASecurityProviderRegistrar - getOrCreateProvider(EdDSA) created instance of net.i2p.crypto.eddsa.EdDSASecurityProvider
+2026-02-06 07:16:46 [main] INFO  org.apache.sshd.common.io.DefaultIoServiceFactoryFactory - No detected/configured IoServiceFactoryFactory; using Nio2ServiceFactoryFactory
+2026-02-06 07:16:47 [main] INFO  org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor - +----------------------------------+
+| PUBLIC.RENAME_HOST_TO_INSTANCE() |
++----------------------------------+
+|                                  |
++----------------------------------+
+
+2026-02-06 07:16:47 [main] INFO  org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor - +--------------------------------+
+| PUBLIC.MIGRATE_HISTORY_TABLE() |
++--------------------------------+
+|                                |
++--------------------------------+
+
+2026-02-06 07:16:48 [main] INFO  org.flywaydb.core.internal.command.DbMigrate - Successfully applied 5 migrations to schema "PUBLIC", now at version v180 (execution time 00:01.771s)
+2026-02-06 07:16:48 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-06 07:16:48 [main] WARN  org.apache.hertzbeat.ai.config.LlmConfig - LLM Provider is not set, ChatClient bean will not be created
+2026-02-06 07:16:49 [main] WARN  org.springaicommunity.mcp.provider.tool.SyncMcpToolProvider - No tool methods found in the provided tool objects: []
+2026-02-06 07:16:49 [main] INFO  org.springframework.ai.mcp.server.common.autoconfigure.McpServerAutoConfiguration - Enable tools capabilities, notification: true
+2026-02-06 07:16:49 [main] INFO  org.springframework.ai.mcp.server.common.autoconfigure.McpServerAutoConfiguration - Registered tools: 15
+2026-02-06 07:16:49 [main] INFO  org.springframework.ai.mcp.server.common.autoconfigure.McpServerAutoConfiguration - Enable resources capabilities, notification: true
+2026-02-06 07:16:49 [main] INFO  org.springframework.ai.mcp.server.common.autoconfigure.McpServerAutoConfiguration - Enable resources templates capabilities, notification: true
+2026-02-06 07:16:49 [main] INFO  org.springframework.ai.mcp.server.common.autoconfigure.McpServerAutoConfiguration - Enable prompts capabilities, notification: true
+2026-02-06 07:16:49 [main] INFO  org.springframework.ai.mcp.server.common.autoconfigure.McpServerAutoConfiguration - Enable completions capabilities
+2026-02-06 07:16:49 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-02-06 07:16:49 [status-page-calculate-0] INFO  org.apache.hertzbeat.manager.component.status.CalculateStatus - start to calculate status page state
+2026-02-06 07:16:49 [main] INFO  org.apache.hertzbeat.manager.service.impl.AbstractGeneralConfigServiceImpl - Configuration saved successfully
+2026-02-06 07:16:49 [main] INFO  org.apache.hertzbeat.manager.service.impl.AbstractGeneralConfigServiceImpl - Configuration saved successfully
+2026-02-06 07:16:49 [main] INFO  org.apache.hertzbeat.manager.service.impl.MuteGeneralConfigServiceImpl - handler mute config: MuteConfig(mute=true)
+2026-02-06 07:16:49 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1157"]
+2026-02-06 07:16:49 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 1157 (http) with context path '/'
+2026-02-06 07:16:49 [main] INFO  org.apache.hertzbeat.startup.HertzBeatApplication - Started HertzBeatApplication in 13.035 seconds (process running for 13.42)
+2026-02-06 07:16:50 [main] INFO  org.apache.hertzbeat.alert.service.impl.NoticeConfigServiceImpl - load default notice template in internal jar
+2026-02-06 07:16:50 [main] INFO  org.apache.hertzbeat.collector.collect.database.JdbcSpiLoader - start load jdbc drivers
+2026-02-06 07:16:50 [main] INFO  org.apache.hertzbeat.collector.collect.database.JdbcSpiLoader - end load jdbc drivers
+2026-02-06 07:16:50 [main] INFO  org.apache.plc4x.java.DefaultPlcDriverManager - Instantiating new PLC Driver Manager with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@c387f44
+2026-02-06 07:16:50 [main] INFO  org.apache.plc4x.java.DefaultPlcDriverManager - Registering available drivers...
+2026-02-06 07:16:50 [main] INFO  org.apache.plc4x.java.DefaultPlcDriverManager - Registering driver for Protocol modbus-ascii (Modbus ASCII)
+2026-02-06 07:16:50 [main] INFO  org.apache.plc4x.java.DefaultPlcDriverManager - Registering driver for Protocol modbus-rtu (Modbus RTU)
+2026-02-06 07:16:50 [main] INFO  org.apache.plc4x.java.DefaultPlcDriverManager - Registering driver for Protocol modbus-tcp (Modbus TCP)
+2026-02-06 07:16:50 [main] INFO  org.apache.plc4x.java.DefaultPlcDriverManager - Registering driver for Protocol s7 (Siemens S7 (Basic))
+2026-02-06 07:16:50 [main] INFO  org.apache.hertzbeat.alert.calculate.periodic.PeriodicAlertRuleScheduler - Starting periodic alert rule scheduler...
+2026-02-06 07:16:50 [netty-server-boss-0] INFO  io.netty.handler.logging.LoggingHandler - [id: 0x8f6096ba] REGISTERED
+2026-02-06 07:16:50 [netty-server-boss-0] INFO  io.netty.handler.logging.LoggingHandler - [id: 0x8f6096ba] BIND: 0.0.0.0/0.0.0.0:1158
+2026-02-06 07:16:50 [netty-server-boss-0] INFO  io.netty.handler.logging.LoggingHandler - [id: 0x8f6096ba, L:/[0:0:0:0:0:0:0:0]:1158] ACTIVE
+2026-02-06 07:21:45 [duckdb-cleaner] INFO  org.apache.hertzbeat.warehouse.store.history.tsdb.duckdb.DuckdbDatabaseDataStorage - [duckdb] start data cleaner and checkpoint...
+2026-02-06 07:21:45 [duckdb-cleaner] ERROR org.apache.hertzbeat.warehouse.store.history.tsdb.duckdb.DuckdbDatabaseDataStorage - expiredDataCleaner time error: Text cannot be parsed to a Duration. use default expire time to clean: 30d
+2026-02-06 07:21:49 [status-page-calculate-0] INFO  org.apache.hertzbeat.manager.component.status.CalculateStatus - start to calculate status page state
+2026-02-06 07:24:44 [http-nio-1157-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-06 07:24:44 [http-nio-1157-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-06 07:24:44 [http-nio-1157-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-02-06 07:26:49 [status-page-calculate-0] INFO  org.apache.hertzbeat.manager.component.status.CalculateStatus - start to calculate status page state
+2026-02-06 07:31:49 [status-page-calculate-0] INFO  org.apache.hertzbeat.manager.component.status.CalculateStatus - start to calculate status page state
+2026-02-06 07:36:49 [status-page-calculate-0] INFO  org.apache.hertzbeat.manager.component.status.CalculateStatus - start to calculate status page state
+2026-02-06 07:41:49 [status-page-calculate-0] INFO  org.apache.hertzbeat.manager.component.status.CalculateStatus - start to calculate status page state
+2026-02-06 07:46:49 [status-page-calculate-0] INFO  org.apache.hertzbeat.manager.component.status.CalculateStatus - start to calculate status page state
+2026-02-06 07:51:49 [status-page-calculate-0] INFO  org.apache.hertzbeat.manager.component.status.CalculateStatus - start to calculate status page state
