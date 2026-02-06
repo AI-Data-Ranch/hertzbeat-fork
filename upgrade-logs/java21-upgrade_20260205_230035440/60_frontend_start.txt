@@ -1,0 +1,78 @@
+Starting frontend at 2026-02-06 07:19:20 UTC
+
+> hertzbeat-web-app@1.0.0 start /home/ubuntu/repos/hertzbeat-fork/web-app
+> ng serve --proxy-config proxy.conf.json
+
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+
+Initial chunk files                                                                                     | Names                      |  Raw size
+vendor.js                                                                                               | vendor                     |   9.75 MB | 
+styles.css, styles.js                                                                                   | styles                     |   1.05 MB | 
+main.js                                                                                                 | main                       |   1.00 MB | 
+polyfills.js                                                                                            | polyfills                  | 263.48 kB | 
+scripts.js                                                                                              | scripts                    | 127.38 kB | 
+runtime.js                                                                                              | runtime                    |  12.65 kB | 
+
+                                                                                                        | Initial total              |  12.20 MB
+
+Lazy chunk files                                                                                        | Names                      |  Raw size
+node_modules_echarts_index_js.js                                                                        | echarts                    |   4.46 MB | 
+src_app_routes_alert_alert_module_ts.js                                                                 | alert-alert-module         |   1.22 MB | 
+src_app_routes_setting_setting_module_ts.js                                                             | setting-setting-module     | 758.53 kB | 
+src_app_routes_monitor_monitor_module_ts.js                                                             | monitor-monitor-module     | 560.77 kB | 
+src_app_routes_log_log_module_ts.js                                                                     | log-log-module             | 328.87 kB | 
+default-node_modules_angular_cdk_fesm2022_clipboard_mjs-node_modules_ng-zorro-antd_fesm2022_n-eecba2.js | monitor-monitor-module     |  44.10 kB | 
+src_app_routes_exception_exception_module_ts.js                                                         | exception-exception-module |  20.87 kB | 
+default-node_modules_ng-zorro-antd_fesm2022_ng-zorro-antd-space_mjs.js                                  | monitor-monitor-module     |  13.97 kB | 
+
+Build at: 2026-02-06T07:20:21.387Z - Hash: 23d05e2257c354a0 - Time: 58465ms
+
+./src/app/layout/basic/basic.component.less?ngResource - Warning: Invalid dependencies have been reported by plugins or loaders for this module. All reported dependencies need to be absolute paths.
+Invalid dependencies may lead to broken watching and caching.
+As best effort we try to convert all invalid values to absolute paths and converting globs into context dependencies, but this is deprecated behavior.
+Loaders: Pass absolute paths to this.addDependency (existing files), this.addMissingDependency (not existing files), and this.addContextDependency (directories).
+Plugins: Pass absolute paths to fileDependencies (existing files), missingDependencies (not existing files), and contextDependencies (directories).
+Globs: They are not supported. Pass absolute path to the directory as context dependencies.
+The following invalid values have been reported:
+ * "src/styles/theme.less"
+
+
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+
+
+14 unchanged chunks
+
+Build at: 2026-02-06T07:20:29.588Z - Hash: 23d05e2257c354a0 - Time: 6905ms
+
+./src/app/layout/basic/basic.component.less?ngResource - Warning: Invalid dependencies have been reported by plugins or loaders for this module. All reported dependencies need to be absolute paths.
+Invalid dependencies may lead to broken watching and caching.
+As best effort we try to convert all invalid values to absolute paths and converting globs into context dependencies, but this is deprecated behavior.
+Loaders: Pass absolute paths to this.addDependency (existing files), this.addMissingDependency (not existing files), and this.addContextDependency (directories).
+Plugins: Pass absolute paths to fileDependencies (existing files), missingDependencies (not existing files), and contextDependencies (directories).
+Globs: They are not supported. Pass absolute path to the directory as context dependencies.
+The following invalid values have been reported:
+ * "src/styles/theme.less"
+
+
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial chunk files | Names   | Raw size
+runtime.js          | runtime | 12.65 kB | 
+
+13 unchanged chunks
+
+Build at: 2026-02-06T07:20:32.172Z - Hash: 537bec22d32c832c - Time: 1858ms
+
+✔ Compiled successfully.
+(node:13114) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
