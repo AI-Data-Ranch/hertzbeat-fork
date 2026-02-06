@@ -25,6 +25,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import tools.jackson.databind.ObjectMapper;
 import tools.jackson.databind.json.JsonMapper;
+import tools.jackson.datatype.jsr310.JavaTimeModule;
 
 /**
  * jackson config
@@ -36,20 +37,19 @@ public class JacksonConfig {
     @Bean
     public JsonMapperBuilderCustomizer jacksonCustomizer() {
         return builder -> {
+            JavaTimeModule javaTimeModule = new JavaTimeModule();
             final SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSX");
             simpleDateFormat.setTimeZone(TimeZone.getDefault());
 
-            builder.defaultTimeZone(TimeZone.getDefault())
+            builder.addModule(javaTimeModule)
+                    .defaultTimeZone(TimeZone.getDefault())
                     .defaultDateFormat(simpleDateFormat);
         };
     }
 
     @Bean
-    public ObjectMapper objectMapper() {
-        return JsonMapper.builder()
-                .defaultTimeZone(TimeZone.getDefault())
-                .defaultDateFormat(new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSX"))
-                .build();
+    public ObjectMapper objectMapper(JsonMapper.Builder builder) {
+        return builder.build();
     }
 
 }
