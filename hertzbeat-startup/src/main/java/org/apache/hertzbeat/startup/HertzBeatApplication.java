@@ -17,11 +17,10 @@
 
 package org.apache.hertzbeat.startup;
 
-import javax.annotation.PostConstruct;
+import jakarta.annotation.PostConstruct;
 import org.apache.hertzbeat.manager.nativex.HertzbeatRuntimeHintsRegistrar;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.boot.context.properties.ConfigurationPropertiesScan;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.ImportRuntimeHints;
@@ -33,11 +32,12 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 /**
  * HertzBeat main application startup class.
  * This class replaces the original Manager class as the main entry point for HertzBeat application.
+ * Note: EntityScan was removed in Spring Boot 4.0 - entity scanning is handled automatically
+ * based on the @SpringBootApplication location and @EnableJpaRepositories configuration.
  */
 @SpringBootApplication
 @EnableJpaAuditing
 @EnableJpaRepositories(basePackages = {"org.apache.hertzbeat"})
-@EntityScan(basePackages = {"org.apache.hertzbeat"})
 @ComponentScan(basePackages = {"org.apache.hertzbeat"})
 @ConfigurationPropertiesScan(basePackages = {"org.apache.hertzbeat"})
 @ImportRuntimeHints(HertzbeatRuntimeHintsRegistrar.class)
