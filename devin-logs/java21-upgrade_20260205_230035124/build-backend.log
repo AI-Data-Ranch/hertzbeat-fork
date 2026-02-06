@@ -1,0 +1,462 @@
+[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.11.0/maven-compiler-plugin-3.11.0.pom
+Progress (1): 763 BProgress (1): 1.9 kBProgress (1): 3.4 kBProgress (1): 7.2 kBProgress (1): 8.6 kBProgress (1): 9.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.11.0/maven-compiler-plugin-3.11.0.pom (9.8 kB at 28 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.11.0/maven-compiler-plugin-3.11.0.jar
+Progress (1): 0.9/66 kBProgress (1): 2.3/66 kBProgress (1): 3.7/66 kBProgress (1): 5.0/66 kBProgress (1): 6.4/66 kBProgress (1): 7.8/66 kBProgress (1): 9.1/66 kBProgress (1): 11/66 kB Progress (1): 12/66 kBProgress (1): 13/66 kBProgress (1): 14/66 kBProgress (1): 16/66 kBProgress (1): 17/66 kBProgress (1): 18/66 kBProgress (1): 20/66 kBProgress (1): 21/66 kBProgress (1): 23/66 kBProgress (1): 24/66 kBProgress (1): 25/66 kBProgress (1): 27/66 kBProgress (1): 28/66 kBProgress (1): 29/66 kBProgress (1): 31/66 kBProgress (1): 32/66 kBProgress (1): 33/66 kBProgress (1): 35/66 kBProgress (1): 36/66 kBProgress (1): 38/66 kBProgress (1): 39/66 kBProgress (1): 40/66 kBProgress (1): 42/66 kBProgress (1): 43/66 kBProgress (1): 44/66 kBProgress (1): 46/66 kBProgress (1): 47/66 kBProgress (1): 49/66 kBProgress (1): 50/66 kBProgress (1): 54/66 kBProgress (1): 58/66 kBProgress (1): 63/66 kBProgress (1): 66 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.11.0/maven-compiler-plugin-3.11.0.jar (66 kB at 1.6 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.2.5/maven-surefire-plugin-3.2.5.pom
+Progress (1): 834 BProgress (1): 2.7 kBProgress (1): 5.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.2.5/maven-surefire-plugin-3.2.5.pom (5.3 kB at 222 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/3.2.5/surefire-3.2.5.pom
+Progress (1): 787 BProgress (1): 2.4 kBProgress (1): 4.1 kBProgress (1): 7.9 kBProgress (1): 12 kB Progress (1): 14 kBProgress (1): 17 kBProgress (1): 18 kBProgress (1): 20 kBProgress (1): 22 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/3.2.5/surefire-3.2.5.pom (22 kB at 955 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.2.5/maven-surefire-plugin-3.2.5.jar
+Progress (1): 3.8/45 kBProgress (1): 8.0/45 kBProgress (1): 12/45 kB Progress (1): 12/45 kBProgress (1): 17/45 kBProgress (1): 21/45 kBProgress (1): 25/45 kBProgress (1): 29/45 kBProgress (1): 33/45 kBProgress (1): 38/45 kBProgress (1): 42/45 kBProgress (1): 45 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.2.5/maven-surefire-plugin-3.2.5.jar (45 kB at 1.9 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/3.1.3/maven-deploy-plugin-3.1.3.pom
+Progress (1): 767 BProgress (1): 2.2 kBProgress (1): 4.8 kBProgress (1): 8.5 kBProgress (1): 9.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/3.1.3/maven-deploy-plugin-3.1.3.pom (9.2 kB at 354 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/3.1.3/maven-deploy-plugin-3.1.3.jar
+Progress (1): 3.8/40 kBProgress (1): 8.0/40 kBProgress (1): 8.2/40 kBProgress (1): 12/40 kB Progress (1): 17/40 kBProgress (1): 21/40 kBProgress (1): 25/40 kBProgress (1): 29/40 kBProgress (1): 34/40 kBProgress (1): 38/40 kBProgress (1): 40 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/3.1.3/maven-deploy-plugin-3.1.3.jar (40 kB at 1.7 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.12.1/maven-site-plugin-3.12.1.pom
+Progress (1): 745 BProgress (1): 2.4 kBProgress (1): 5.4 kBProgress (1): 7.1 kBProgress (1): 14 kB Progress (1): 18 kBProgress (1): 20 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.12.1/maven-site-plugin-3.12.1.pom (20 kB at 765 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/36/maven-plugins-36.pom
+Progress (1): 753 BProgress (1): 2.2 kBProgress (1): 4.5 kBProgress (1): 7.3 kBProgress (1): 9.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/36/maven-plugins-36.pom (9.9 kB at 413 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.12.1/maven-site-plugin-3.12.1.jar
+Progress (1): 3.8/119 kBProgress (1): 8.0/119 kBProgress (1): 12/119 kB Progress (1): 16/119 kBProgress (1): 33/119 kBProgress (1): 49/119 kBProgress (1): 66/119 kBProgress (1): 82/119 kBProgress (1): 98/119 kBProgress (1): 115/119 kBProgress (1): 119 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.12.1/maven-site-plugin-3.12.1.jar (119 kB at 4.2 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/3.6.0/build-helper-maven-plugin-3.6.0.pom
+Progress (1): 1.0 kBProgress (1): 3.9 kBProgress (1): 6.6 kBProgress (1): 8.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/3.6.0/build-helper-maven-plugin-3.6.0.pom (8.1 kB at 312 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/82/mojo-parent-82.pom
+Progress (1): 715 BProgress (1): 2.5 kBProgress (1): 5.8 kBProgress (1): 7.7 kBProgress (1): 11 kB Progress (1): 13 kBProgress (1): 19 kBProgress (1): 24 kBProgress (1): 26 kBProgress (1): 29 kBProgress (1): 32 kBProgress (1): 36 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/82/mojo-parent-82.pom (36 kB at 1.2 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/3.6.0/build-helper-maven-plugin-3.6.0.jar
+Progress (1): 7.7/72 kBProgress (1): 16/72 kB Progress (1): 32/72 kBProgress (1): 48/72 kBProgress (1): 65/72 kBProgress (1): 72 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/build-helper-maven-plugin/3.6.0/build-helper-maven-plugin-3.6.0.jar (72 kB at 3.3 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/flywaydb/flyway-maven-plugin/10.11.1/flyway-maven-plugin-10.11.1.pom
+Progress (1): 2.1 kBProgress (1): 3.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/flywaydb/flyway-maven-plugin/10.11.1/flyway-maven-plugin-10.11.1.pom (3.8 kB at 145 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/flywaydb/flyway-maven-plugin/10.11.1/flyway-maven-plugin-10.11.1.jar
+Progress (1): 7.7/110 kBProgress (1): 16/110 kB Progress (1): 32/110 kBProgress (1): 49/110 kBProgress (1): 65/110 kBProgress (1): 81/110 kBProgress (1): 98/110 kBProgress (1): 110 kB                       Downloaded from central: https://repo.maven.apache.org/maven2/org/flywaydb/flyway-maven-plugin/10.11.1/flyway-maven-plugin-10.11.1.jar (110 kB at 4.4 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/github/git-commit-id/git-commit-id-maven-plugin/9.0.1/git-commit-id-maven-plugin-9.0.1.pom
+Progress (1): 962 BProgress (1): 2.7 kBProgress (1): 8.0 kBProgress (1): 11 kB Progress (1): 15 kBProgress (1): 18 kBProgress (1): 22 kBProgress (1): 26 kBProgress (1): 28 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/io/github/git-commit-id/git-commit-id-maven-plugin/9.0.1/git-commit-id-maven-plugin-9.0.1.pom (28 kB at 1.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/github/git-commit-id/git-commit-id-maven-plugin/9.0.1/git-commit-id-maven-plugin-9.0.1.jar
+Progress (1): 7.7/55 kBProgress (1): 16/55 kB Progress (1): 32/55 kBProgress (1): 49/55 kBProgress (1): 55 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/io/github/git-commit-id/git-commit-id-maven-plugin/9.0.1/git-commit-id-maven-plugin-9.0.1.jar (55 kB at 2.3 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-codegen-maven/3.19.18/jooq-codegen-maven-3.19.18.pom
+Progress (1): 1.2 kBProgress (1): 3.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-codegen-maven/3.19.18/jooq-codegen-maven-3.19.18.pom (3.8 kB at 158 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-parent/3.19.18/jooq-parent-3.19.18.pom
+Progress (1): 912 BProgress (1): 2.3 kBProgress (1): 4.1 kBProgress (1): 10 kB Progress (1): 17 kBProgress (1): 21 kBProgress (1): 23 kBProgress (1): 29 kBProgress (1): 33 kBProgress (1): 37 kBProgress (1): 40 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-parent/3.19.18/jooq-parent-3.19.18.pom (40 kB at 1.5 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-codegen-maven/3.19.18/jooq-codegen-maven-3.19.18.jar
+Progress (1): 7.7/17 kBProgress (1): 16/17 kB Progress (1): 17 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/jooq-codegen-maven/3.19.18/jooq-codegen-maven-3.19.18.jar (17 kB at 723 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-maven-plugin/1.9.25/kotlin-maven-plugin-1.9.25.pom
+Progress (1): 2.0 kBProgress (1): 4.9 kBProgress (1): 6.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-maven-plugin/1.9.25/kotlin-maven-plugin-1.9.25.pom (6.7 kB at 290 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-project/1.9.25/kotlin-project-1.9.25.pom
+Progress (1): 963 BProgress (1): 2.9 kBProgress (1): 6.4 kBProgress (1): 11 kB Progress (1): 16 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-project/1.9.25/kotlin-project-1.9.25.pom (16 kB at 651 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-maven-plugin/1.9.25/kotlin-maven-plugin-1.9.25.jar
+Progress (1): 7.7/82 kBProgress (1): 16/82 kB Progress (1): 28/82 kBProgress (1): 44/82 kBProgress (1): 61/82 kBProgress (1): 77/82 kBProgress (1): 82 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-maven-plugin/1.9.25/kotlin-maven-plugin-1.9.25.jar (82 kB at 3.4 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/liquibase/liquibase-maven-plugin/4.29.2/liquibase-maven-plugin-4.29.2.pom
+Progress (1): 1.3 kBProgress (1): 2.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/liquibase/liquibase-maven-plugin/4.29.2/liquibase-maven-plugin-4.29.2.pom (2.0 kB at 84 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/liquibase/liquibase-maven-plugin/4.29.2/liquibase-maven-plugin-4.29.2.jar
+Progress (1): 7.7/310 kBProgress (1): 16/310 kB Progress (1): 32/310 kBProgress (1): 49/310 kBProgress (1): 65/310 kBProgress (1): 81/310 kBProgress (1): 98/310 kBProgress (1): 114/310 kBProgress (1): 131/310 kBProgress (1): 147/310 kBProgress (1): 163/310 kBProgress (1): 180/310 kBProgress (1): 196/310 kBProgress (1): 213/310 kBProgress (1): 229/310 kBProgress (1): 245/310 kBProgress (1): 262/310 kBProgress (1): 278/310 kBProgress (1): 294/310 kBProgress (1): 310 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/liquibase/liquibase-maven-plugin/4.29.2/liquibase-maven-plugin-4.29.2.jar (310 kB at 9.4 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/3.1.0/maven-antrun-plugin-3.1.0.pom
+Progress (1): 759 BProgress (1): 2.2 kBProgress (1): 5.0 kBProgress (1): 8.3 kBProgress (1): 9.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/3.1.0/maven-antrun-plugin-3.1.0.pom (9.1 kB at 396 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/3.1.0/maven-antrun-plugin-3.1.0.jar
+Progress (1): 4.1/41 kBProgress (1): 20/41 kB Progress (1): 37/41 kBProgress (1): 41 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-antrun-plugin/3.1.0/maven-antrun-plugin-3.1.0.jar (41 kB at 1.8 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.8.1/maven-dependency-plugin-3.8.1.pom
+Progress (1): 747 BProgress (1): 2.3 kBProgress (1): 5.1 kBProgress (1): 9.4 kBProgress (1): 14 kB Progress (1): 16 kBProgress (1): 18 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.8.1/maven-dependency-plugin-3.8.1.pom (18 kB at 783 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.8.1/maven-dependency-plugin-3.8.1.jar
+Progress (1): 7.7/208 kBProgress (1): 16/208 kB Progress (1): 32/208 kBProgress (1): 49/208 kBProgress (1): 65/208 kBProgress (1): 81/208 kBProgress (1): 98/208 kBProgress (1): 114/208 kBProgress (1): 131/208 kBProgress (1): 147/208 kBProgress (1): 163/208 kBProgress (1): 180/208 kBProgress (1): 196/208 kBProgress (1): 208 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.8.1/maven-dependency-plugin-3.8.1.jar (208 kB at 6.5 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/3.0.1/maven-release-plugin-3.0.1.pom
+Progress (1): 859 BProgress (1): 3.4 kBProgress (1): 6.5 kBProgress (1): 9.0 kBProgress (1): 9.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/3.0.1/maven-release-plugin-3.0.1.pom (9.8 kB at 409 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/release/maven-release/3.0.1/maven-release-3.0.1.pom
+Progress (1): 805 BProgress (1): 2.5 kBProgress (1): 4.2 kBProgress (1): 11 kB Progress (1): 11 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/release/maven-release/3.0.1/maven-release-3.0.1.pom (11 kB at 400 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/3.0.1/maven-release-plugin-3.0.1.jar
+Progress (1): 7.7/61 kBProgress (1): 16/61 kB Progress (1): 32/61 kBProgress (1): 49/61 kBProgress (1): 61 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-release-plugin/3.0.1/maven-release-plugin-3.0.1.jar (61 kB at 2.6 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-enforcer-plugin/3.5.0/maven-enforcer-plugin-3.5.0.pom
+Progress (1): 810 BProgress (1): 3.5 kBProgress (1): 5.4 kBProgress (1): 8.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-enforcer-plugin/3.5.0/maven-enforcer-plugin-3.5.0.pom (8.1 kB at 313 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/enforcer/enforcer/3.5.0/enforcer-3.5.0.pom
+Progress (1): 807 BProgress (1): 2.3 kBProgress (1): 4.4 kBProgress (1): 9.0 kBProgress (1): 9.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/enforcer/enforcer/3.5.0/enforcer-3.5.0.pom (9.3 kB at 343 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-enforcer-plugin/3.5.0/maven-enforcer-plugin-3.5.0.jar
+Progress (1): 7.7/39 kBProgress (1): 16/39 kB Progress (1): 32/39 kBProgress (1): 39 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-enforcer-plugin/3.5.0/maven-enforcer-plugin-3.5.0.jar (39 kB at 1.7 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/3.5.2/maven-failsafe-plugin-3.5.2.pom
+Progress (1): 812 BProgress (1): 3.2 kBProgress (1): 6.1 kBProgress (1): 9.9 kBProgress (1): 11 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/3.5.2/maven-failsafe-plugin-3.5.2.pom (11 kB at 473 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/3.5.2/surefire-3.5.2.pom
+Progress (1): 787 BProgress (1): 2.4 kBProgress (1): 4.1 kBProgress (1): 7.5 kBProgress (1): 11 kB Progress (1): 13 kBProgress (1): 16 kBProgress (1): 18 kBProgress (1): 20 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire/3.5.2/surefire-3.5.2.pom (20 kB at 696 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/3.5.2/maven-failsafe-plugin-3.5.2.jar
+Progress (1): 3.4/57 kBProgress (1): 20/57 kB Progress (1): 28/57 kBProgress (1): 44/57 kBProgress (1): 57 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-failsafe-plugin/3.5.2/maven-failsafe-plugin-3.5.2.jar (57 kB at 2.6 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-help-plugin/3.5.1/maven-help-plugin-3.5.1.pom
+Progress (1): 780 BProgress (1): 2.0 kBProgress (1): 5.0 kBProgress (1): 9.1 kBProgress (1): 10 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-help-plugin/3.5.1/maven-help-plugin-3.5.1.pom (10 kB at 422 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-help-plugin/3.5.1/maven-help-plugin-3.5.1.jar
+Progress (1): 8.2/65 kBProgress (1): 25/65 kB Progress (1): 41/65 kBProgress (1): 57/65 kBProgress (1): 65 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-help-plugin/3.5.1/maven-help-plugin-3.5.1.jar (65 kB at 1.8 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-invoker-plugin/3.8.1/maven-invoker-plugin-3.8.1.pom
+Progress (1): 748 BProgress (1): 2.1 kBProgress (1): 4.3 kBProgress (1): 9.9 kBProgress (1): 13 kB Progress (1): 15 kBProgress (1): 16 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-invoker-plugin/3.8.1/maven-invoker-plugin-3.8.1.pom (16 kB at 704 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/groovy/groovy-bom/4.0.23/groovy-bom-4.0.23.pom
+Progress (1): 919 BProgress (1): 4.0 kBProgress (1): 7.3 kBProgress (1): 7.5 kBProgress (1): 11 kB Progress (1): 14 kBProgress (1): 18 kBProgress (1): 22 kBProgress (1): 27 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/groovy/groovy-bom/4.0.23/groovy-bom-4.0.23.pom (27 kB at 1.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-invoker-plugin/3.8.1/maven-invoker-plugin-3.8.1.jar
+Progress (1): 7.7/139 kBProgress (1): 16/139 kB Progress (1): 32/139 kBProgress (1): 48/139 kBProgress (1): 65/139 kBProgress (1): 81/139 kBProgress (1): 98/139 kBProgress (1): 114/139 kBProgress (1): 130/139 kBProgress (1): 139 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-invoker-plugin/3.8.1/maven-invoker-plugin-3.8.1.jar (139 kB at 5.4 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.10.1/maven-javadoc-plugin-3.10.1.pom
+Progress (1): 735 BProgress (1): 2.5 kBProgress (1): 4.2 kBProgress (1): 8.2 kBProgress (1): 13 kB Progress (1): 16 kBProgress (1): 18 kBProgress (1): 22 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.10.1/maven-javadoc-plugin-3.10.1.pom (22 kB at 758 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.10.1/maven-javadoc-plugin-3.10.1.jar
+Progress (1): 7.7/517 kBProgress (1): 16/517 kB Progress (1): 32/517 kBProgress (1): 49/517 kBProgress (1): 65/517 kBProgress (1): 81/517 kBProgress (1): 98/517 kBProgress (1): 114/517 kBProgress (1): 123/517 kBProgress (1): 139/517 kBProgress (1): 156/517 kBProgress (1): 172/517 kBProgress (1): 188/517 kBProgress (1): 205/517 kBProgress (1): 221/517 kBProgress (1): 238/517 kBProgress (1): 254/517 kBProgress (1): 270/517 kBProgress (1): 287/517 kBProgress (1): 303/517 kBProgress (1): 319/517 kBProgress (1): 336/517 kBProgress (1): 352/517 kBProgress (1): 364/517 kBProgress (1): 380/517 kBProgress (1): 396/517 kBProgress (1): 413/517 kBProgress (1): 429/517 kBProgress (1): 446/517 kBProgress (1): 462/517 kBProgress (1): 478/517 kBProgress (1): 495/517 kBProgress (1): 511/517 kBProgress (1): 517 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/3.10.1/maven-javadoc-plugin-3.10.1.jar (517 kB at 13 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-source-plugin/3.3.1/maven-source-plugin-3.3.1.pom
+Progress (1): 773 BProgress (1): 2.3 kBProgress (1): 5.4 kBProgress (1): 6.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-source-plugin/3.3.1/maven-source-plugin-3.3.1.pom (6.7 kB at 293 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/41/maven-plugins-41.pom
+Progress (1): 773 BProgress (1): 2.4 kBProgress (1): 4.9 kBProgress (1): 7.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/41/maven-plugins-41.pom (7.4 kB at 334 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-source-plugin/3.3.1/maven-source-plugin-3.3.1.jar
+Progress (1): 7.7/32 kBProgress (1): 16/32 kB Progress (1): 32 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-source-plugin/3.3.1/maven-source-plugin-3.3.1.jar (32 kB at 1.4 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/3.4.0/maven-war-plugin-3.4.0.pom
+Progress (1): 794 BProgress (1): 2.3 kBProgress (1): 5.6 kBProgress (1): 8.3 kBProgress (1): 8.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/3.4.0/maven-war-plugin-3.4.0.pom (8.4 kB at 335 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/3.4.0/maven-war-plugin-3.4.0.jar
+Progress (1): 7.7/83 kBProgress (1): 16/83 kB Progress (1): 32/83 kBProgress (1): 49/83 kBProgress (1): 65/83 kBProgress (1): 81/83 kBProgress (1): 83 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/3.4.0/maven-war-plugin-3.4.0.jar (83 kB at 3.3 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/native-maven-plugin/0.10.4/native-maven-plugin-0.10.4.pom
+Progress (1): 934 BProgress (1): 3.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/native-maven-plugin/0.10.4/native-maven-plugin-0.10.4.pom (3.1 kB at 142 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/native-maven-plugin/0.10.4/native-maven-plugin-0.10.4.jar
+Progress (1): 7.7/112 kBProgress (1): 16/112 kB Progress (1): 32/112 kBProgress (1): 49/112 kBProgress (1): 65/112 kBProgress (1): 81/112 kBProgress (1): 98/112 kBProgress (1): 112 kB                       Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/native-maven-plugin/0.10.4/native-maven-plugin-0.10.4.jar (112 kB at 4.9 MB/s)
+[INFO] 
+[INFO] ---------------< org.apache.hertzbeat:hertzbeat-startup >---------------
+[INFO] Building hertzbeat-startup 2.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.4.2:run (default-cli) > test-compile @ hertzbeat-startup >>>
+Downloading from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.pom
+Progress (1): 1.4 kBProgress (1): 1.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.pom (1.6 kB at 54 kB/s)
+[WARNING] 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.20.0-GA during dependency collection step for project (use -X to see details)
+Downloading from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+Progress (1): 0/1.5 MBProgress (1): 0/1.5 MBProgress (1): 0/1.5 MBProgress (1): 0/1.5 MBProgress (1): 0.1/1.5 MBProgress (1): 0.1/1.5 MBProgress (1): 0.1/1.5 MBProgress (1): 0.1/1.5 MBProgress (1): 0.1/1.5 MBProgress (1): 0.1/1.5 MBProgress (1): 0.2/1.5 MBProgress (1): 0.2/1.5 MBProgress (1): 0.2/1.5 MBProgress (1): 0.2/1.5 MBProgress (1): 0.2/1.5 MBProgress (1): 0.2/1.5 MBProgress (1): 0.3/1.5 MBProgress (1): 0.3/1.5 MBProgress (1): 0.3/1.5 MBProgress (1): 0.3/1.5 MBProgress (1): 0.3/1.5 MBProgress (1): 0.3/1.5 MBProgress (1): 0.4/1.5 MBProgress (1): 0.4/1.5 MBProgress (1): 0.4/1.5 MBProgress (1): 0.4/1.5 MBProgress (1): 0.4/1.5 MBProgress (1): 0.4/1.5 MBProgress (1): 0.4/1.5 MBProgress (1): 0.5/1.5 MBProgress (1): 0.5/1.5 MBProgress (1): 0.5/1.5 MBProgress (1): 0.5/1.5 MBProgress (1): 0.5/1.5 MBProgress (1): 0.5/1.5 MBProgress (1): 0.6/1.5 MBProgress (1): 0.6/1.5 MBProgress (1): 0.6/1.5 MBProgress (1): 0.6/1.5 MBProgress (1): 0.6/1.5 MBProgress (1): 0.6/1.5 MBProgress (1): 0.7/1.5 MBProgress (1): 0.7/1.5 MBProgress (1): 0.7/1.5 MBProgress (1): 0.7/1.5 MBProgress (1): 0.7/1.5 MBProgress (1): 0.7/1.5 MBProgress (1): 0.8/1.5 MBProgress (1): 0.8/1.5 MBProgress (1): 0.8/1.5 MBProgress (1): 0.8/1.5 MBProgress (1): 0.8/1.5 MBProgress (1): 0.8/1.5 MBProgress (1): 0.9/1.5 MBProgress (1): 0.9/1.5 MBProgress (1): 0.9/1.5 MBProgress (1): 0.9/1.5 MBProgress (1): 0.9/1.5 MBProgress (1): 0.9/1.5 MBProgress (1): 1.0/1.5 MBProgress (1): 1.0/1.5 MBProgress (1): 1.0/1.5 MBProgress (1): 1.0/1.5 MBProgress (1): 1.0/1.5 MBProgress (1): 1.0/1.5 MBProgress (1): 1.0/1.5 MBProgress (1): 1.1/1.5 MBProgress (1): 1.1/1.5 MBProgress (1): 1.1/1.5 MBProgress (1): 1.1/1.5 MBProgress (1): 1.1/1.5 MBProgress (1): 1.1/1.5 MBProgress (1): 1.2/1.5 MBProgress (1): 1.2/1.5 MBProgress (1): 1.2/1.5 MBProgress (1): 1.2/1.5 MBProgress (1): 1.2/1.5 MBProgress (1): 1.2/1.5 MBProgress (1): 1.3/1.5 MBProgress (1): 1.3/1.5 MBProgress (1): 1.3/1.5 MBProgress (1): 1.3/1.5 MBProgress (1): 1.3/1.5 MBProgress (1): 1.3/1.5 MBProgress (1): 1.4/1.5 MBProgress (1): 1.4/1.5 MBProgress (1): 1.4/1.5 MBProgress (1): 1.4/1.5 MBProgress (1): 1.4/1.5 MBProgress (1): 1.4/1.5 MBProgress (1): 1.4/1.5 MBProgress (1): 1.5/1.5 MBProgress (1): 1.5/1.5 MBProgress (1): 1.5/1.5 MBProgress (1): 1.5 MB                        Downloaded from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar (1.5 MB at 25 MB/s)
+[INFO] 
+[INFO] --- checkstyle:3.3.0:check (validate) @ hertzbeat-startup ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.pom
+Progress (1): 815 B                   Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.pom (815 B at 29 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.5.5/plexus-containers-1.5.5.pom
+Progress (1): 1.3 kBProgress (1): 4.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.5.5/plexus-containers-1.5.5.pom (4.2 kB at 193 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.pom
+Progress (1): 930 BProgress (1): 3.0 kBProgress (1): 6.0 kBProgress (1): 7.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.pom (7.3 kB at 332 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1.pom
+Progress (1): 998 B                   Downloaded from central: https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1.pom (998 B at 45 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.pom
+Progress (1): 2.0 kBProgress (1): 3.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.pom (3.1 kB at 142 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/1.2-alpha-9/plexus-classworlds-1.2-alpha-9.pom
+Progress (1): 937 BProgress (1): 2.9 kBProgress (1): 3.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/1.2-alpha-9/plexus-classworlds-1.2-alpha-9.pom (3.2 kB at 153 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/log4j/log4j/1.2.12/log4j-1.2.12.pom
+Progress (1): 145 B                   Downloaded from central: https://repo.maven.apache.org/maven2/log4j/log4j/1.2.12/log4j-1.2.12.pom (145 B at 5.4 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/logkit/logkit/1.0.1/logkit-1.0.1.pom
+Progress (1): 147 B                   Downloaded from central: https://repo.maven.apache.org/maven2/logkit/logkit/1.0.1/logkit-1.0.1.pom (147 B at 6.1 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/avalon-framework/avalon-framework/4.1.3/avalon-framework-4.1.3.pom
+Progress (1): 167 B                   Downloaded from central: https://repo.maven.apache.org/maven2/avalon-framework/avalon-framework/4.1.3/avalon-framework-4.1.3.pom (167 B at 7.6 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.6/commons-beanutils-1.6.pom
+Progress (1): 1.9 kBProgress (1): 2.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.6/commons-beanutils-1.6.pom (2.3 kB at 105 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.0/commons-logging-1.0.pom
+Progress (1): 163 B                   Downloaded from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.0/commons-logging-1.0.pom (163 B at 7.1 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/2.0/commons-collections-2.0.pom
+Progress (1): 171 B                   Downloaded from central: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/2.0/commons-collections-2.0.pom (171 B at 7.1 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/2.1/commons-collections-2.1.pom
+Progress (1): 2.7 kBProgress (1): 3.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/2.1/commons-collections-2.1.pom (3.3 kB at 176 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.pom
+Progress (1): 955 BProgress (1): 2.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.pom (2.2 kB at 94 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity/1.6.2/velocity-1.6.2.pom
+Progress (1): 767 BProgress (1): 2.2 kBProgress (1): 4.2 kBProgress (1): 7.8 kBProgress (1): 10 kB Progress (1): 11 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity/1.6.2/velocity-1.6.2.pom (11 kB at 483 kB/s)
+[INFO] Starting audit...
+Audit done.
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- jacoco:0.8.11:prepare-agent (prepare-agent) @ hertzbeat-startup ---
+[INFO] argLine set to -javaagent:/home/ubuntu/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/home/ubuntu/repos/hertzbeat-fork/hertzbeat-startup/target/jacoco.exec
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ hertzbeat-startup ---
+[INFO] Copying 20 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ hertzbeat-startup ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.1.2/plexus-java-1.1.2.pom
+Progress (1): 1.3 kBProgress (1): 4.2 kBProgress (1): 5.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.1.2/plexus-java-1.1.2.pom (5.0 kB at 184 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-languages/1.1.2/plexus-languages-1.1.2.pom
+Progress (1): 1.3 kBProgress (1): 4.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-languages/1.1.2/plexus-languages-1.1.2.pom (4.1 kB at 207 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.4/asm-9.4.pom
+Progress (1): 1.3 kBProgress (1): 2.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.4/asm-9.4.pom (2.4 kB at 108 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0.3/qdox-2.0.3.pom
+Progress (1): 944 BProgress (1): 3.4 kBProgress (1): 6.5 kBProgress (1): 10 kB Progress (1): 13 kBProgress (1): 17 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0.3/qdox-2.0.3.pom (17 kB at 663 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.13.0/plexus-compiler-api-2.13.0.pom
+Progress (1): 1.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.13.0/plexus-compiler-api-2.13.0.pom (1.1 kB at 41 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.13.0/plexus-compiler-2.13.0.pom
+Progress (1): 1.2 kBProgress (1): 4.1 kBProgress (1): 7.3 kBProgress (1): 8.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.13.0/plexus-compiler-2.13.0.pom (8.4 kB at 364 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/10.0/plexus-components-10.0.pom
+Progress (1): 1.3 kBProgress (1): 2.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/10.0/plexus-components-10.0.pom (2.7 kB at 116 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.9.1/junit-bom-5.9.1.pom
+Progress (1): 907 BProgress (1): 4.1 kBProgress (1): 5.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.9.1/junit-bom-5.9.1.pom (5.6 kB at 245 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.13.0/plexus-compiler-manager-2.13.0.pom
+Progress (1): 1.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.13.0/plexus-compiler-manager-2.13.0.pom (1.1 kB at 54 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.13.0/plexus-compiler-javac-2.13.0.pom
+Progress (1): 1.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.13.0/plexus-compiler-javac-2.13.0.pom (1.2 kB at 52 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.13.0/plexus-compilers-2.13.0.pom
+Progress (1): 1.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.13.0/plexus-compilers-2.13.0.pom (1.3 kB at 49 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar
+Progress (1): 4.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar (4.2 kB at 201 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.1.2/plexus-java-1.1.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.4/asm-9.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.13.0/plexus-compiler-api-2.13.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.5.0/plexus-utils-3.5.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0.3/qdox-2.0.3.jar
+Progress (1): 7.7/55 kBProgress (1): 16/55 kB Progress (1): 32/55 kBProgress (1): 49/55 kBProgress (1): 55 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.1.2/plexus-java-1.1.2.jar (55 kB at 2.0 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.13.0/plexus-compiler-manager-2.13.0.jar
+Progress (1): 4.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.13.0/plexus-compiler-manager-2.13.0.jar (4.7 kB at 116 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.13.0/plexus-compiler-javac-2.13.0.jar
+Progress (1): 0.9/27 kBProgress (2): 0.9/27 kB | 0.9/267 kBProgress (3): 0.9/27 kB | 0.9/267 kB | 0.9/122 kBProgress (3): 2.3/27 kB | 0.9/267 kB | 0.9/122 kBProgress (3): 2.3/27 kB | 0.9/267 kB | 2.3/122 kBProgress (3): 2.3/27 kB | 0.9/267 kB | 3.7/122 kBProgress (3): 2.3/27 kB | 0.9/267 kB | 5.0/122 kBProgress (3): 3.7/27 kB | 0.9/267 kB | 5.0/122 kBProgress (3): 3.7/27 kB | 2.3/267 kB | 5.0/122 kBProgress (3): 3.7/27 kB | 2.3/267 kB | 6.4/122 kBProgress (3): 3.7/27 kB | 2.3/267 kB | 7.8/122 kBProgress (3): 3.7/27 kB | 3.7/267 kB | 7.8/122 kBProgress (3): 5.0/27 kB | 3.7/267 kB | 7.8/122 kBProgress (3): 5.0/27 kB | 3.7/267 kB | 9.1/122 kBProgress (3): 5.0/27 kB | 5.0/267 kB | 9.1/122 kBProgress (3): 6.4/27 kB | 5.0/267 kB | 9.1/122 kBProgress (3): 6.4/27 kB | 5.0/267 kB | 11/122 kB Progress (3): 7.8/27 kB | 5.0/267 kB | 11/122 kBProgress (3): 7.8/27 kB | 6.4/267 kB | 11/122 kBProgress (3): 7.8/27 kB | 6.4/267 kB | 12/122 kBProgress (3): 7.8/27 kB | 7.8/267 kB | 12/122 kBProgress (3): 9.1/27 kB | 7.8/267 kB | 12/122 kBProgress (3): 9.1/27 kB | 7.8/267 kB | 13/122 kBProgress (3): 11/27 kB | 7.8/267 kB | 13/122 kB Progress (3): 11/27 kB | 7.8/267 kB | 15/122 kBProgress (3): 11/27 kB | 9.1/267 kB | 15/122 kBProgress (3): 12/27 kB | 9.1/267 kB | 15/122 kBProgress (3): 12/27 kB | 9.1/267 kB | 16/122 kBProgress (3): 12/27 kB | 11/267 kB | 16/122 kB Progress (3): 12/27 kB | 11/267 kB | 17/122 kBProgress (3): 13/27 kB | 11/267 kB | 17/122 kBProgress (3): 13/27 kB | 12/267 kB | 17/122 kBProgress (3): 13/27 kB | 12/267 kB | 19/122 kBProgress (3): 15/27 kB | 12/267 kB | 19/122 kBProgress (3): 15/27 kB | 12/267 kB | 20/122 kBProgress (3): 15/27 kB | 13/267 kB | 20/122 kBProgress (3): 16/27 kB | 13/267 kB | 20/122 kBProgress (3): 16/27 kB | 13/267 kB | 21/122 kBProgress (3): 16/27 kB | 15/267 kB | 21/122 kBProgress (3): 16/27 kB | 15/267 kB | 23/122 kBProgress (3): 16/27 kB | 16/267 kB | 23/122 kBProgress (3): 17/27 kB | 16/267 kB | 23/122 kBProgress (3): 17/27 kB | 16/267 kB | 24/122 kBProgress (3): 18/27 kB | 16/267 kB | 24/122 kBProgress (3): 18/27 kB | 17/267 kB | 24/122 kBProgress (3): 18/27 kB | 17/267 kB | 26/122 kBProgress (3): 20/27 kB | 17/267 kB | 26/122 kBProgress (3): 20/27 kB | 17/267 kB | 27/122 kBProgress (3): 20/27 kB | 19/267 kB | 27/122 kBProgress (3): 20/27 kB | 19/267 kB | 28/122 kBProgress (3): 21/27 kB | 19/267 kB | 28/122 kBProgress (3): 21/27 kB | 20/267 kB | 28/122 kBProgress (3): 21/27 kB | 20/267 kB | 29/122 kBProgress (3): 23/27 kB | 20/267 kB | 29/122 kBProgress (3): 23/27 kB | 20/267 kB | 31/122 kBProgress (3): 23/27 kB | 21/267 kB | 31/122 kBProgress (3): 23/27 kB | 21/267 kB | 32/122 kBProgress (3): 24/27 kB | 21/267 kB | 32/122 kBProgress (3): 24/27 kB | 21/267 kB | 33/122 kBProgress (3): 24/27 kB | 23/267 kB | 33/122 kBProgress (3): 25/27 kB | 23/267 kB | 33/122 kBProgress (3): 25/27 kB | 23/267 kB | 35/122 kBProgress (3): 25/27 kB | 24/267 kB | 35/122 kBProgress (3): 25/27 kB | 24/267 kB | 36/122 kBProgress (3): 27/27 kB | 24/267 kB | 36/122 kBProgress (3): 27/27 kB | 26/267 kB | 36/122 kBProgress (3): 27 kB | 26/267 kB | 36/122 kB   Progress (3): 27 kB | 26/267 kB | 38/122 kBProgress (3): 27 kB | 26/267 kB | 39/122 kBProgress (3): 27 kB | 27/267 kB | 39/122 kBProgress (3): 27 kB | 27/267 kB | 40/122 kBProgress (3): 27 kB | 28/267 kB | 40/122 kBProgress (3): 27 kB | 28/267 kB | 42/122 kBProgress (3): 27 kB | 28/267 kB | 43/122 kBProgress (3): 27 kB | 30/267 kB | 43/122 kBProgress (3): 27 kB | 30/267 kB | 44/122 kBProgress (3): 27 kB | 31/267 kB | 44/122 kBProgress (3): 27 kB | 31/267 kB | 46/122 kBProgress (3): 27 kB | 31/267 kB | 47/122 kBProgress (3): 27 kB | 32/267 kB | 47/122 kBProgress (3): 27 kB | 32/267 kB | 49/122 kBProgress (3): 27 kB | 32/267 kB | 50/122 kBProgress (3): 27 kB | 34/267 kB | 50/122 kBProgress (3): 27 kB | 34/267 kB | 51/122 kBProgress (3): 27 kB | 35/267 kB | 51/122 kBProgress (3): 27 kB | 35/267 kB | 53/122 kBProgress (3): 27 kB | 37/267 kB | 53/122 kBProgress (3): 27 kB | 37/267 kB | 54/122 kBProgress (3): 27 kB | 37/267 kB | 55/122 kBProgress (3): 27 kB | 38/267 kB | 55/122 kBProgress (3): 27 kB | 39/267 kB | 55/122 kB                                           Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.13.0/plexus-compiler-api-2.13.0.jar (27 kB at 429 kB/s)
+Progress (2): 39/267 kB | 60/122 kBProgress (2): 41/267 kB | 60/122 kBProgress (2): 42/267 kB | 60/122 kBProgress (2): 43/267 kB | 60/122 kBProgress (2): 45/267 kB | 60/122 kBProgress (2): 46/267 kB | 60/122 kBProgress (2): 47/267 kB | 60/122 kBProgress (2): 49/267 kB | 60/122 kBProgress (2): 50/267 kB | 60/122 kBProgress (2): 52/267 kB | 60/122 kBProgress (2): 53/267 kB | 60/122 kBProgress (2): 54/267 kB | 60/122 kBProgress (2): 56/267 kB | 60/122 kBProgress (2): 60/267 kB | 60/122 kBProgress (2): 60/267 kB | 64/122 kBProgress (2): 60/267 kB | 68/122 kBProgress (2): 60/267 kB | 72/122 kBProgress (2): 60/267 kB | 77/122 kBProgress (3): 60/267 kB | 77/122 kB | 3.4/23 kBProgress (3): 60/267 kB | 77/122 kB | 20/23 kB Progress (3): 60/267 kB | 77/122 kB | 23 kB   Progress (3): 60/267 kB | 81/122 kB | 23 kB                                           Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.13.0/plexus-compiler-javac-2.13.0.jar (23 kB at 362 kB/s)
+Progress (2): 60/267 kB | 85/122 kBProgress (2): 64/267 kB | 85/122 kBProgress (2): 64/267 kB | 89/122 kBProgress (2): 64/267 kB | 93/122 kBProgress (2): 68/267 kB | 93/122 kBProgress (2): 68/267 kB | 98/122 kBProgress (2): 73/267 kB | 98/122 kBProgress (2): 73/267 kB | 102/122 kBProgress (2): 77/267 kB | 102/122 kBProgress (3): 77/267 kB | 102/122 kB | 0.9/334 kBProgress (3): 77/267 kB | 102/122 kB | 2.3/334 kBProgress (3): 77/267 kB | 106/122 kB | 2.3/334 kBProgress (3): 81/267 kB | 106/122 kB | 2.3/334 kBProgress (3): 81/267 kB | 106/122 kB | 3.7/334 kBProgress (3): 81/267 kB | 106/122 kB | 5.0/334 kBProgress (3): 85/267 kB | 106/122 kB | 5.0/334 kBProgress (3): 85/267 kB | 106/122 kB | 6.4/334 kBProgress (3): 90/267 kB | 106/122 kB | 6.4/334 kBProgress (3): 90/267 kB | 106/122 kB | 7.8/334 kBProgress (3): 90/267 kB | 106/122 kB | 9.1/334 kBProgress (3): 94/267 kB | 106/122 kB | 9.1/334 kBProgress (3): 94/267 kB | 106/122 kB | 11/334 kB Progress (3): 94/267 kB | 106/122 kB | 12/334 kBProgress (3): 94/267 kB | 106/122 kB | 13/334 kBProgress (3): 94/267 kB | 110/122 kB | 13/334 kBProgress (3): 94/267 kB | 110/122 kB | 15/334 kBProgress (3): 94/267 kB | 115/122 kB | 15/334 kBProgress (3): 94/267 kB | 115/122 kB | 16/334 kBProgress (3): 94/267 kB | 119/122 kB | 16/334 kBProgress (3): 94/267 kB | 119/122 kB | 17/334 kBProgress (3): 94/267 kB | 122 kB | 17/334 kB    Progress (3): 94/267 kB | 122 kB | 19/334 kBProgress (3): 94/267 kB | 122 kB | 20/334 kBProgress (3): 94/267 kB | 122 kB | 21/334 kBProgress (3): 94/267 kB | 122 kB | 23/334 kBProgress (3): 94/267 kB | 122 kB | 24/334 kB                                            Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.4/asm-9.4.jar (122 kB at 1.8 MB/s)
+Progress (2): 94/267 kB | 26/334 kBProgress (2): 94/267 kB | 27/334 kBProgress (2): 94/267 kB | 28/334 kBProgress (2): 94/267 kB | 30/334 kBProgress (2): 94/267 kB | 31/334 kBProgress (2): 94/267 kB | 32/334 kBProgress (2): 94/267 kB | 33/334 kBProgress (2): 98/267 kB | 33/334 kBProgress (2): 98/267 kB | 35/334 kBProgress (2): 98/267 kB | 36/334 kBProgress (2): 98/267 kB | 38/334 kBProgress (2): 102/267 kB | 38/334 kBProgress (2): 102/267 kB | 39/334 kBProgress (2): 106/267 kB | 39/334 kBProgress (2): 106/267 kB | 40/334 kBProgress (2): 106/267 kB | 42/334 kBProgress (2): 111/267 kB | 42/334 kBProgress (2): 111/267 kB | 43/334 kBProgress (2): 115/267 kB | 43/334 kBProgress (2): 115/267 kB | 44/334 kBProgress (2): 119/267 kB | 44/334 kBProgress (2): 119/267 kB | 46/334 kBProgress (2): 123/267 kB | 46/334 kBProgress (2): 123/267 kB | 47/334 kBProgress (2): 128/267 kB | 47/334 kBProgress (2): 128/267 kB | 48/334 kBProgress (2): 131/267 kB | 48/334 kBProgress (2): 131/267 kB | 50/334 kBProgress (2): 135/267 kB | 50/334 kBProgress (2): 135/267 kB | 51/334 kBProgress (2): 139/267 kB | 51/334 kBProgress (2): 139/267 kB | 53/334 kBProgress (2): 139/267 kB | 54/334 kBProgress (2): 143/267 kB | 54/334 kBProgress (2): 143/267 kB | 55/334 kBProgress (2): 148/267 kB | 55/334 kBProgress (2): 148/267 kB | 60/334 kBProgress (2): 152/267 kB | 60/334 kBProgress (2): 152/267 kB | 64/334 kBProgress (2): 156/267 kB | 64/334 kBProgress (2): 156/267 kB | 68/334 kBProgress (2): 156/267 kB | 72/334 kBProgress (2): 156/267 kB | 76/334 kBProgress (2): 156/267 kB | 81/334 kBProgress (2): 160/267 kB | 81/334 kBProgress (2): 164/267 kB | 81/334 kBProgress (2): 169/267 kB | 81/334 kBProgress (2): 173/267 kB | 81/334 kBProgress (2): 177/267 kB | 81/334 kBProgress (2): 181/267 kB | 81/334 kBProgress (2): 186/267 kB | 81/334 kBProgress (2): 190/267 kB | 81/334 kBProgress (2): 194/267 kB | 81/334 kBProgress (2): 198/267 kB | 81/334 kBProgress (2): 202/267 kB | 81/334 kBProgress (2): 207/267 kB | 81/334 kBProgress (2): 211/267 kB | 81/334 kBProgress (2): 215/267 kB | 81/334 kBProgress (2): 219/267 kB | 81/334 kBProgress (2): 224/267 kB | 81/334 kBProgress (2): 224/267 kB | 85/334 kBProgress (2): 224/267 kB | 89/334 kBProgress (2): 224/267 kB | 93/334 kBProgress (2): 240/267 kB | 93/334 kBProgress (2): 256/267 kB | 93/334 kBProgress (2): 262/267 kB | 93/334 kBProgress (2): 262/267 kB | 98/334 kBProgress (2): 267 kB | 98/334 kB    Progress (2): 267 kB | 98/334 kBProgress (2): 267 kB | 103/334 kBProgress (2): 267 kB | 107/334 kBProgress (2): 267 kB | 111/334 kB                                 Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.5.0/plexus-utils-3.5.0.jar (267 kB at 3.5 MB/s)
+Progress (1): 115/334 kBProgress (1): 119/334 kBProgress (1): 124/334 kBProgress (1): 128/334 kBProgress (1): 132/334 kBProgress (1): 136/334 kBProgress (1): 141/334 kBProgress (1): 145/334 kBProgress (1): 147/334 kBProgress (1): 152/334 kBProgress (1): 156/334 kBProgress (1): 160/334 kBProgress (1): 164/334 kBProgress (1): 169/334 kBProgress (1): 173/334 kBProgress (1): 177/334 kBProgress (1): 181/334 kBProgress (1): 186/334 kBProgress (1): 190/334 kBProgress (1): 194/334 kBProgress (1): 198/334 kBProgress (1): 202/334 kBProgress (1): 207/334 kBProgress (1): 211/334 kBProgress (1): 215/334 kBProgress (1): 219/334 kBProgress (1): 236/334 kBProgress (1): 252/334 kBProgress (1): 269/334 kBProgress (1): 279/334 kBProgress (1): 295/334 kBProgress (1): 311/334 kBProgress (1): 328/334 kBProgress (1): 334 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0.3/qdox-2.0.3.jar (334 kB at 3.8 MB/s)
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ hertzbeat-startup ---
+[INFO] skip non existing resourceDirectory /home/ubuntu/repos/hertzbeat-fork/hertzbeat-startup/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ hertzbeat-startup ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 9 source files with javac [debug release 21] to target/test-classes
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO] 
+[INFO] <<< spring-boot:3.4.2:run (default-cli) < test-compile @ hertzbeat-startup <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.4.2:run (default-cli) @ hertzbeat-startup ---
+[INFO] Attaching agents: []
+WARNING: Unknown module: org.apache.arrow.memory.core specified to --add-opens
+07:11:22,765 |-INFO in ch.qos.logback.classic.LoggerContext[default] - This is logback-classic version 1.5.16
+07:11:22,767 |-INFO in ch.qos.logback.classic.util.ContextInitializer@1b70203f - Here is a list of configurators discovered as a service, by rank: 
+07:11:22,767 |-INFO in ch.qos.logback.classic.util.ContextInitializer@1b70203f -   org.springframework.boot.logging.logback.RootLogLevelConfigurator
+07:11:22,767 |-INFO in ch.qos.logback.classic.util.ContextInitializer@1b70203f - They will be invoked in order until ExecutionStatus.DO_NOT_INVOKE_NEXT_IF_ANY is returned.
+07:11:22,767 |-INFO in ch.qos.logback.classic.util.ContextInitializer@1b70203f - Constructed configurator of type class org.springframework.boot.logging.logback.RootLogLevelConfigurator
+07:11:22,781 |-INFO in ch.qos.logback.classic.util.ContextInitializer@1b70203f - org.springframework.boot.logging.logback.RootLogLevelConfigurator.configure() call lasted 1 milliseconds. ExecutionStatus=INVOKE_NEXT_IF_ANY
+07:11:22,781 |-INFO in ch.qos.logback.classic.util.ContextInitializer@1b70203f - Trying to configure with ch.qos.logback.classic.joran.SerializedModelConfigurator
+07:11:22,782 |-INFO in ch.qos.logback.classic.util.ContextInitializer@1b70203f - Constructed configurator of type class ch.qos.logback.classic.joran.SerializedModelConfigurator
+07:11:22,787 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.scmo]
+07:11:22,787 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.scmo]
+07:11:22,787 |-INFO in ch.qos.logback.classic.util.ContextInitializer@1b70203f - ch.qos.logback.classic.joran.SerializedModelConfigurator.configure() call lasted 5 milliseconds. ExecutionStatus=INVOKE_NEXT_IF_ANY
+07:11:22,787 |-INFO in ch.qos.logback.classic.util.ContextInitializer@1b70203f - Trying to configure with ch.qos.logback.classic.util.DefaultJoranConfigurator
+07:11:22,788 |-INFO in ch.qos.logback.classic.util.ContextInitializer@1b70203f - Constructed configurator of type class ch.qos.logback.classic.util.DefaultJoranConfigurator
+07:11:22,789 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+07:11:22,789 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.xml]
+07:11:22,789 |-INFO in ch.qos.logback.classic.util.ContextInitializer@1b70203f - ch.qos.logback.classic.util.DefaultJoranConfigurator.configure() call lasted 1 milliseconds. ExecutionStatus=INVOKE_NEXT_IF_ANY
+07:11:22,789 |-INFO in ch.qos.logback.classic.util.ContextInitializer@1b70203f - Trying to configure with ch.qos.logback.classic.BasicConfigurator
+07:11:22,790 |-INFO in ch.qos.logback.classic.util.ContextInitializer@1b70203f - Constructed configurator of type class ch.qos.logback.classic.BasicConfigurator
+07:11:22,790 |-INFO in ch.qos.logback.classic.BasicConfigurator@51671b08 - Setting up default configuration.
+07:11:22,806 |-INFO in ch.qos.logback.core.ConsoleAppender[console] - BEWARE: Writing to the console can be very slow. Avoid logging to the 
+07:11:22,806 |-INFO in ch.qos.logback.core.ConsoleAppender[console] - console in production environments, especially in high volume systems.
+07:11:22,806 |-INFO in ch.qos.logback.core.ConsoleAppender[console] - See also https://logback.qos.ch/codes.html#slowConsole
+07:11:22,806 |-INFO in ch.qos.logback.classic.util.ContextInitializer@1b70203f - ch.qos.logback.classic.BasicConfigurator.configure() call lasted 16 milliseconds. ExecutionStatus=NEUTRAL
+07:11:23,337 |-INFO in ch.qos.logback.classic.model.processor.ConfigurationModelHandlerFull - Registering a new ReconfigureOnChangeTask ReconfigureOnChangeTask(born:1770361883335)
+07:11:23,337 |-INFO in ch.qos.logback.classic.model.processor.ConfigurationModelHandlerFull - No 'scanPeriod' specified. Defaulting to 1 minutes
+07:11:23,338 |-INFO in ch.qos.logback.classic.model.processor.ConfigurationModelHandlerFull - Will scan for changes in [ConfigurationWatchList(mainURL=file:/home/ubuntu/repos/hertzbeat-fork/hertzbeat-startup/target/classes/logback-spring.xml, fileWatchList={/home/ubuntu/repos/hertzbeat-fork/hertzbeat-startup/target/classes/logback-spring.xml}, urlWatchList=[})] 
+07:11:23,338 |-INFO in ch.qos.logback.classic.model.processor.ConfigurationModelHandlerFull - Setting ReconfigureOnChangeTask scanning period to 1 minutes
+07:11:23,340 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [CONSOLE_RAW]
+07:11:23,340 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+07:11:23,343 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+07:11:23,364 |-INFO in ch.qos.logback.core.ConsoleAppender[CONSOLE_RAW] - BEWARE: Writing to the console can be very slow. Avoid logging to the 
+07:11:23,364 |-INFO in ch.qos.logback.core.ConsoleAppender[CONSOLE_RAW] - console in production environments, especially in high volume systems.
+07:11:23,364 |-INFO in ch.qos.logback.core.ConsoleAppender[CONSOLE_RAW] - See also https://logback.qos.ch/codes.html#slowConsole
+07:11:23,364 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [ConsoleAppender]
+07:11:23,364 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.classic.AsyncAppender]
+07:11:23,368 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [CONSOLE_RAW] to ch.qos.logback.classic.AsyncAppender[ConsoleAppender]
+07:11:23,369 |-INFO in ch.qos.logback.classic.AsyncAppender[ConsoleAppender] - Attaching appender named [CONSOLE_RAW] to AsyncAppender.
+07:11:23,369 |-INFO in ch.qos.logback.classic.AsyncAppender[ConsoleAppender] - Setting discardingThreshold to 0
+07:11:23,369 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [SystemOutFileAppender]
+07:11:23,369 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+07:11:23,373 |-INFO in ch.qos.logback.core.model.processor.ModelInterpretationContext@15051a0 - value "logs/@hertzbeat@9257-%d{yyyy-MM-dd}.%i.log.zip" substituted for "logs/${application_name}-%d{yyyy-MM-dd}.%i.log.zip"
+07:11:23,374 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@291651850 - setting totalSizeCap to 5 GB
+07:11:23,379 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@291651850 - Will use zip compression
+07:11:23,379 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@291651850 - Will use the pattern logs/@hertzbeat@9257-%d{yyyy-MM-dd}.%i.log for the active file
+07:11:23,380 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@b09fac1 - SizeAndTimeBasedFNATP class was renamed as SizeAndTimeBasedFileNamingAndTriggeringPolicy.
+07:11:23,396 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@b09fac1 - The date pattern is 'yyyy-MM-dd' from file name pattern 'logs/@hertzbeat@9257-%d{yyyy-MM-dd}.%i.log.zip'.
+07:11:23,396 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@b09fac1 - Roll-over at midnight.
+07:11:23,400 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@b09fac1 - Setting initial period to 2026-02-06T07:11:23.400Z
+07:11:23,400 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@b09fac1 - Direct use of either SizeAndTimeBasedFNATP or SizeAndTimeBasedFileNamingAndTriggeringPolicy 
+07:11:23,400 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@b09fac1 - is deprecated. Please use SizeAndTimeBasedRollingPolicy instead.
+07:11:23,400 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@b09fac1 - For more information see https://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+07:11:23,401 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@291651850 - Cleaning on start up
+07:11:23,401 |-INFO in c.q.l.core.rolling.helper.TimeBasedArchiveRemover - first clean up after appender initialization
+07:11:23,402 |-INFO in c.q.l.core.rolling.helper.TimeBasedArchiveRemover - Multiple periods, i.e. 32 periods, seem to have elapsed. This is expected at application start.
+07:11:23,402 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[SystemOutFileAppender] - Active log file name: logs/@hertzbeat@9257-2026-02-06.0.log
+07:11:23,403 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[SystemOutFileAppender] - File property is set to [null]
+07:11:23,403 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [ErrOutFileAppender]
+07:11:23,403 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+07:11:23,404 |-INFO in ch.qos.logback.core.model.processor.ModelInterpretationContext@15051a0 - value "logs/@hertzbeat@9257-%d{yyyy-MM-dd}-error.%i.log.zip" substituted for "logs/${application_name}-%d{yyyy-MM-dd}-error.%i.log.zip"
+07:11:23,404 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1658785779 - setting totalSizeCap to 5 GB
+07:11:23,404 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1658785779 - Will use zip compression
+07:11:23,404 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1658785779 - Will use the pattern logs/@hertzbeat@9257-%d{yyyy-MM-dd}-error.%i.log for the active file
+07:11:23,404 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@61019f59 - SizeAndTimeBasedFNATP class was renamed as SizeAndTimeBasedFileNamingAndTriggeringPolicy.
+07:11:23,405 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@61019f59 - The date pattern is 'yyyy-MM-dd' from file name pattern 'logs/@hertzbeat@9257-%d{yyyy-MM-dd}-error.%i.log.zip'.
+07:11:23,405 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@61019f59 - Roll-over at midnight.
+07:11:23,405 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@61019f59 - Setting initial period to 2026-02-06T07:11:23.405Z
+07:11:23,405 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@61019f59 - Direct use of either SizeAndTimeBasedFNATP or SizeAndTimeBasedFileNamingAndTriggeringPolicy 
+07:11:23,405 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@61019f59 - is deprecated. Please use SizeAndTimeBasedRollingPolicy instead.
+07:11:23,405 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@61019f59 - For more information see https://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+07:11:23,405 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1658785779 - Cleaning on start up
+07:11:23,406 |-INFO in c.q.l.core.rolling.helper.TimeBasedArchiveRemover - first clean up after appender initialization
+07:11:23,406 |-INFO in c.q.l.core.rolling.helper.TimeBasedArchiveRemover - Multiple periods, i.e. 32 periods, seem to have elapsed. This is expected at application start.
+07:11:23,407 |-INFO in c.q.l.core.rolling.helper.TimeBasedArchiveRemover - No removal attempts were made.
+07:11:23,407 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[ErrOutFileAppender] - Active log file name: logs/@hertzbeat@9257-2026-02-06-error.0.log
+07:11:23,407 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[ErrOutFileAppender] - File property is set to [null]
+07:11:23,407 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [OpenTelemetryAppender]
+07:11:23,407 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [io.opentelemetry.instrumentation.logback.appender.v1_0.OpenTelemetryAppender]
+07:11:23,409 |-WARN in ch.qos.logback.core.model.processor.ImplicitModelHandler - Ignoring unknown property [pattern] in [io.opentelemetry.instrumentation.logback.appender.v1_0.OpenTelemetryAppender]
+07:11:23,413 |-INFO in c.q.l.core.rolling.helper.TimeBasedArchiveRemover - No removal attempts were made.
+07:11:23,417 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.springframework] to INFO
+07:11:23,417 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@62e8f862 - Propagating INFO level on Logger[org.springframework] onto the JUL framework
+07:11:23,417 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.json] to ERROR
+07:11:23,417 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@62e8f862 - Propagating ERROR level on Logger[org.json] onto the JUL framework
+07:11:23,417 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [io.netty] to INFO
+07:11:23,417 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@62e8f862 - Propagating INFO level on Logger[io.netty] onto the JUL framework
+07:11:23,418 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.slf4j] to INFO
+07:11:23,418 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@62e8f862 - Propagating INFO level on Logger[org.slf4j] onto the JUL framework
+07:11:23,418 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [ch.qos.logback] to WARN
+07:11:23,418 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@62e8f862 - Propagating WARN level on Logger[ch.qos.logback] onto the JUL framework
+07:11:23,418 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.hibernate] to INFO
+07:11:23,418 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@62e8f862 - Propagating INFO level on Logger[org.hibernate] onto the JUL framework
+07:11:23,418 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.http] to INFO
+07:11:23,418 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@62e8f862 - Propagating INFO level on Logger[org.apache.http] onto the JUL framework
+07:11:23,418 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [com.zaxxer] to INFO
+07:11:23,418 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@62e8f862 - Propagating INFO level on Logger[com.zaxxer] onto the JUL framework
+07:11:23,418 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [springfox] to INFO
+07:11:23,418 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@62e8f862 - Propagating INFO level on Logger[springfox] onto the JUL framework
+07:11:23,418 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.mongodb] to WARN
+07:11:23,418 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@62e8f862 - Propagating WARN level on Logger[org.mongodb] onto the JUL framework
+07:11:23,418 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [io.greptime] to WARN
+07:11:23,418 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@62e8f862 - Propagating WARN level on Logger[io.greptime] onto the JUL framework
+07:11:23,418 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.kafka] to WARN
+07:11:23,418 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@62e8f862 - Propagating WARN level on Logger[org.apache.kafka] onto the JUL framework
+07:11:23,418 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [io.opentelemetry] to INFO
+07:11:23,418 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@62e8f862 - Propagating INFO level on Logger[io.opentelemetry] onto the JUL framework
+07:11:23,418 |-INFO in ch.qos.logback.classic.model.processor.RootLoggerModelHandler - Setting level of ROOT logger to INFO
+07:11:23,418 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@62e8f862 - Propagating INFO level on Logger[ROOT] onto the JUL framework
+07:11:23,418 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [ConsoleAppender] to Logger[ROOT]
+07:11:23,418 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [SystemOutFileAppender] to Logger[ROOT]
+07:11:23,418 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [ErrOutFileAppender] to Logger[ROOT]
+07:11:23,418 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [OpenTelemetryAppender] to Logger[ROOT]
+07:11:23,418 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [com.obs.services.AbstractClient] to OFF
+07:11:23,418 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@62e8f862 - Propagating OFF level on Logger[com.obs.services.AbstractClient] onto the JUL framework
+07:11:23,421 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [com.obs.services.AbstractClient] to false
+07:11:23,421 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [com.obs.services.internal.RestStorageService] to OFF
+07:11:23,421 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@62e8f862 - Propagating OFF level on Logger[com.obs.services.internal.RestStorageService] onto the JUL framework
+07:11:23,421 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [com.obs.services.internal.RestStorageService] to false
+07:11:23,421 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [com.obs.log.AccessLogger] to OFF
+07:11:23,421 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@62e8f862 - Propagating OFF level on Logger[com.obs.log.AccessLogger] onto the JUL framework
+07:11:23,421 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [com.obs.log.AccessLogger] to false
+07:11:23,421 |-INFO in ch.qos.logback.core.model.processor.DefaultProcessor@26f3d90c - End of configuration.
+07:11:23,422 |-INFO in org.springframework.boot.logging.logback.SpringBootJoranConfigurator@3c49fab6 - Registering current configuration as safe fallback point
+
+  _   _           _       ____             _
+ | | | | ___ _ __| |_ ___| __ )  ___  __ _| |_
+ | |_| |/ _ \ '__| __|_  /  _ \ / _ \/ _` | __|        Profile: prod
+ |  _  |  __/ |  | |_ / /| |_) |  __/ (_| | |_         Name: @hertzbeat@9257 Port: 1157 Pid: 9257
+ |_| |_|\___|_|   \__/___|____/ \___|\__,_|\__|        https://hertzbeat.apache.org/ 
+
+2026-02-06 07:11:23 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2026-02-06 07:11:23 [main] INFO  org.apache.hertzbeat.startup.HertzBeatApplication - Starting HertzBeatApplication using Java 21.0.10 with PID 9257 (/home/ubuntu/repos/hertzbeat-fork/hertzbeat-startup/target/classes started by ubuntu in /home/ubuntu/repos/hertzbeat-fork/hertzbeat-startup)
+2026-02-06 07:11:23 [main] INFO  org.apache.hertzbeat.startup.HertzBeatApplication - The following 1 profile is active: "prod"
+2026-02-06 07:11:24 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-06 07:11:25 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 422 ms. Found 37 JPA repository interfaces.
+2026-02-06 07:11:26 [main] WARN  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ai.mcp.server.common.autoconfigure.annotations.McpServerAnnotationScannerAutoConfiguration' of type [org.springframework.ai.mcp.server.common.autoconfigure.annotations.McpServerAnnotationScannerAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [serverAnnotatedMethodBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-02-06 07:11:26 [main] WARN  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'serverAnnotatedBeanRegistry' of type [org.springframework.ai.mcp.server.common.autoconfigure.annotations.McpServerAnnotationScannerAutoConfiguration$ServerMcpAnnotatedBeans] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [serverAnnotatedMethodBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-02-06 07:11:26 [main] WARN  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'io.opentelemetry.instrumentation.spring.autoconfigure.OpenTelemetryAutoConfiguration$OpenTelemetrySdkConfig' of type [io.opentelemetry.instrumentation.spring.autoconfigure.OpenTelemetryAutoConfiguration$OpenTelemetrySdkConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [serverAnnotatedMethodBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-02-06 07:11:26 [main] WARN  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'otelMapConverter' of type [io.opentelemetry.instrumentation.spring.autoconfigure.internal.OtelMapConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [serverAnnotatedMethodBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-02-06 07:11:26 [main] WARN  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration' of type [org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [serverAnnotatedMethodBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-02-06 07:11:26 [main] WARN  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'stringOrNumberMigrationVersionConverter' of type [org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration$StringOrNumberToMigrationVersionConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [serverAnnotatedMethodBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-02-06 07:11:26 [main] WARN  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.ai.mcp.server.annotation-scanner-org.springframework.ai.mcp.server.common.autoconfigure.annotations.McpServerAnnotationScannerProperties' of type [org.springframework.ai.mcp.server.common.autoconfigure.annotations.McpServerAnnotationScannerProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [serverAnnotatedMethodBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2026-02-06 07:11:26 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 1157 (http)
+2026-02-06 07:11:26 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1157"]
+2026-02-06 07:11:26 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-02-06 07:11:26 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2026-02-06 07:11:26 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-02-06 07:11:26 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3266 ms
+2026-02-06 07:11:26 [main] INFO  org.apache.hertzbeat.otel.config.OpenTelemetryConfig - Applying default OpenTelemetry SDK customizations (logs & traces only).
+2026-02-06 07:11:26 [main] INFO  org.apache.hertzbeat.otel.config.OpenTelemetryConfig - OpenTelemetry exporters disabled. Metrics handled by Micrometer.
+2026-02-06 07:11:27 [main] INFO  org.apache.hertzbeat.otel.config.OpenTelemetryConfig - Customizing OpenTelemetry Resource with service name: HertzBeat.
+2026-02-06 07:11:27 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-02-06 07:11:27 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:./data/hertzbeat user=SA
+2026-02-06 07:11:27 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-02-06 07:11:28 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-06 07:11:28 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-06 07:11:28 [main] INFO  com.usthe.sureness.configuration.SurenessAutoConfiguration - [sureness-starter] - SurenessSubjectFactory init success
+2026-02-06 07:11:28 [main] INFO  com.usthe.sureness.configuration.SurenessJakartaServletFilter - servlet surenessFilter initialized
+2026-02-06 07:11:29 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - JSqlParser is in classpath; If applicable, JSqlParser will be used.
+2026-02-06 07:11:29 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - EclipseLink is in classpath; If applicable, EQL parser will be used.
+2026-02-06 07:11:29 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-06 07:11:29 [main] INFO  org.springframework.data.jpa.repository.support.JpaRepositoryFactory$EclipseLinkProjectionQueryCreationListener - Usage of Spring Data projections detected on persistence provider EclipseLink; Make sure the following query methods declare result columns in exactly the order the accessors are declared in the projecting interface or the order of parameters for DTOs:
+2026-02-06 07:11:29 [main] INFO  org.springframework.data.jpa.repository.support.JpaRepositoryFactory$EclipseLinkProjectionQueryCreationListener -  - public abstract java.util.List org.apache.hertzbeat.manager.dao.MonitorDao.findAppsStatusCount()
+2026-02-06 07:11:29 [main] WARN  org.apache.hertzbeat.manager.service.impl.ObjectStoreConfigServiceImpl - object store config is null, please check the configuration file.
+2026-02-06 07:11:29 [main] INFO  org.apache.hertzbeat.manager.service.impl.AppServiceImpl - load define app yml in internal jar
+2026-02-06 07:11:31 [main] INFO  org.apache.hertzbeat.collector.metrics.HertzBeatMetricsCollector - MetricsService initialized with MeterRegistry: PrometheusMeterRegistry
+2026-02-06 07:11:31 [main] INFO  com.zaxxer.hikari.HikariDataSource - DuckDB-Pool - Starting...
+2026-02-06 07:11:31 [main] INFO  com.zaxxer.hikari.pool.PoolBase - DuckDB-Pool - Driver does not support get/set network timeout for connections. (getNetworkTimeout)
+2026-02-06 07:11:31 [main] INFO  com.zaxxer.hikari.pool.HikariPool - DuckDB-Pool - Added connection org.duckdb.DuckDBConnection@18ee2f72
+2026-02-06 07:11:31 [main] INFO  com.zaxxer.hikari.HikariDataSource - DuckDB-Pool - Start completed.
+2026-02-06 07:11:31 [main] INFO  org.apache.hertzbeat.alert.calculate.realtime.window.WindowAggregator - WindowAggregator started
+2026-02-06 07:11:31 [main] INFO  org.apache.hertzbeat.alert.calculate.realtime.window.TimeService - TimeService started with watermark delay: 30000ms
+2026-02-06 07:11:32 [main] INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:h2:./data/hertzbeat (H2 2.2)
+2026-02-06 07:11:32 [main] WARN  org.flywaydb.core.internal.database.base.Database - Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2026-02-06 07:11:32 [main] INFO  org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory - Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+2026-02-06 07:11:32 [main] INFO  org.flywaydb.core.internal.command.DbValidate - Successfully validated 5 migrations (execution time 00:00.013s)
+2026-02-06 07:11:32 [main] INFO  org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory - Creating Schema History table "PUBLIC"."flyway_schema_history" with baseline ...
+2026-02-06 07:11:32 [main] INFO  org.flywaydb.core.internal.command.DbBaseline - Successfully baselined schema with version: 1
+2026-02-06 07:11:32 [main] INFO  org.flywaydb.core.internal.command.DbMigrate - Current version of schema "PUBLIC": 1
+2026-02-06 07:11:32 [main] INFO  org.flywaydb.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version "160 - update column"
+2026-02-06 07:11:32 [main] INFO  org.flywaydb.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version "170 - update column"
+2026-02-06 07:11:32 [main] INFO  org.flywaydb.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version "172 - update column"
+2026-02-06 07:11:32 [main] INFO  org.flywaydb.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version "173 - update column"
+2026-02-06 07:11:32 [main] INFO  org.flywaydb.core.internal.command.DbMigrate - Migrating schema "PUBLIC" to version "180 - update column"
+2026-02-06 07:11:32 [main] INFO  org.apache.sshd.common.util.security.bouncycastle.BouncyCastleSecurityProviderRegistrar - getOrCreateProvider(BC) created instance of org.bouncycastle.jce.provider.BouncyCastleProvider
+2026-02-06 07:11:32 [main] INFO  org.apache.sshd.common.util.security.eddsa.EdDSASecurityProviderRegistrar - getOrCreateProvider(EdDSA) created instance of net.i2p.crypto.eddsa.EdDSASecurityProvider
+2026-02-06 07:11:32 [main] INFO  org.apache.sshd.common.io.DefaultIoServiceFactoryFactory - No detected/configured IoServiceFactoryFactory; using Nio2ServiceFactoryFactory
+2026-02-06 07:11:33 [main] INFO  org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor - +----------------------------------+
+| PUBLIC.RENAME_HOST_TO_INSTANCE() |
++----------------------------------+
+|                                  |
++----------------------------------+
+
+2026-02-06 07:11:34 [main] INFO  org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor - +--------------------------------+
+| PUBLIC.MIGRATE_HISTORY_TABLE() |
++--------------------------------+
+|                                |
++--------------------------------+
+
+2026-02-06 07:11:34 [main] INFO  org.flywaydb.core.internal.command.DbMigrate - Successfully applied 5 migrations to schema "PUBLIC", now at version v180 (execution time 00:01.754s)
+2026-02-06 07:11:34 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-06 07:11:34 [main] WARN  org.apache.hertzbeat.ai.config.LlmConfig - LLM Provider is not set, ChatClient bean will not be created
+2026-02-06 07:11:35 [main] WARN  org.springaicommunity.mcp.provider.tool.SyncMcpToolProvider - No tool methods found in the provided tool objects: []
+2026-02-06 07:11:35 [main] INFO  org.springframework.ai.mcp.server.common.autoconfigure.McpServerAutoConfiguration - Enable tools capabilities, notification: true
+2026-02-06 07:11:35 [main] INFO  org.springframework.ai.mcp.server.common.autoconfigure.McpServerAutoConfiguration - Registered tools: 15
+2026-02-06 07:11:35 [main] INFO  org.springframework.ai.mcp.server.common.autoconfigure.McpServerAutoConfiguration - Enable resources capabilities, notification: true
+2026-02-06 07:11:35 [main] INFO  org.springframework.ai.mcp.server.common.autoconfigure.McpServerAutoConfiguration - Enable resources templates capabilities, notification: true
+2026-02-06 07:11:35 [main] INFO  org.springframework.ai.mcp.server.common.autoconfigure.McpServerAutoConfiguration - Enable prompts capabilities, notification: true
+2026-02-06 07:11:35 [main] INFO  org.springframework.ai.mcp.server.common.autoconfigure.McpServerAutoConfiguration - Enable completions capabilities
+2026-02-06 07:11:35 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-02-06 07:11:35 [status-page-calculate-0] INFO  org.apache.hertzbeat.manager.component.status.CalculateStatus - start to calculate status page state
+2026-02-06 07:11:36 [main] INFO  org.apache.hertzbeat.manager.service.impl.AbstractGeneralConfigServiceImpl - Configuration saved successfully
+2026-02-06 07:11:36 [main] INFO  org.apache.hertzbeat.manager.service.impl.AbstractGeneralConfigServiceImpl - Configuration saved successfully
+2026-02-06 07:11:36 [main] INFO  org.apache.hertzbeat.manager.service.impl.MuteGeneralConfigServiceImpl - handler mute config: MuteConfig(mute=true)
+2026-02-06 07:11:36 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1157"]
+2026-02-06 07:11:36 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 1157 (http) with context path '/'
+2026-02-06 07:11:36 [main] INFO  org.apache.hertzbeat.startup.HertzBeatApplication - Started HertzBeatApplication in 13.281 seconds (process running for 13.68)
+2026-02-06 07:11:36 [main] INFO  org.apache.hertzbeat.collector.collect.database.JdbcSpiLoader - start load jdbc drivers
+2026-02-06 07:11:36 [main] INFO  org.apache.hertzbeat.collector.collect.database.JdbcSpiLoader - end load jdbc drivers
+2026-02-06 07:11:36 [main] INFO  org.apache.hertzbeat.alert.service.impl.NoticeConfigServiceImpl - load default notice template in internal jar
+2026-02-06 07:11:36 [main] INFO  org.apache.plc4x.java.DefaultPlcDriverManager - Instantiating new PLC Driver Manager with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@c387f44
+2026-02-06 07:11:36 [main] INFO  org.apache.plc4x.java.DefaultPlcDriverManager - Registering available drivers...
+2026-02-06 07:11:36 [main] INFO  org.apache.plc4x.java.DefaultPlcDriverManager - Registering driver for Protocol modbus-ascii (Modbus ASCII)
+2026-02-06 07:11:36 [main] INFO  org.apache.plc4x.java.DefaultPlcDriverManager - Registering driver for Protocol modbus-rtu (Modbus RTU)
+2026-02-06 07:11:36 [main] INFO  org.apache.plc4x.java.DefaultPlcDriverManager - Registering driver for Protocol modbus-tcp (Modbus TCP)
+2026-02-06 07:11:36 [main] INFO  org.apache.plc4x.java.DefaultPlcDriverManager - Registering driver for Protocol s7 (Siemens S7 (Basic))
+2026-02-06 07:11:36 [main] INFO  org.apache.hertzbeat.alert.calculate.periodic.PeriodicAlertRuleScheduler - Starting periodic alert rule scheduler...
+2026-02-06 07:11:36 [netty-server-boss-0] INFO  io.netty.handler.logging.LoggingHandler - [id: 0x49ce169c] REGISTERED
+2026-02-06 07:11:36 [netty-server-boss-0] INFO  io.netty.handler.logging.LoggingHandler - [id: 0x49ce169c] BIND: 0.0.0.0/0.0.0.0:1158
+2026-02-06 07:11:36 [netty-server-boss-0] INFO  io.netty.handler.logging.LoggingHandler - [id: 0x49ce169c, L:/[0:0:0:0:0:0:0:0]:1158] ACTIVE
+2026-02-06 07:16:31 [duckdb-cleaner] INFO  org.apache.hertzbeat.warehouse.store.history.tsdb.duckdb.DuckdbDatabaseDataStorage - [duckdb] start data cleaner and checkpoint...
+2026-02-06 07:16:31 [duckdb-cleaner] ERROR org.apache.hertzbeat.warehouse.store.history.tsdb.duckdb.DuckdbDatabaseDataStorage - expiredDataCleaner time error: Text cannot be parsed to a Duration. use default expire time to clean: 30d
+2026-02-06 07:16:35 [status-page-calculate-0] INFO  org.apache.hertzbeat.manager.component.status.CalculateStatus - start to calculate status page state
+2026-02-06 07:18:18 [http-nio-1157-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-06 07:18:18 [http-nio-1157-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-02-06 07:18:18 [http-nio-1157-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2026-02-06 07:21:35 [status-page-calculate-0] INFO  org.apache.hertzbeat.manager.component.status.CalculateStatus - start to calculate status page state
+2026-02-06 07:26:35 [status-page-calculate-0] INFO  org.apache.hertzbeat.manager.component.status.CalculateStatus - start to calculate status page state
+2026-02-06 07:31:35 [status-page-calculate-0] INFO  org.apache.hertzbeat.manager.component.status.CalculateStatus - start to calculate status page state
+2026-02-06 07:36:35 [status-page-calculate-0] INFO  org.apache.hertzbeat.manager.component.status.CalculateStatus - start to calculate status page state
+2026-02-06 07:41:35 [status-page-calculate-0] INFO  org.apache.hertzbeat.manager.component.status.CalculateStatus - start to calculate status page state
+2026-02-06 07:46:35 [status-page-calculate-0] INFO  org.apache.hertzbeat.manager.component.status.CalculateStatus - start to calculate status page state
+2026-02-06 07:51:35 [status-page-calculate-0] INFO  org.apache.hertzbeat.manager.component.status.CalculateStatus - start to calculate status page state

@@ -1,0 +1,9 @@
+
+> hertzbeat-web-app@1.0.0 lint:ts /home/ubuntu/repos/hertzbeat-fork/web-app
+> ng lint
+
+
+Linting "hertzbeat-web-app"...
+
+All files pass linting.
+
