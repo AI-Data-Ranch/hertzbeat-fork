@@ -17,13 +17,14 @@
 
 package org.apache.hertzbeat.manager.config;
 
+import java.net.http.HttpClient;
 import java.time.Duration;
 import java.util.Collections;
 import org.apache.hertzbeat.common.constants.NetworkConstants;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.client.ClientHttpRequestFactory;
-import org.springframework.http.client.SimpleClientHttpRequestFactory;
+import org.springframework.http.client.JdkClientHttpRequestFactory;
 import org.springframework.web.client.RestTemplate;
 
 /**
@@ -42,8 +43,10 @@ public class RestTemplateConfig {
 
     @Bean
     public ClientHttpRequestFactory simpleClientHttpRequestFactory() {
-        SimpleClientHttpRequestFactory factory = new SimpleClientHttpRequestFactory();
-        factory.setConnectTimeout(Duration.ofSeconds(NetworkConstants.HttpClientConstants.CONNECT_TIME_OUT));
+        HttpClient httpClient = HttpClient.newBuilder()
+                .connectTimeout(Duration.ofSeconds(NetworkConstants.HttpClientConstants.CONNECT_TIME_OUT))
+                .build();
+        JdkClientHttpRequestFactory factory = new JdkClientHttpRequestFactory(httpClient);
         factory.setReadTimeout(Duration.ofSeconds(NetworkConstants.HttpClientConstants.READ_TIME_OUT));
         return factory;
     }

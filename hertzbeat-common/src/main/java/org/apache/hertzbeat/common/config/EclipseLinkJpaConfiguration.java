@@ -24,9 +24,11 @@ import java.util.Map;
 import javax.sql.DataSource;
 import org.eclipse.persistence.config.PersistenceUnitProperties;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
+import org.springframework.boot.jpa.EntityManagerFactoryBuilder;
+import org.springframework.boot.jpa.autoconfigure.JpaProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+import org.springframework.context.annotation.Primary;
 import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import org.springframework.orm.jpa.vendor.EclipseLinkJpaVendorAdapter;
@@ -37,27 +39,36 @@ import org.springframework.transaction.PlatformTransactionManager;
  */
 @Configuration
 @ConditionalOnProperty(prefix = "spring.datasource", name = "url")
-@EnableJpaRepositories(basePackages = "org.apache.hertzbeat")
 public class EclipseLinkJpaConfiguration {
 
     @Bean
-    public LocalContainerEntityManagerFactoryBean entityManagerFactory(DataSource dataSource) {
-        LocalContainerEntityManagerFactoryBean em = new LocalContainerEntityManagerFactoryBean();
-        em.setDataSource(dataSource);
-        em.setPackagesToScan("org.apache.hertzbeat");
-        
-        EclipseLinkJpaVendorAdapter vendorAdapter = new EclipseLinkJpaVendorAdapter();
-        em.setJpaVendorAdapter(vendorAdapter);
-        em.setJpaPropertyMap(getVendorProperties());
-        
-        return em;
+    public EclipseLinkJpaVendorAdapter jpaVendorAdapter() {
+        return new EclipseLinkJpaVendorAdapter();
     }
 
     @Bean
-    public PlatformTransactionManager transactionManager(LocalContainerEntityManagerFactoryBean entityManagerFactory) {
-        JpaTransactionManager transactionManager = new JpaTransactionManager();
-        transactionManager.setEntityManagerFactory(entityManagerFactory.getObject());
-        return transactionManager;
+    @Primary
+    public LocalContainerEntityManagerFactoryBean entityManagerFactory(
+            DataSource dataSource,
+            JpaProperties jpaProperties,
+            EntityManagerFactoryBuilder builder) {
+        Map<String, Object> vendorProperties = getVendorProperties();
+        vendorProperties.putAll(jpaProperties.getProperties());
+        
+        return builder
+                .dataSource(dataSource)
+                .packages("org.apache.hertzbeat")
+                .persistenceUnit("default")
+                .properties(vendorProperties)
+                .jta(false)
+                .build();
+    }
+
+    @Bean
+    @Primary
+    public PlatformTransactionManager transactionManager(
+            LocalContainerEntityManagerFactoryBean entityManagerFactory) {
+        return new JpaTransactionManager(entityManagerFactory.getObject());
     }
 
     private Map<String, Object> getVendorProperties() {

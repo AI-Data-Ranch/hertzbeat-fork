@@ -39,14 +39,13 @@ public class JacksonConfig {
     public ObjectMapper objectMapper() {
         ObjectMapper objectMapper = new ObjectMapper();
         JavaTimeModule javaTimeModule = new JavaTimeModule();
-        objectMapper.registerModule(javaTimeModule);
-        
         final SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSX");
         simpleDateFormat.setTimeZone(TimeZone.getDefault());
-        objectMapper.setDateFormat(simpleDateFormat);
-        objectMapper.setTimeZone(TimeZone.getDefault());
-        objectMapper.disable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS);
         
+        objectMapper.registerModule(javaTimeModule);
+        objectMapper.setTimeZone(TimeZone.getDefault());
+        objectMapper.setDateFormat(simpleDateFormat);
+        objectMapper.disable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS);
         return objectMapper;
     }
 
