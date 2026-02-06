@@ -34,7 +34,12 @@ import org.springframework.scheduling.annotation.EnableScheduling;
  * HertzBeat main application startup class.
  * This class replaces the original Manager class as the main entry point for HertzBeat application.
  */
-@SpringBootApplication
+@SpringBootApplication(excludeName = {
+    "io.opentelemetry.instrumentation.spring.autoconfigure.internal.instrumentation.mongo.MongoClientInstrumentationAutoConfiguration",
+    "io.opentelemetry.instrumentation.spring.autoconfigure.internal.instrumentation.web.RestClientInstrumentationAutoConfiguration",
+    "io.opentelemetry.instrumentation.spring.autoconfigure.internal.instrumentation.web.RestTemplateInstrumentationAutoConfiguration",
+    "io.opentelemetry.instrumentation.spring.autoconfigure.internal.instrumentation.runtimemetrics.RuntimeMetricsAutoConfiguration"
+})
 @EnableJpaAuditing
 @EnableJpaRepositories(basePackages = {"org.apache.hertzbeat"})
 @EntityScan(basePackages = {"org.apache.hertzbeat"})
