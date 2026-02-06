@@ -107,7 +107,7 @@
 
         <p3c-pmd.version>2.1.1</p3c-pmd.version>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
-        <maven-surefire-plugin.version>2.22.2</maven-surefire-plugin.version>
+        <maven-surefire-plugin.version>3.2.5</maven-surefire-plugin.version>
         <maven-pmd-plugin.version>3.21.0</maven-pmd-plugin.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <!-- hertzbeat related modules -->
@@ -163,7 +163,7 @@
         <consul-api.version>1.4.5</consul-api.version>
         <nacos-client.version>2.2.1</nacos-client.version>
         <vesoft-client.version>3.6.0</vesoft-client.version>
-        <eclipse-jpa.version>4.0.2</eclipse-jpa.version>
+        <eclipse-jpa.version>5.0.0-B13</eclipse-jpa.version>
         <jutf7.version>1.0.0</jutf7.version>
         <spring-boot-starter-sureness.version>1.1.0</spring-boot-starter-sureness.version>
         <huawei.sdk.version>3.1.37</huawei.sdk.version>
