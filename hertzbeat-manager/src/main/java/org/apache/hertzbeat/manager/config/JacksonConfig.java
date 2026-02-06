@@ -23,6 +23,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.jackson.autoconfigure.JsonMapperBuilderCustomizer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import tools.jackson.databind.DeserializationFeature;
 import tools.jackson.databind.json.JsonMapper;
 import tools.jackson.datatype.jsr310.JavaTimeModule;
 
@@ -38,7 +39,8 @@ public class JacksonConfig {
         return builder -> {
             builder.addModule(new JavaTimeModule())
                     .defaultTimeZone(TimeZone.getDefault())
-                    .defaultDateFormat(new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSX"));
+                    .defaultDateFormat(new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSX"))
+                    .disable(DeserializationFeature.FAIL_ON_NULL_FOR_PRIMITIVES);
         };
     }
 
