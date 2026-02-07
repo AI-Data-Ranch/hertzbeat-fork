@@ -20,7 +20,7 @@
 package org.apache.hertzbeat.common.config;
 
 import lombok.extern.slf4j.Slf4j;
-import org.eclipse.persistence.config.SessionCustomizer;
+import org.eclipse.persistence.sessions.SessionCustomizer;
 import org.eclipse.persistence.descriptors.ClassDescriptor;
 import org.eclipse.persistence.mappings.DatabaseMapping;
 import org.eclipse.persistence.sessions.Session;

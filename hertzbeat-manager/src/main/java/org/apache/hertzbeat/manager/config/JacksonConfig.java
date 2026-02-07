@@ -17,36 +17,37 @@
 
 package org.apache.hertzbeat.manager.config;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
+import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import java.text.SimpleDateFormat;
 import java.util.TimeZone;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.boot.jackson.autoconfigure.JsonMapperBuilderCustomizer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import tools.jackson.databind.ObjectMapper;
-import tools.jackson.databind.json.JsonMapper;
+import org.springframework.context.annotation.Primary;
 
 /**
- * jackson config
+ * jackson config - provides Jackson 2.x ObjectMapper for backward compatibility with Spring Boot 4.0.0
  */
 @Slf4j
 @Configuration
 public class JacksonConfig {
 
     @Bean
-    public JsonMapperBuilderCustomizer jacksonCustomizer() {
-        return builder -> {
-            final SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSX");
-            simpleDateFormat.setTimeZone(TimeZone.getDefault());
-
-            builder.defaultTimeZone(TimeZone.getDefault())
-                    .defaultDateFormat(simpleDateFormat);
-        };
-    }
-
-    @Bean
-    public ObjectMapper objectMapper(JsonMapper.Builder builder) {
-        return builder.build();
+    @Primary
+    public ObjectMapper objectMapper() {
+        ObjectMapper objectMapper = new ObjectMapper();
+        objectMapper.registerModule(new JavaTimeModule());
+        objectMapper.disable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS);
+        
+        final SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSX");
+        simpleDateFormat.setTimeZone(TimeZone.getDefault());
+        
+        objectMapper.setTimeZone(TimeZone.getDefault());
+        objectMapper.setDateFormat(simpleDateFormat);
+        
+        return objectMapper;
     }
 
 }

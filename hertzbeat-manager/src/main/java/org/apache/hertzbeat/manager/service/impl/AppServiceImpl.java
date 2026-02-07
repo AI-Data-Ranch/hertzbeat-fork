@@ -49,6 +49,7 @@ import org.apache.hertzbeat.manager.service.ObjectStoreService;
 import org.apache.hertzbeat.warehouse.service.WarehouseService;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.context.event.EventListener;
+import org.springframework.context.annotation.DependsOn;
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
@@ -57,7 +58,7 @@ import org.springframework.util.Assert;
 import org.springframework.util.StreamUtils;
 import org.yaml.snakeyaml.Yaml;
 
-import javax.annotation.Resource;
+import jakarta.annotation.Resource;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -84,6 +85,7 @@ import static java.util.Objects.isNull;
  */
 @Service
 @Order(value = Ordered.HIGHEST_PRECEDENCE)
+@DependsOn("objectStoreConfigServiceImpl")
 @Slf4j
 public class AppServiceImpl implements AppService, InitializingBean {
 
