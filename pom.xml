@@ -142,7 +142,7 @@
         <xugu-jdbc.version>12.3.5</xugu-jdbc.version>
         <h2.version>2.2.224</h2.version>
         <taos-jdbcdriver.version>3.0.0</taos-jdbcdriver.version>
-        <iotdb-session.version>1.3.0</iotdb-session.version>
+        <iotdb-session.version>0.13.3</iotdb-session.version>
         <questdb.version>9.0.2</questdb.version>
         <flyway.version>10.11.1</flyway.version>
         <commons-collections4.version>4.4</commons-collections4.version>
@@ -166,13 +166,13 @@
         <eclipse-jpa.version>4.0.2</eclipse-jpa.version>
         <jutf7.version>1.0.0</jutf7.version>
         <spring-boot-starter-sureness.version>1.1.0</spring-boot-starter-sureness.version>
-        <huawei.sdk.version>3.1.49</huawei.sdk.version>
+        <huawei.sdk.version>3.1.37</huawei.sdk.version>
         <huawei.obs.version>3.23.5</huawei.obs.version>
         <commons-net>3.11.1</commons-net>
         <zookeeper.version>3.9.3</zookeeper.version>
 
         <duckdb.version>1.4.2.0</duckdb.version>
-        <iotdb-session.version>1.3.0</iotdb-session.version>
+        <iotdb-session.version>0.13.3</iotdb-session.version>
         <influxdb.version>2.23</influxdb.version>
         <spring-cloud-starter-openfeign.version>3.0.5</spring-cloud-starter-openfeign.version>
         <taos-jdbcdriver.version>3.0.0</taos-jdbcdriver.version>
