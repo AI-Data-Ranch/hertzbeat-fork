@@ -35,6 +35,8 @@ spring:
     static-path-pattern: /**
   jackson:
     default-property-inclusion: ALWAYS
+    deserialization:
+      fail-on-null-for-primitives: false
   web:
     resources:
       static-locations:
