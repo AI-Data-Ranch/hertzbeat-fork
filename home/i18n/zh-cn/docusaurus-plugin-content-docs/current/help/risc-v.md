@@ -45,7 +45,7 @@ qemu-system-riscv64 \
 
 ## 安装并配置支持 RISC-V 架构的 JDK
 
-> 在启动的镜像中配置支持 RISC-V 架构的 JDK，这里选用 Temurin JDK 17。
+> 在启动的镜像中配置支持 RISC-V 架构的 JDK，这里选用 Temurin JDK 21。
 
 **1. 下载 Temurin JDK**
 
