@@ -51,9 +51,17 @@
             <groupId>io.opentelemetry.instrumentation</groupId>
             <artifactId>opentelemetry-logback-appender-1.0</artifactId>
         </dependency>
+        <!-- OpenTelemetry Spring Boot starter with exclusions for Spring Boot 4.0.0 compatibility -->
         <dependency>
             <groupId>io.opentelemetry.instrumentation</groupId>
             <artifactId>opentelemetry-spring-boot-starter</artifactId>
+            <exclusions>
+                <!-- Exclude Spring Boot autoconfigure - contains MongoDB instrumentation not compatible with Spring Boot 4.0.0 -->
+                <exclusion>
+                    <groupId>io.opentelemetry.instrumentation</groupId>
+                    <artifactId>opentelemetry-spring-boot-autoconfigure</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
     </dependencies>
 </project>
