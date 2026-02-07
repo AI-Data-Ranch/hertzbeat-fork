@@ -48,7 +48,7 @@ Reference: [Ubuntu Official Documentation](https://canonical-ubuntu-boards.readt
 
 ## Install and Configure RISC-V-Compatible JDK
 
-> Configure a JDK that supports RISC-V architecture. Here we use Temurin JDK 17.
+> Configure a JDK that supports RISC-V architecture. Here we use Temurin JDK 21.
 
 **1. Download Temurin JDK**
 Download link: <https://adoptium.net/temurin/releases>
