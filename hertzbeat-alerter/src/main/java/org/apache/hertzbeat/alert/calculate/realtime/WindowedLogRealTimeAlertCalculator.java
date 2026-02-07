@@ -28,8 +28,8 @@ import org.apache.hertzbeat.common.util.BackoffUtils;
 import org.apache.hertzbeat.common.util.ExponentialBackoff;
 import org.springframework.stereotype.Component;
 
-import javax.annotation.PostConstruct;
-import javax.annotation.PreDestroy;
+import jakarta.annotation.PostConstruct;
+import jakarta.annotation.PreDestroy;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.ThreadPoolExecutor;

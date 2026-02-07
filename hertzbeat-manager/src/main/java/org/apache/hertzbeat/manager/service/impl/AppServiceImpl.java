@@ -57,7 +57,7 @@ import org.springframework.util.Assert;
 import org.springframework.util.StreamUtils;
 import org.yaml.snakeyaml.Yaml;
 
-import javax.annotation.Resource;
+import jakarta.annotation.Resource;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;

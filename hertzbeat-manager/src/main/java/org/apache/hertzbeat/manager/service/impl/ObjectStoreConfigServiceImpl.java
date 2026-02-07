@@ -33,7 +33,7 @@ import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Service;
 import org.springframework.util.Assert;
 
-import javax.annotation.Resource;
+import jakarta.annotation.Resource;
 import java.lang.reflect.Type;
 import java.net.URL;
 
