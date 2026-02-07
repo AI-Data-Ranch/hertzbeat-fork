@@ -21,7 +21,7 @@ import javax.annotation.PostConstruct;
 import org.apache.hertzbeat.manager.nativex.HertzbeatRuntimeHintsRegistrar;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.boot.persistence.autoconfigure.EntityScan;
 import org.springframework.boot.context.properties.ConfigurationPropertiesScan;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.ImportRuntimeHints;
@@ -34,7 +34,9 @@ import org.springframework.scheduling.annotation.EnableScheduling;
  * HertzBeat main application startup class.
  * This class replaces the original Manager class as the main entry point for HertzBeat application.
  */
-@SpringBootApplication
+@SpringBootApplication(exclude = {
+    io.opentelemetry.instrumentation.spring.autoconfigure.internal.instrumentation.mongo.MongoClientInstrumentationAutoConfiguration.class
+})
 @EnableJpaAuditing
 @EnableJpaRepositories(basePackages = {"org.apache.hertzbeat"})
 @EntityScan(basePackages = {"org.apache.hertzbeat"})
