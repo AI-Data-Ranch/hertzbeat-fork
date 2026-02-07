@@ -18,9 +18,8 @@
 package org.apache.hertzbeat.manager.config;
 
 import org.flywaydb.core.Flyway;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
-import org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer;
-import org.springframework.boot.autoconfigure.flyway.FlywayProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.DependsOn;
@@ -32,19 +31,16 @@ import org.springframework.context.annotation.DependsOn;
 @ConditionalOnProperty(prefix = "spring.flyway", name = "enabled", havingValue = "true")
 public class FlywayConfiguration {
 
-    @Bean
-    public FlywayMigrationInitializer flywayInitializer(Flyway flyway) {
-        return new FlywayMigrationInitializer(flyway, (f) -> {
-        });
-    }
+    @Value("${spring.flyway.enabled:true}")
+    private boolean flywayEnabled;
 
     static class Dummy {
     }
 
     @Bean
     @DependsOn("entityManagerFactory")
-    Dummy delayedFlywayInitializer(Flyway flyway, FlywayProperties flywayProperties) {
-        if (flywayProperties.isEnabled()) {
+    Dummy delayedFlywayInitializer(Flyway flyway) {
+        if (flywayEnabled) {
             flyway.migrate();
         }
         return new Dummy();
