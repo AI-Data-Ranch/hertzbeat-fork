@@ -154,11 +154,10 @@
             <artifactId>org.eclipse.paho.client.mqttv3</artifactId>
             <version>${mqtt.version}</version>
         </dependency>
-        <!--Bouncy Castle-->
+        <!--Bouncy Castle - upgraded to jdk18on for security fixes -->
         <dependency>
             <groupId>org.bouncycastle</groupId>
-            <artifactId>bcpkix-jdk15on</artifactId>
-            <version>1.68</version>
+            <artifactId>bcpkix-jdk18on</artifactId>
         </dependency>
 
 
